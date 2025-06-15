@@ -210,3 +210,76 @@ document.addEventListener("DOMContentLoaded", function () {
     swiper.autoplay.start();
   });
 });
+
+// Category filtering
+const acculedgerCategoryBtns = document.querySelectorAll(
+  ".acculedger-category-btn"
+);
+
+acculedgerCategoryBtns.forEach((btn) => {
+  btn.addEventListener("click", function () {
+    // Remove active class from all buttons
+    acculedgerCategoryBtns.forEach((b) =>
+      b.classList.remove("acculedger-active")
+    );
+    // Add active class to clicked button
+    this.classList.add("acculedger-active");
+
+    const category = this.getAttribute("data-category");
+
+    acculedgerFaqItems.forEach((item) => {
+      if (
+        category === "all" ||
+        item.getAttribute("data-category") === category
+      ) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+    // Clear search when filtering by category
+    acculedgerSearchInput.value = "";
+    acculedgerNoResults.style.display = "none";
+
+    // Remove any highlights
+    acculedgerFaqItems.forEach((item) => acculedgerRemoveHighlight(item));
+  });
+});
+
+// Highlight function
+function acculedgerHighlightText(element, searchTerm) {
+  const question = element.querySelector(".acculedger-faq-question");
+  const answer = element.querySelector(".acculedger-faq-answer");
+
+  [question, answer].forEach((el) => {
+    const text = el.innerHTML;
+    const regex = new RegExp(`(${searchTerm})`, "gi");
+    el.innerHTML = text.replace(
+      regex,
+      '<span class="acculedger-highlight">$1</span>'
+    );
+  });
+}
+
+// Remove highlight function
+function acculedgerRemoveHighlight(element) {
+  const highlighted = element.querySelectorAll(".acculedger-highlight");
+  highlighted.forEach((span) => {
+    span.outerHTML = span.innerHTML;
+  });
+}
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    if (target) {
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  });
+});
