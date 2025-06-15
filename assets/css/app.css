@@ -7,9 +7,10 @@
   --primart-light-color: #1a3b74;
   --primart-dark-color: #091427;
   --primary-badge-color: #1e5a9f7b;
-  --secondary-color: #eef4ff;
+  --secondary-color: #1e3d72;
   --background-color: #f4f4f4;
   --text-color: #333;
+  --accent-color: #4a90e2;
   --font-family: "Arial", sans-serif;
 }
 
@@ -182,16 +183,12 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(
-      circle at 20% 30%,
+  background-image: radial-gradient(circle at 20% 30%,
       rgba(52, 152, 219, 0.1) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 70%,
+      transparent 50%),
+    radial-gradient(circle at 80% 70%,
       rgba(46, 204, 113, 0.1) 0%,
-      transparent 50%
-    ),
+      transparent 50%),
     linear-gradient(45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
     linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%);
   background-size: 200px 200px, 300px 300px, 60px 60px, 60px 60px;
@@ -210,6 +207,7 @@ a {
 }
 
 @keyframes backgroundMove {
+
   0%,
   100% {
     transform: translateX(0) translateY(0);
@@ -779,15 +777,13 @@ a {
   left: 50px;
   right: 50px;
   height: 3px;
-  background: linear-gradient(
-    to right,
-    #d4af37 0%,
-    #d4af37 20%,
-    #d4af37 40%,
-    #d4af37 60%,
-    #d4af37 80%,
-    #d4af37 100%
-  );
+  background: linear-gradient(to right,
+      #d4af37 0%,
+      #d4af37 20%,
+      #d4af37 40%,
+      #d4af37 60%,
+      #d4af37 80%,
+      #d4af37 100%);
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -910,12 +906,15 @@ a {
 .dot-1 {
   left: 25%;
 }
+
 .dot-2 {
   left: 41.66%;
 }
+
 .dot-3 {
   left: 58.33%;
 }
+
 .dot-4 {
   left: 75%;
 }
@@ -1051,14 +1050,12 @@ a {
 }
 
 .our-location-section {
-  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/location_bg-scaled.jpg")
-    no-repeat center center;
+  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/location_bg-scaled.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .sustainability-section {
-  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/Sustainability-1.jpg")
-    no-repeat center center;
+  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/Sustainability-1.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -1066,14 +1063,17 @@ a {
   position: relative;
   overflow: hidden;
 }
+
 .about-us-section::before {
   content: "ABOUT US";
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1098,9 +1098,11 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1120,9 +1122,11 @@ a {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1142,9 +1146,11 @@ a {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1163,9 +1169,11 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1185,9 +1193,11 @@ a {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1207,9 +1217,11 @@ a {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1228,9 +1240,11 @@ a {
   position: absolute;
   top: 0;
   left: 20px;
-  font-size: 8rem; /* Much larger text that scales with viewport */
+  font-size: 8rem;
+  /* Much larger text that scales with viewport */
   font-weight: 800;
-  color: rgba(240, 240, 240, 0.857); /* Very light gray, almost white */
+  color: rgba(240, 240, 240, 0.857);
+  /* Very light gray, almost white */
   z-index: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -1289,8 +1303,7 @@ a {
 
 .contact-banner {
   height: 50vh;
-  background: url("https://img.freepik.com/premium-photo/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone_36325-2482.jpg?w=900")
-    no-repeat center center;
+  background: url("https://img.freepik.com/premium-photo/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone_36325-2482.jpg?w=900") no-repeat center center;
   background-size: cover;
 
   overflow: hidden;
@@ -1313,7 +1326,226 @@ a {
   height: 20px;
   margin-top: 0.25em;
 }
+
 .form-check-input:checked {
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
+
+
+.vision-mission-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.vision-mission-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.vision-mission-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  color: white;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  text-align: justify;
+}
+
+.highlight-text {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 80px 0;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.btn-primary-custom {
+  background: var(--primary-color);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.work-stages {
+  padding: 80px 0;
+  background: white;
+}
+
+.stage-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+}
+
+.stage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.stage-number {
+  background: var(--primary-color);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.stage-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.attributes-section {
+  padding: 80px 0;
+  background: var(--light-bg);
+}
+
+.attribute-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.attribute-icon {
+  background: var(--primary-color);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.attribute-content h5 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* .btn-light-custom {
+  background: white;
+  color: var(--primary-color);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-light-custom:hover {
+  background: #f8f9fa;
+  transform: translateY(-2px);
+} */
