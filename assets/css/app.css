@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Manrope:wght@200..800&display=swap");
 
 :root {
   --primary-color: #1a3b74;
@@ -14,7 +14,7 @@
   --text-light-color: #2c3e50;
   --accent-color: #4a90e2;
   --border: #e9ecef;
-  --font-family: "Arial", sans-serif;
+  --font-family: "Inter", sans-serif;
   --gradient-primary: linear-gradient(
     135deg,
     var(--primary-color) 0%,
@@ -34,7 +34,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lexend", sans-serif;
+  font-family: var(--font-family) !important;
 }
 
 a {
@@ -1931,4 +1931,83 @@ a {
 .feature-item span {
   font-weight: 500;
   color: var(--text-dark);
+}
+
+.year-end-service-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(26, 59, 116, 0.1);
+  border: 1px solid rgba(26, 59, 116, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.year-end-service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--primary-light)
+  );
+}
+
+.year-end-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(26, 59, 116, 0.15);
+}
+
+.year-end-service-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-light)
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.year-end-service-title {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.year-end-service-description {
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .service-hero-title {
+    font-size: 2.5rem;
+  }
+
+  .service-hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .year-end-service-card {
+    padding: 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
 }
