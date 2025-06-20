@@ -146,7 +146,7 @@ a {
 
 .service-carousel {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
   right: 0;
   z-index: 10;
   max-width: 90%;
@@ -467,7 +467,7 @@ a {
 }
 
 .swiper-slide img {
-  height: 60px;
+  height: 100px;
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.7;
@@ -1407,7 +1407,6 @@ a {
 
 .card-title {
   font-size: 1.8rem;
-  font-weight: 700;
   color: var(--primary-color);
   text-align: center;
   margin-bottom: 25px;
