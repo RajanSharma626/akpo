@@ -99,6 +99,19 @@ a {
   color: #ffffff !important;
 }
 
+.secondary-btn-outline {
+  background-color: transparent !important;
+  color: var(--secondary-color) !important;
+  border: 1px solid var(--secondary-color) !important;
+  cursor: pointer;
+}
+
+.secondary-btn-outline:hover {
+  background-color: var(--secondary-color) !important;
+  color: #ffffff !important;
+  transition: all 0.2s linear;
+}
+
 .primary-btn:hover {
   background-color: var(--primary-color-hover) !important;
   transition: all 0.2s linear;
@@ -1327,7 +1340,7 @@ a {
 }
 
 .contact-banner {
-  height: 50vh;
+  height: 70vh;
   background: url("https://img.freepik.com/premium-photo/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone_36325-2482.jpg?w=900") no-repeat center center;
   background-size: cover;
 
