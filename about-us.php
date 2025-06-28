@@ -1,26 +1,12 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <!-- Slick  -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
-    <!-- fontawesome Icon -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
+<?php
+$title = "About Us";
+@include 'includes/head.php';
+?>
 
 <body>
-
 
     <header class="about-header">
         <div class="container py-4">
@@ -49,13 +35,28 @@
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link active text-white px-3 text-shadow " aria-current="page"
-                                    href="index.html">Home</a>
+                                    href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white px-3 text-shadow " href="about.html">About Us</a>
+                                <a class="nav-link text-white px-3 text-shadow " href="about-us">About Us</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white px-3 text-shadow " href="services.html">Services</a>
+                            <li class="nav-item dropdown mega-dropdown">
+                                <a class="nav-link px-3 dropdown-toggle text-white" href="#" id="servicesDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                    <li><a class="dropdown-item" href="bookkeeping-outsourcing">Bookkeeping</a></li>
+                                    <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
+                                    <li><a class="dropdown-item" href="payroll">Payroll</a></li>
+                                    <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
+                                    <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
+                                    <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
+                                    <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
+                                    <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
+                                    <li><a class="dropdown-item" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a></li>
+                                </ul>
+
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-white px-3 text-shadow" href="#"
@@ -64,8 +65,8 @@
                                     Resources
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="blogs">Blog</a></li>
+                                    <li><a class="dropdown-item" href="faq">FAQ</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -93,7 +94,7 @@
                 <div class="col-md-7 col-12">
                     <p class="primary-color mb-0">Our Company</p>
                     <h3 class="fw-bold mb-4">
-                        At ACCULEDGER KPO LLP
+                        At ACCULEDGER KPO
                     </h3>
                     <p>
                         Our values revolve around nurturing our people, knowing that their well-being directly empowers
@@ -104,7 +105,7 @@
                     </p>
 
                     <p>
-                        With a strong presence supporting U.S.-based CPAs, EAs, and accounting firms, <span class="primary-color">ACCULEDGER KPO LLP</span>
+                        With a strong presence supporting U.S.-based CPAs, EAs, and accounting firms, <span class="primary-color">ACCULEDGER KPO</span>
                         was founded on principles of trust, empathy, connection, unity, and professionalism. We take
                         pride in being a trusted outsourcing partner, dedicated to helping businesses and individuals
                         thrive.
@@ -136,7 +137,7 @@
                         delivering clarity and actionable intelligence for your financial operations.
                     </p>
                     <p>
-                        At <b class="primary-color">ACCULEDGER KPO LLP</b>, we believe transparency is more than a feature — it’s the
+                        At <b class="primary-color">ACCULEDGER KPO</b>, we believe transparency is more than a feature — it’s the
                         foundation of
                         trust and reliability. We combine vigilant oversight with strategic perspective, ensuring every
                         step aligns with your firm’s broader goals. Our partnership approach means we’re not just
@@ -168,7 +169,7 @@
                         </div>
                         <h3 class="card-title">Our Vision</h3>
                         <div class="card-content">
-                            At <span class="highlight-text">Acculedger KPO LLP</span>, we aim to become a trusted global
+                            At <span class="highlight-text">Acculedger KPO </span>, we aim to become a trusted global
                             partner in outsourced accounting and financial services. Our goal is to deliver exceptional
                             quality, uphold strong values, and make a meaningful difference for CPAs, accounting firms,
                             and businesses worldwide.
@@ -187,7 +188,7 @@
                         </div>
                         <h3 class="card-title">Our Mission</h3>
                         <div class="card-content">
-                            At <span class="highlight-text">Acculedger KPO LLP</span>, our mission is to deliver
+                            At <span class="primary-color">Acculedger KPO</span>, our mission is to deliver
                             accurate, timely, and cost-effective outsourced accounting and financial solutions. We are
                             dedicated to supporting CPAs, accounting firms, and businesses by providing reliable
                             services that enhance productivity and help navigate the complexities of today's financial
@@ -253,7 +254,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <p class="section-subtitle mb-0 primary-color">Acculedger KPO LLP </p>
+                    <p class="section-subtitle mb-0 primary-color">Acculedger KPO </p>
                     <h2 class="section-title text-black">Workflow Process</h2>
                 </div>
             </div>
@@ -424,7 +425,7 @@
                 <div class="col-md-6 col-12">
                     <p class="primary-color mb-0">Security Controls</p>
                     <h3 class="fw-bold mb-4">
-                        At Acculedger KPO LLP, data protection is our top priority.
+                        At Acculedger KPO , data protection is our top priority.
                     </h3>
 
                     <p>
@@ -476,7 +477,7 @@
                         Global Presence, Regional Expertise
                     </h5>
                     <p class=" mb-0">
-                        With our headquarters and strategic offices worldwide, ACCULEDGER KPO LLP delivers remote
+                        With our headquarters and strategic offices worldwide, <span class="primary-color">ACCULEDGER KPO</span> delivers remote
                         bookkeeping and accounting services that blend global reach with localized expertise—ensuring we
                         meet the unique needs of each client with precision and care.
                     </p>
@@ -536,7 +537,7 @@
                         "Commitment to a Greener Tomorrow"
                     </p>
                     <p class="mb-0">
-                        At ACCULEDGER KPO LLP, our sustainability practices embody our dedication to environmental
+                        At ACCULEDGER KPO , our sustainability practices embody our dedication to environmental
                         responsibility. We strive to implement eco-friendly operations that reduce our carbon footprint
                         and promote a healthier planet for future generations.
                     </p>
@@ -577,7 +578,7 @@
                         </h2>
 
                         <p class="right-description text-black">
-                            At <b>Acculedger KPO LLP</b>, we’re committed to helping your firm succeed through seamless
+                            At <b>Acculedger KPO </b>, we’re committed to helping your firm succeed through seamless
                             outsourcing support.
                         </p>
                         <p class="text-black">
@@ -777,20 +778,23 @@
     </script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.team-slider').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 arrows: true,
                 dots: false,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 992,
-                        settings: { slidesToShow: 2 }
+                        settings: {
+                            slidesToShow: 2
+                        }
                     },
                     {
                         breakpoint: 576,
-                        settings: { slidesToShow: 1 }
+                        settings: {
+                            slidesToShow: 1
+                        }
                     }
                 ]
             });

@@ -1,28 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <!-- Slick  -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
-    <!-- fontawesome Icon -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icon CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
+<?php
+$title = "Home";
+include('includes/head.php');
+?>
 
 <body>
 
@@ -64,11 +46,25 @@
                                             href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white px-3 text-shadow " href="about.html">About Us</a>
+                                        <a class="nav-link text-white px-3 text-shadow " href="about-us">About Us</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white px-3 text-shadow "
-                                            href="services.html">Services</a>
+                                    <li class="nav-item dropdown mega-dropdown">
+                                        <a class="nav-link px-3 dropdown-toggle text-white" href="#" id="servicesDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                            <li><a class="dropdown-item" href="bookkeeping-outsourcing">Bookkeeping</a></li>
+                                            <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
+                                            <li><a class="dropdown-item" href="payroll">Payroll</a></li>
+                                            <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
+                                            <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
+                                            <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
+                                            <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
+                                            <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
+                                            <li><a class="dropdown-item" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a></li>
+                                        </ul>
+
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle text-white px-3 text-shadow" href="#"
@@ -77,8 +73,8 @@
                                             Resources
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                            <li><a class="dropdown-item" href="blogs">Blog</a></li>
+                                            <li><a class="dropdown-item" href="faq">FAQ</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -106,7 +102,7 @@
                             <div class="card p-3 shadow service-card h-100">
                                 <div class="card-title text-start fs-4 animate-text-color">Bookkeeping Services</div>
                                 <p class="card-text">Complete support for your business's bookkeeping needs.</p>
-                                <a href="bookkeeping-outsoucng.html" class="service-link fw-bold">
+                                <a href="bookkeeping-outsourcing" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -117,7 +113,7 @@
                                     Taxation Services</div>
                                 <p class="card-text">Navigate tax season effortlessly with our expert outsourcing
                                     services.</p>
-                                <a href="us-taxation.html" class="service-link fw-bold">
+                                <a href="us-taxation" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -128,7 +124,7 @@
                                     Payroll Services</div>
                                 <p class="card-text">Seamless payroll outsourcing services tailored to your business.
                                 </p>
-                                <a href="payroll.html" class="service-link fw-bold">
+                                <a href="payroll" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -139,7 +135,7 @@
                                     Sale Tax Services</div>
                                 <p class="card-text">Navigate tax season effortlessly with our expert outsourcing
                                     services.</p>
-                                <a href="sale-tax.html" class="service-link fw-bold">
+                                <a href="sale-tax" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -149,7 +145,7 @@
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Bank Account Reconciliation</div>
                                 <p class="card-text">Ensure accuracy and transparency in your financial records.</p>
-                                <a href="bank-account-reconcillation.html" class="service-link fw-bold">
+                                <a href="bank-account-reconcillation" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -159,7 +155,7 @@
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">AR
                                     & AP Management</div>
                                 <p class="card-text">Streamline your cash flow with our AR & AP management services.</p>
-                                <a href="ar-ap-management.html" class="service-link fw-bold">
+                                <a href="ar-ap-management" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -169,7 +165,7 @@
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Year End Services</div>
                                 <p class="card-text">Simplify your financial closing process and seamlessly transition into the new fiscal year.</p>
-                                <a href="year-end.html" class="service-link fw-bold">
+                                <a href="year-end" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -179,7 +175,7 @@
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Audit and Assurance</div>
                                 <p class="card-text">As a trusted outsourcing partner, we offer reliable audit and assurance services.</p>
-                                <a href="audit-assurance.html" class="service-link fw-bold">
+                                <a href="audit-assurance" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -189,7 +185,7 @@
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Xero and QuickBooks Accounting</div>
                                 <p class="card-text">We specialize in Xero and QuickBooks – the most trusted cloud-based accounting</p>
-                                <a href="xero-and-quickBooks-accounting.html" class="service-link fw-bold">
+                                <a href="xero-and-quickBooks-accounting" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -207,12 +203,12 @@
                 <video src="assets/video/about.mp4" autoplay muted loop class="w-100"></video>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                <p class="primary-color mb-0">ACCULEDGER KPO LLP</p>
+                <p class="primary-color mb-0">ACCULEDGER KPO</p>
                 <h3 class="fw-bold mb-4">
                     Powering U.S. Accounting Firms with Expert Offshore Solutions
                 </h3>
                 <p>
-                    For nearly two decades, <span class="primary-color">ACCULEDGER KPO LLP</span> has been a trusted
+                    For nearly two decades, <span class="primary-color">ACCULEDGER KPO </span> has been a trusted
                     ally to U.S.-based CPAs, EAs, and
                     accounting firms seeking efficient, compliant, and scalable outsourcing solutions. Our purpose is
                     clear: to empower your firm to focus on deepening client relationships and driving strategic growth,
@@ -226,7 +222,7 @@
                     audit-ready and operationally sound.
                 </p>
 
-                <a class="btn primary-bg rounded-pill px-4 py-2">
+                <a href="about-us" class="btn primary-bg rounded-pill px-4 py-2">
                     Read more
                 </a>
             </div>
@@ -288,10 +284,10 @@
                         The Joy of Working with Us Never Fades — Because We Truly Care
                     </h3>
                     <p>
-                        At ACCULEDGER KPO LLP, we go beyond outsourcing — we become an integral part of your firm’s
-                        journey. Backed by years of experience serving U.S.-based CPAs, EAs, and CMAs, we empower your
+                        At <span class="primary-color">ACCULEDGER KPO</span> , we go beyond outsourcing we become an integral part of your firm’s
+                        journey. Backed by years of experience serving U.S. based CPAs, EAs, and CMAs, we empower your
                         practice to scale efficiently, cut operational costs, and maintain full compliance in an
-                        ever-changing financial environment. With us, you gain more than a service provider — you gain a
+                        ever-changing financial environment. With us, you gain more than a service provider you gain a
                         partner invested in your success.
                     </p>
                 </div>
@@ -304,7 +300,7 @@
                         <!-- DATA SECURITY -->
                         <div class="feature-item" data-aos="fade-up" data-aos-duration="1000">
                             <div class="icon-circle">
-                                <i class="bi bi-shield-shaded fs-1 secondary-color"></i>
+                                <i class="bi bi-shield-shaded fs-1 primary-color"></i>
                             </div>
                             <div class="feature-title">DATA SECURITY</div>
                         </div>
@@ -312,7 +308,7 @@
                         <!-- IN-HOUSE WORK -->
                         <div class="feature-item" data-aos="fade-up" data-aos-duration="1000">
                             <div class="icon-circle">
-                                <i class="bi bi-person-workspace fs-1 secondary-color"></i>
+                                <i class="bi bi-person-workspace fs-1 primary-color"></i>
                             </div>
                             <div class="feature-title">IN-HOUSE WORK</div>
                         </div>
@@ -320,7 +316,7 @@
                         <!-- ONLINE TIME TRACKING -->
                         <div class="feature-item" data-aos="fade-up" data-aos-duration="1000">
                             <div class="icon-circle">
-                                <i class="bi bi-stopwatch fs-1 secondary-color"></i>
+                                <i class="bi bi-stopwatch fs-1 primary-color"></i>
                             </div>
                             <div class="feature-title">ONLINE TIME TRACKING</div>
                         </div>
@@ -328,7 +324,7 @@
                         <!-- QUALITY ASSURANCE -->
                         <div class="feature-item" data-aos="fade-up" data-aos-duration="1000">
                             <div class="icon-circle">
-                                <i class="bi bi-award fs-1 secondary-color"></i>
+                                <i class="bi bi-award fs-1 primary-color"></i>
                             </div>
                             <div class="feature-title">QUALITY ASSURANCE</div>
                         </div>
@@ -359,7 +355,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-file-invoice"></i>
                             </div>
-                            <h3 class="service-title">Tax Preparation</h3>
+                            <h3 class="service-title">Bookkeeping Services </h3>
                         </div>
                     </div>
 
@@ -368,7 +364,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-users-cog"></i>
                             </div>
-                            <h3 class="service-title">Management Consultation</h3>
+                            <h3 class="service-title">US Taxation Services</h3>
                         </div>
                     </div>
 
@@ -377,7 +373,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-chart-line"></i>
                             </div>
-                            <h3 class="service-title">Accounting & Bookkeeping</h3>
+                            <h3 class="service-title">Payroll Services</h3>
                         </div>
                     </div>
 
@@ -386,7 +382,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-money-check-alt"></i>
                             </div>
-                            <h3 class="service-title">Payroll Services</h3>
+                            <h3 class="service-title">Sale Tax Services</h3>
                         </div>
                     </div>
 
@@ -395,7 +391,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-clipboard-check"></i>
                             </div>
-                            <h3 class="service-title">Audit & Assurance</h3>
+                            <h3 class="service-title">Bank Account Reconciliation</h3>
                         </div>
                     </div>
 
@@ -404,7 +400,7 @@
                             <div class="service-icon">
                                 <i class="fas fa-chart-bar"></i>
                             </div>
-                            <h3 class="service-title">Sales Tax Service</h3>
+                            <h3 class="service-title">AR & AP Management</h3>
                         </div>
                     </div>
 
@@ -413,14 +409,30 @@
                             <div class="service-icon">
                                 <i class="fas fa-file-alt"></i>
                             </div>
-                            <h3 class="service-title">Filing 1099 and issue forms</h3>
+                            <h3 class="service-title">Year End Services</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="service-card-2">
+                            <div class="service-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3 class="service-title">Audit and Assuranc</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="service-card-2">
+                            <div class="service-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3 class="service-title"> Xero and QuickBooks Accounting</h3>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 d-flex justify-content-end align-items-end" data-aos="fade-left"
+                    <!-- <div class="col-lg-6 col-md-6 d-flex justify-content-end align-items-end" data-aos="fade-left"
                         data-aos-duration="1000">
                         <a href="" class="view-all-btn w-100">View All</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -429,13 +441,13 @@
     <section class="commitment-section py-5">
         <div class="container content-wrapper py-5">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6 col-12 px-5" data-aos="fade-up" data-aos-duration="1000">
                     <p class="primary-color mb-0">Our Commitment to Security</p>
                     <h3 class="fw-bold mb-4">
                         Unwavering Focus on Data Security & Confidentiality
                     </h3>
                     <p>
-                        At ACCULEDGER KPO LLP, data protection isn’t just a priority — it’s a promise. Our ISO/IEC
+                        At <span class="primary-color">ACCULEDGER KPO </span>, data protection isn’t just a priority — it’s a promise. Our ISO/IEC
                         27001:2022 certification reflects our rigorous approach to safeguarding sensitive client
                         information across all digital and physical touchpoints. You can trust that your data is managed
                         with integrity, discretion, and the highest industry standards — every step of the way.
@@ -455,7 +467,7 @@
     <section class="Software-section py-5 bg-light">
         <div class="container content-wrapper py-5">
             <div class="row align-items-center">
-                <div class="col-6" data-aos="fade-zoom-in" data-aos-duration="1000">
+                <div class="col-6 px-5" data-aos="fade-zoom-in" data-aos-duration="1000">
                     <p class="primary-color mb-0">Software’s</p>
                     <h3 class="fw-bold mb-4">
                         Latest and Next-Gen Solutions Tailored to Your Needs
@@ -581,285 +593,13 @@
         </div>
     </section>
 
-    <section class="blog-section py-5 bg-light">
-        <div class="container content-wrapper">
-            <div class="section-title">
-                <div class="section-subtitle mb-0 primary-color">Latest</div>
-                <h2 class="section-main-title text-black">Blogs</h2>
-            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="blog-slider-container">
-                        <div class="blog-slider">
-                            <div class="blog-card my-3">
-                                <img src="https://img.freepik.com/free-photo/online-blog_53876-123696.jpg?t=st=1749713124~exp=1749716724~hmac=ab2b1ecef816d787c0684f8c2211ce457fcaeac63af43f4fe17d46369dca88f3&w=900"
-                                    alt="IRS Tax Forms" class="blog-card-image">
-                                <div class="blog-card-content">
-                                    <div class="blog-card-date">March 15, 2025</div>
-                                    <h4 class="blog-card-title">Key IRS Tax Forms and Updates for Smooth Filing in 2025
-                                    </h4>
-                                    <p class="blog-card-excerpt">The 2025 tax season is approaching, and with it comes a
-                                        wave of IRS updates, revised tax forms, and evolving regulations...</p>
-                                    <a href="#" class="blog-card-link">Read More</a>
-                                </div>
-                            </div>
 
-                            <div class="blog-card my-3">
-                                <img src="https://img.freepik.com/premium-photo/female-blogger-working-her-laptop-home_53876-130356.jpg?w=900"
-                                    alt="Tax Deadline" class="blog-card-image">
-                                <div class="blog-card-content">
-                                    <div class="blog-card-date">March 10, 2025</div>
-                                    <h4 class="blog-card-title">April 15 Tax Deadline Approaching? Here's How to Prepare
-                                        and File on Time</h4>
-                                    <p class="blog-card-excerpt">As the April 15 tax deadline approaches, CPAs, EAs, and
-                                        accounting firms must ensure their clients are well-prepared...</p>
-                                    <a href="#" class="blog-card-link">Read More</a>
-                                </div>
-                            </div>
-
-                            <div class="blog-card my-3">
-                                <img src="https://img.freepik.com/premium-photo/businessman-work-close-up-top-view-man-working-laptop_93675-41303.jpg"
-                                    alt="Business Strategy" class="blog-card-image">
-                                <div class="blog-card-content">
-                                    <div class="blog-card-date">March 8, 2025</div>
-                                    <h4 class="blog-card-title">5 Essential Business Strategies for Growing Your
-                                        Accounting Practice</h4>
-                                    <p class="blog-card-excerpt">Discover proven strategies that successful accounting
-                                        firms use to scale their operations and increase client satisfaction...</p>
-                                    <a href="#" class="blog-card-link">Read More</a>
-                                </div>
-                            </div>
-
-                            <div class="blog-card my-3">
-                                <img src="https://img.freepik.com/premium-photo/close-up-hands-using-laptop-office_1048944-24858979.jpg?w=900"
-                                    alt="Digital Transformation" class="blog-card-image">
-                                <div class="blog-card-content">
-                                    <div class="blog-card-date">March 5, 2025</div>
-                                    <h4 class="blog-card-title">Digital Transformation in Accounting: What You Need to
-                                        Know</h4>
-                                    <p class="blog-card-excerpt">Learn how digital tools and automation are
-                                        revolutionizing the accounting industry and how your firm can adapt...</p>
-                                    <a href="#" class="blog-card-link">Read More</a>
-                                </div>
-                            </div>
-
-                            <div class="blog-card my-3">
-                                <img src="https://img.freepik.com/premium-photo/woman-using-laptop-table_1048944-20168292.jpg?w=900"
-                                    alt="Client Relations" class="blog-card-image">
-                                <div class="blog-card-content">
-                                    <div class="blog-card-date">March 3, 2025</div>
-                                    <h4 class="blog-card-title">Building Stronger Client Relationships in the Digital
-                                        Age</h4>
-                                    <p class="blog-card-excerpt">Explore effective communication strategies and tools
-                                        that help accounting professionals maintain strong client relationships...</p>
-                                    <a href="#" class="blog-card-link">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact-section bg-light">
-        <div class="container-fluid p-0">
-            <div class="row g-0 h-100">
-                <!-- Left Section -->
-                <div class="col-lg-6 left-section d-flex align-items-center py-5">
-                    <div class="left-content p-5 content-wrapper">
-                        <div class="mb-4">
-                            <span class="lets-text fw-bold">Let's</span>
-                            <h2 class="get-started mb-0 text-start">Get Started</h2>
-                        </div>
-
-                        <h3 class="section-subtitle text-start">
-                            Partner with a Team That Drives Value and Accountability
-                        </h3>
-
-                        <p class="section-description text-start">
-                            Experience the difference our outsourced accounting and tax solutions can make —
-                            streamlining your operations, boosting efficiency, and enhancing client satisfaction every
-                            step of the way. Let’s grow together.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Right Section -->
-                <div class="col-lg-6 right-section d-flex align-items-center py-5 " style="background-color: #80E7C7;">
-                    <div class="p-5">
-                        <h2 class="right-title text-black">
-                            How Can<br>We Assist You?
-                        </h2>
-
-                        <p class="right-description text-black">
-                            At <b>Acculedger KPO LLP</b>, we’re committed to helping your firm succeed through seamless
-                            outsourcing support.
-                        </p>
-                        <p class="text-black">
-                            Whether you have questions, need a customized solution, or are ready to get started —
-                            <b>our team is here to guide you every step of the way</b>.
-                        </p>
-
-                        <button class="btn btn-light rounded-pill px-4 py-2 mt-3">
-                            Let's Connect
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="secondary-bg pt-5">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            <img src="assets/images/logo/footer-logo.png" class="img-fluid" alt="" width="200">
-                        </h6>
-                        <!-- <p>
-                            Here you can use rows and columns to organize your footer
-                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                        </p> -->
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Company</h6>
-                        <p class="mb-2">
-                            <a href="index.html" class="text-white">Home</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="about.html" class="text-white">About Us</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="how-we-work.html" class="text-white">How we work</a>
-                        </p>
-                        <p class="mb-2">
-                            <a class="text-white">Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a class="text-white">Blog</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="faq.html" class="text-white">FAQ</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="contact-us.html" class="text-white">Contact Us</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Services
-                        </h6>
-                        <p class="mb-2">
-                            <a href="bookkeeping-outsoucng.html" class="text-white">Bookkeeping Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="us-taxation.html" class="text-white">US Taxation Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="payroll.html" class="text-white">Payroll Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="sale-tax.html" class="text-white">Sale Tax Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="bank-account-reconcillation.html" class="text-white">Bank Account
-                                Reconciliation</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="ar-ap-management.html" class="text-white">AR & AP Management</a>
-                        </p>
-                    </div>
-
-                    <!-- Grid column -->
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p class="mb-2"><i class="bi bi-geo-alt me-3"></i> New York, NY 10012, US</p>
-                        <p class="mb-2"><i class="bi bi-envelope me-3"></i> boghanimeet123@gmail.com</p>
-                        <p class="mb-2"><i class="bi bi-telephone me-3"></i> +91 9586745373</p>
-                        <p class="mb-2"><i class="bi bi-whatsapp me-3"></i> +91 9586745373</p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-
-            <hr class="my-3">
-
-            <!-- Section: Copyright -->
-            <section class="p-3 pt-0">
-                <div class="row d-flex align-items-center">
-                    <!-- Grid column -->
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <!-- Copyright -->
-                        <div class="p-3">
-                            © 2025 Copyright:
-                            <a class="text-white" href="https://xyz.com/">xyz.com</a>
-                        </div>
-                        <!-- Copyright -->
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                        <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-facebook-f"></i></a>
-
-                        <!-- Twitter -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-twitter"></i></a>
-
-                        <!-- Google -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-google"></i></a>
-
-                        <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-            </section>
-            <!-- Section: Copyright -->
-        </div>
-        <!-- Grid container -->
-    </footer>
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-    <!-- Slick Slider JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <?php
+    @include 'includes/blog.php';
+    @include 'includes/contact.php';
+    @include 'includes/footer.php';
+    ?>
 
     <script>
         const words = [

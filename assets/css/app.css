@@ -15,12 +15,13 @@
   --accent-color: #4a90e2;
   --border: #e9ecef;
   --font-family: "Inter", sans-serif;
-  --gradient-primary: linear-gradient(135deg,
-      var(--primary-color) 0%,
-      var(--primary-light) 100%);
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-light) 100%
+  );
 
   --white: #ffffff;
-
   --accent-color: #00d4ff;
   --text-dark: #2c3e50;
   --text-light: #6c757d;
@@ -220,12 +221,16 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(circle at 20% 30%,
+  background-image: radial-gradient(
+      circle at 20% 30%,
       rgba(52, 152, 219, 0.1) 0%,
-      transparent 50%),
-    radial-gradient(circle at 80% 70%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
       rgba(46, 204, 113, 0.1) 0%,
-      transparent 50%),
+      transparent 50%
+    ),
     linear-gradient(45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%),
     linear-gradient(-45deg, rgba(255, 255, 255, 0.02) 25%, transparent 25%);
   background-size: 200px 200px, 300px 300px, 60px 60px, 60px 60px;
@@ -244,7 +249,6 @@ a {
 }
 
 @keyframes backgroundMove {
-
   0%,
   100% {
     transform: translateX(0) translateY(0);
@@ -486,8 +490,6 @@ a {
 .swiper-slide img {
   height: 100px;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.7;
   transition: all 0.3s ease;
 }
 
@@ -815,13 +817,15 @@ a {
   left: 50px;
   right: 50px;
   height: 3px;
-  background: linear-gradient(to right,
-      #d4af37 0%,
-      #d4af37 20%,
-      #d4af37 40%,
-      #d4af37 60%,
-      #d4af37 80%,
-      #d4af37 100%);
+  background: linear-gradient(
+    to right,
+    #d4af37 0%,
+    #d4af37 20%,
+    #d4af37 40%,
+    #d4af37 60%,
+    #d4af37 80%,
+    #d4af37 100%
+  );
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -1093,7 +1097,8 @@ a {
 }
 
 .sustainability-section {
-  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/Sustainability-1.jpg") no-repeat center center;
+  background: url("https://unisonglobus.com/wp-content/uploads/2024/03/Sustainability-1.jpg")
+    no-repeat center center;
   background-size: cover;
 }
 
@@ -1311,7 +1316,7 @@ a {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 6px solid var(--secondary-color);
+  border: 6px solid var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1341,7 +1346,8 @@ a {
 
 .contact-banner {
   height: 70vh;
-  background: url("https://img.freepik.com/premium-photo/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone_36325-2482.jpg?w=900") no-repeat center center;
+  background: url("https://img.freepik.com/premium-photo/customer-support-hotline-people-connect-phone-application-contact-us-man-cellphone_36325-2482.jpg?w=900")
+    no-repeat center center;
   background-size: cover;
 
   overflow: hidden;
@@ -1389,9 +1395,11 @@ a {
   left: 0;
   right: 0;
   height: 5px;
-  background: linear-gradient(90deg,
-      var(--primary-color),
-      var(--secondary-color));
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
 }
 
 .vision-mission-card:hover {
@@ -1402,9 +1410,11 @@ a {
 .card-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg,
-      var(--primary-color),
-      var(--secondary-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1559,8 +1569,7 @@ a {
 
 .cta-section {
   padding: 80px 0;
-  background:
-    var(--primary-color);
+  background: var(--primary-color);
   color: white;
   text-align: center;
 }
@@ -1577,9 +1586,11 @@ a {
 }
 
 .acculedger-faq-hero {
-  background: linear-gradient(135deg,
-      var(--primary-color) 0%,
-      var(--secondary-color) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
   padding: 80px 0;
   color: white;
   text-align: center;
@@ -1892,12 +1903,12 @@ a {
   content: "✓";
   position: absolute;
   left: 0;
-  color: var(--accent-color);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
 .feature-subtitle {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
@@ -1911,7 +1922,7 @@ a {
 }
 
 .software-badge {
-  background: var(--accent-color);
+  background: var(--secondary-color);
   color: var(--white);
   padding: 6px 15px;
   border-radius: 20px;
@@ -1927,7 +1938,7 @@ a {
 }
 
 .feature-item i {
-  color: var(--accent-color);
+  color: var(--secondary-color);
   font-size: 18px;
 }
 
@@ -1955,9 +1966,11 @@ a {
   left: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(90deg,
-      var(--primary-color),
-      var(--primary-light));
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--primary-light)
+  );
 }
 
 .year-end-service-card:hover {
@@ -1968,9 +1981,11 @@ a {
 .year-end-service-icon {
   width: 70px;
   height: 70px;
-  background: linear-gradient(135deg,
-      var(--primary-color),
-      var(--primary-light));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--primary-light)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
