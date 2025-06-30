@@ -21,7 +21,7 @@ $title = "About Us";
             </nav>
             <div class="d-flex justify-content-between align-items-center">
                 <div class="logo">
-                    <a href="index.html" class="text-decoration-none p-2 ">
+                    <a href="./" class="text-decoration-none p-2 ">
                         <img src="assets/images/logo/logo.png" alt="Logo" class="img-fluid " width="80" height="80">
                     </a>
                 </div>
@@ -35,7 +35,7 @@ $title = "About Us";
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link active text-white px-3 text-shadow " aria-current="page"
-                                    href="/">Home</a>
+                                    href="./">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white px-3 text-shadow " href="about-us">About Us</a>
@@ -547,204 +547,10 @@ $title = "About Us";
     </section>
 
 
-    <section class="contact-section bg-light">
-        <div class="container-fluid p-0">
-            <div class="row g-0 h-100">
-                <!-- Left Section -->
-                <div class="col-lg-6 left-section d-flex align-items-center py-5">
-                    <div class="left-content p-5 content-wrapper">
-                        <div class="mb-4">
-                            <span class="lets-text fw-bold">Let's</span>
-                            <h2 class="get-started mb-0 text-start">Get Started</h2>
-                        </div>
-
-                        <h3 class="section-subtitle text-start">
-                            Partner with a Team That Drives Value and Accountability
-                        </h3>
-
-                        <p class="section-description text-start">
-                            Experience the difference our outsourced accounting and tax solutions can make —
-                            streamlining your operations, boosting efficiency, and enhancing client satisfaction every
-                            step of the way. Let’s grow together.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Right Section -->
-                <div class="col-lg-6 right-section d-flex align-items-center py-5 " style="background-color: #80E7C7;">
-                    <div class="p-5">
-                        <h2 class="right-title text-black">
-                            How Can<br>We Assist You?
-                        </h2>
-
-                        <p class="right-description text-black">
-                            At <b>Acculedger KPO </b>, we’re committed to helping your firm succeed through seamless
-                            outsourcing support.
-                        </p>
-                        <p class="text-black">
-                            Whether you have questions, need a customized solution, or are ready to get started —
-                            <b>our team is here to guide you every step of the way</b>.
-                        </p>
-
-                        <button class="btn btn-light rounded-pill px-4 py-2 mt-3">
-                            Let's Connect
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="secondary-bg pt-5">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            <img src="assets/images/logo/footer-logo.png" class="img-fluid" alt="" width="200">
-                        </h6>
-                        <!-- <p>
-                            Here you can use rows and columns to organize your footer
-                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                        </p> -->
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Company</h6>
-                        <p class="mb-2">
-                            <a href="index.html" class="text-white">Home</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="about.html" class="text-white">About Us</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="how-we-work.html" class="text-white">How we work</a>
-                        </p>
-                        <p class="mb-2">
-                            <a class="text-white">Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a class="text-white">Blog</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="faq.html" class="text-white">FAQ</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="contact-us.html" class="text-white">Contact Us</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Services
-                        </h6>
-                        <p class="mb-2">
-                            <a href="bookkeeping-outsoucng.html" class="text-white">Bookkeeping Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="us-taxation.html" class="text-white">US Taxation Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="payroll.html" class="text-white">Payroll Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="sale-tax.html" class="text-white">Sale Tax Services</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="bank-account-reconcillation.html" class="text-white">Bank Account
-                                Reconciliation</a>
-                        </p>
-                        <p class="mb-2">
-                            <a href="ar-ap-management.html" class="text-white">AR & AP Management</a>
-                        </p>
-                    </div>
-
-                    <!-- Grid column -->
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p class="mb-2"><i class="bi bi-geo-alt me-3"></i> New York, NY 10012, US</p>
-                        <p class="mb-2"><i class="bi bi-envelope me-3"></i> boghanimeet123@gmail.com</p>
-                        <p class="mb-2"><i class="bi bi-telephone me-3"></i> +91 9586745373</p>
-                        <p class="mb-2"><i class="bi bi-whatsapp me-3"></i> +91 9586745373</p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-
-            <hr class="my-3">
-
-            <!-- Section: Copyright -->
-            <section class="p-3 pt-0">
-                <div class="row d-flex align-items-center">
-                    <!-- Grid column -->
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <!-- Copyright -->
-                        <div class="p-3">
-                            © 2025 Copyright:
-                            <a class="text-white" href="https://xyz.com/">xyz.com</a>
-                        </div>
-                        <!-- Copyright -->
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                        <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-facebook-f"></i></a>
-
-                        <!-- Twitter -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-twitter"></i></a>
-
-                        <!-- Google -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-google"></i></a>
-
-                        <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-            </section>
-            <!-- Section: Copyright -->
-        </div>
-        <!-- Grid container -->
-    </footer>
-
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
-    <!-- Slick Slider JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <?php
+    @include 'includes/contact.php';
+    @include 'includes/footer.php';
+    ?>
 
     <script>
         const words = [

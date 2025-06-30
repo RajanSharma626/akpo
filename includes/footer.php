@@ -55,23 +55,32 @@
                          Services
                      </h6>
                      <p class="mb-2">
-                         <a href="bookkeeping-outsoucng.html" class="text-white">Bookkeeping Services</a>
+                         <a href="bookkeeping-outsourcing" class="text-white">Bookkeeping Services</a>
                      </p>
                      <p class="mb-2">
-                         <a href="us-taxation.html" class="text-white">US Taxation Services</a>
+                         <a href="us-taxation" class="text-white">US Taxation Services</a>
                      </p>
                      <p class="mb-2">
-                         <a href="payroll.html" class="text-white">Payroll Services</a>
+                         <a href="payroll" class="text-white">Payroll Services</a>
                      </p>
                      <p class="mb-2">
-                         <a href="sale-tax.html" class="text-white">Sale Tax Services</a>
+                         <a href="sale-tax" class="text-white">Sale Tax Services</a>
                      </p>
                      <p class="mb-2">
-                         <a href="bank-account-reconcillation.html" class="text-white">Bank Account
+                         <a href="bank-account-reconcillation" class="text-white">Bank Account
                              Reconciliation</a>
                      </p>
                      <p class="mb-2">
-                         <a href="ar-ap-management.html" class="text-white">AR & AP Management</a>
+                         <a href="ar-ap-management" class="text-white">AR & AP Management</a>
+                     </p>
+                     <p class="mb-2">
+                         <a class="text-white" href="year-end">Year End Services</a>
+                     </p>
+                     <p class="mb-2">
+                         <a class="text-white" href="audit-assurance">Audit and Assurance</a>
+                     </p>
+                     <p class="mb-2">
+                         <a class="text-white" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a>
                      </p>
                  </div>
 
@@ -148,3 +157,8 @@
  <script src="assets/js/script.js"></script>
 
  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+     AOS.init();
+ </script>

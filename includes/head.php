@@ -19,4 +19,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .slick-prev:before,
+        .slick-next:before {
+            color: var(--primary-color) !important;
+            font-size: 32px !important;
+            opacity: 1;
+        }
+
+        .slick-next {
+            right: -30px !important;
+        }
+
+        .slick-prev {
+            left: -35px !important;
+        }
+    </style>
 </head>

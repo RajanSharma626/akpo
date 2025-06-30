@@ -212,7 +212,9 @@ $title = "Xero and QuickBooks Accounting | Acculedger KPO";
     </section>
 
 
-    <?php
+       <?php
+    @include 'includes/software.php';
+    @include 'includes/blogs.php';
     @include 'includes/contact.php';
     @include 'includes/footer.php';
     ?>

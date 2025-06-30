@@ -110,6 +110,8 @@ $title = "Year End | Acculedger KPO";
 
 
     <?php
+    @include 'includes/software.php';
+    @include 'includes/blogs.php';
     @include 'includes/contact.php';
     @include 'includes/footer.php';
     ?>

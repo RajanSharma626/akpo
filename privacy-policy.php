@@ -12,7 +12,6 @@ $title = "Privacy Policy | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-
     <main>
         <section class="container my-5">
             <h1 class="mb-4">Privacy Policy</h1>

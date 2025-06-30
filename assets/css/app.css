@@ -666,33 +666,6 @@ a {
   }
 }
 
-.slick-prev,
-.slick-next {
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  width: 40px;
-  height: 40px;
-  z-index: 2;
-  color: var(--primary-color) !important;
-  border: none;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  opacity: 1 !important;
-  transition: box-shadow 0.2s;
-}
-
-.slick-prev:hover,
-.slick-next:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: var(--primary-color) !important;
-  font-size: 22px;
-  opacity: 1;
-}
 
 .left-section {
   background-color: #f8f9fa;
