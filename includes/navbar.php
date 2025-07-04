@@ -15,7 +15,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <a href="./" class="text-decoration-none p-2 ">
-                        <img src="assets/images/logo/logo.png" alt="Logo" class="img-fluid " width="80" height="80">
+                        <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="100" height="100">
                     </a>
                 </div>
                 <nav class="navbar navbar-expand-lg">
@@ -38,15 +38,16 @@
                                     Services
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li><a class="dropdown-item" href="bookkeeping-outsourcing">Bookkeeping</a></li>
-                                    <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                                    <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                                    <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                                    <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                                    <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                                    <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                                    <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                                    <li><a class="dropdown-item" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
                                 </ul>
                             </li>
 
@@ -61,8 +62,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class=" px-3 btn primary-btn rounded-pill" href="contact-us">Contact
-                                    Us</a>
+                                <a class=" px-3 btn primary-btn rounded-pill" href="contact-us"> Let's Connect</a>
                             </li>
                         </ul>
                     </div>

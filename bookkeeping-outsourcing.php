@@ -12,14 +12,14 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Bookkeeping Outsourcing</h1>
-                    <p class="text-light service-description">
-                        solutions ensuring financial clarity & efficiency for CPAs, EAs, and accounting firms.</p>
-                    <a href="contact-us.html" class="btn bg-light rounded-pill px-4 py-2">Get Started</a>
+    <section class="acculedger-faq-hero bookkeeping-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Bookkeeping Outsourcing</h1>
+                    <p class="text-start text-white">solutions ensuring financial clarity & efficiency for CPAs, EAs, and accounting firms.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -37,8 +37,8 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                         offering accurate, reliable, and cost-effective solutions tailored specifically for CPAs, EAs,
                         and accounting firms in the United States.</p>
                 </div>
-                <div class="col-md-6 col-12 mb-4">
-                    <img src="https://img.freepik.com/free-vector/curiosity-people-concept-illustration_114360-14303.jpg"
+                <div class="col-md-6 col-12">
+                    <img src="assets/images/bookkeeping.png"
                         class="img-fluid" alt="">
                 </div>
             </div>

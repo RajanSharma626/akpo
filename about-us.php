@@ -22,7 +22,7 @@ $title = "About Us";
             <div class="d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <a href="./" class="text-decoration-none p-2 ">
-                        <img src="assets/images/logo/logo.png" alt="Logo" class="img-fluid " width="80" height="80">
+                        <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="100" height="100">
                     </a>
                 </div>
                 <nav class="navbar navbar-expand-lg">
@@ -46,17 +46,17 @@ $title = "About Us";
                                     Services
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li><a class="dropdown-item" href="bookkeeping-outsourcing">Bookkeeping</a></li>
-                                    <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                                    <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                                    <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                                    <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                                    <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                                    <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                                    <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                                    <li><a class="dropdown-item" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
+                                    <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
                                 </ul>
-
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-white px-3 text-shadow" href="#"
@@ -70,8 +70,7 @@ $title = "About Us";
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="text-white px-3 btn primary-btn rounded-pill" href="contact-us.html">Contact
-                                    Us</a>
+                                <a class="text-white px-3 btn primary-btn rounded-pill" href="contact-us"> Let's Connect</a>
                             </li>
                         </ul>
                     </div>
@@ -100,12 +99,11 @@ $title = "About Us";
                         Our values revolve around nurturing our people, knowing that their well-being directly empowers
                         us to deliver exceptional service to our clients and make meaningful impacts within our
                         community. Every interaction reflects our unwavering commitment to these core values, mission,
-                        and vision—creating a virtuous cycle of care and success for all stakeholders.
-
+                        and vision creating a virtuous cycle of care and success for all stakeholders.
                     </p>
 
                     <p>
-                        With a strong presence supporting U.S.-based CPAs, EAs, and accounting firms, <span class="primary-color">ACCULEDGER KPO</span>
+                        With a strong presence supporting U.S. based CPAs, EAs, and accounting firms, <span class="primary-color">ACCULEDGER KPO</span>
                         was founded on principles of trust, empathy, connection, unity, and professionalism. We take
                         pride in being a trusted outsourcing partner, dedicated to helping businesses and individuals
                         thrive.
@@ -137,12 +135,12 @@ $title = "About Us";
                         delivering clarity and actionable intelligence for your financial operations.
                     </p>
                     <p>
-                        At <b class="primary-color">ACCULEDGER KPO</b>, we believe transparency is more than a feature — it’s the
+                        At <span class="primary-color">ACCULEDGER KPO</span>, we believe transparency is more than a feature it’s the
                         foundation of
                         trust and reliability. We combine vigilant oversight with strategic perspective, ensuring every
                         step aligns with your firm’s broader goals. Our partnership approach means we’re not just
-                        managing numbers; we’re safeguarding your business’s financial health.
-                        By providing enhanced transparency and control,
+                        managing numbers we’re safeguarding your business’s financial health.
+                        By providing enhanced transparency and control.
                     </p>
 
                     <p>
@@ -169,7 +167,7 @@ $title = "About Us";
                         </div>
                         <h3 class="card-title">Our Vision</h3>
                         <div class="card-content">
-                            At <span class="highlight-text">Acculedger KPO </span>, we aim to become a trusted global
+                            At <span class="primary-color">Acculedger KPO</span>, we aim to become a trusted global
                             partner in outsourced accounting and financial services. Our goal is to deliver exceptional
                             quality, uphold strong values, and make a meaningful difference for CPAs, accounting firms,
                             and businesses worldwide.
@@ -203,51 +201,9 @@ $title = "About Us";
         </div>
     </section>
 
-    <section class="stats-section">
-        <div class="container">
-            <div class="stats-content">
-                <h2 class="section-title mb-0 animate-text-color">By the Numbers</h2>
-                <p class=" text-white section-description">Your Proof of Partnership</p>
-
-                <div class="row g-4">
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="350">0</div>
-                            <div class="stat-label">Clients<br>Globally</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="19">0</div>
-                            <div class="stat-label">Years of<br>experience</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="500">0</div>
-                            <div class="stat-label">Talented<br>Professional</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="65">0</div>
-                            <div class="stat-label">Referral<br>Business</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="100">0</div>
-                            <div class="stat-label">Paperless<br>Commitment</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+    @include('includes/stats.php');
+    ?>
 
     <section>
         <div class="container py-5">
@@ -274,7 +230,7 @@ $title = "About Us";
                     <!-- Step 1 -->
                     <div class="step">
                         <div class="content-above">
-                            <div class="step-title">0101 | Remote Access / Cloud Access</div>
+                            <div class="step-title">01 | Remote Access / Cloud Access</div>
                             <div class="step-description">We request secure cloud or remote server access where source
                                 documents are scanned and uploaded for processing.</div>
                         </div>
@@ -289,7 +245,7 @@ $title = "About Us";
                         <div class="connector-bottom"></div>
                         <div class="connector-dot-bottom"></div>
                         <div class="content-below">
-                            <div class="step-title">0202 | Download</div>
+                            <div class="step-title">02 | Download</div>
                             <div class="step-description">Our team securely downloads the source documents and stores
                                 them on a protected cloud-based server for seamless access and processing.</div>
                         </div>
@@ -298,7 +254,7 @@ $title = "About Us";
                     <!-- Step 3 -->
                     <div class="step">
                         <div class="content-above">
-                            <div class="step-title">0303 | Processing</div>
+                            <div class="step-title">03 | Processing</div>
                             <div class="step-description">Your documents are handled by our skilled and experienced
                                 team, ensuring accuracy and compliance at every stage.
                             </div>
@@ -314,7 +270,7 @@ $title = "About Us";
                         <div class="connector-bottom"></div>
                         <div class="connector-dot-bottom"></div>
                         <div class="content-below">
-                            <div class="step-title">0404 | Review</div>
+                            <div class="step-title">04 | Review</div>
                             <div class="step-description">A thorough review is conducted by our in-house team of
                                 proficient Chartered Accountants to ensure the highest standards of quality and
                                 compliance.</div>
@@ -324,7 +280,7 @@ $title = "About Us";
                     <!-- Step 5 -->
                     <div class="step">
                         <div class="content-above">
-                            <div class="step-title">0505 | Upload</div>
+                            <div class="step-title">05 | Upload</div>
                             <div class="step-description">Once finalized, the completed documents are uploaded back to
                                 your preferred cloud software or remote terminal as required.</div>
                         </div>
@@ -339,7 +295,7 @@ $title = "About Us";
                         <div class="connector-bottom"></div>
                         <div class="connector-dot-bottom"></div>
                         <div class="content-below">
-                            <div class="step-title">0606 | Feedback</div>
+                            <div class="step-title">06 | Feedback</div>
                             <div class="step-description">We highly value ongoing collaboration. Monthly or regular
                                 feedback meetings help us continuously align our services with your evolving business
                                 needs.</div>
@@ -352,7 +308,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">01</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0101 | Remote Access / Cloud Access</div>
+                            <div class="mobile-step-title">01 | Remote Access / Cloud Access</div>
                             <div class="mobile-step-description">We request secure cloud or remote server access where
                                 source
                                 documents are scanned and uploaded for processing.</div>
@@ -362,7 +318,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">02</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0202 | Download</div>
+                            <div class="mobile-step-title">02 | Download</div>
                             <div class="mobile-step-description">Our team securely downloads the source documents and
                                 stores
                                 them on a protected cloud-based server for seamless access and processing.</div>
@@ -372,7 +328,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">03</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0303 | Processing</div>
+                            <div class="mobile-step-title">03 | Processing</div>
                             <div class="mobile-step-description">Your documents are handled by our skilled and
                                 experienced
                                 team, ensuring accuracy and compliance at every stage.</div>
@@ -382,7 +338,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">04</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0404 | Review</div>
+                            <div class="mobile-step-title">04 | Review</div>
                             <div class="mobile-step-description">A thorough review is conducted by our in-house team of
                                 proficient Chartered Accountants to ensure the highest standards of quality and
                                 compliance.</div>
@@ -392,7 +348,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">05</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0505 | Upload</div>
+                            <div class="mobile-step-title">05 | Upload</div>
                             <div class="mobile-step-description">Once finalized, the completed documents are uploaded
                                 back to
                                 your preferred cloud software or remote terminal as required.</div>
@@ -402,7 +358,7 @@ $title = "About Us";
                     <div class="mobile-step">
                         <div class="mobile-step-circle">06</div>
                         <div class="mobile-step-content">
-                            <div class="mobile-step-title">0606 | Feedback</div>
+                            <div class="mobile-step-title">06 | Feedback</div>
                             <div class="mobile-step-description">We highly value ongoing collaboration. Monthly or
                                 regular
                                 feedback meetings help us continuously align our services with your evolving business
@@ -425,7 +381,7 @@ $title = "About Us";
                 <div class="col-md-6 col-12">
                     <p class="primary-color mb-0">Security Controls</p>
                     <h3 class="fw-bold mb-4">
-                        At Acculedger KPO , data protection is our top priority.
+                        At <span class="primary-color">Acculedger KPO</span>, data protection is our top priority.
                     </h3>
 
                     <p>
@@ -473,12 +429,12 @@ $title = "About Us";
             <div class="row align-items-center">
                 <div class="col-md-6 col-2">
                     <h2 class="primary-color mb-0">Our Location</h2>
-                    <h5 class="fs-4 mb-4 secondary-color">
+                    <h5 class="fs-4 mb-4 text-white">
                         Global Presence, Regional Expertise
                     </h5>
-                    <p class=" mb-0">
+                    <p class="text-white mb-0">
                         With our headquarters and strategic offices worldwide, <span class="primary-color">ACCULEDGER KPO</span> delivers remote
-                        bookkeeping and accounting services that blend global reach with localized expertise—ensuring we
+                        bookkeeping and accounting services that blend global reach with localized expertise ensuring we
                         meet the unique needs of each client with precision and care.
                     </p>
                 </div>
@@ -537,7 +493,7 @@ $title = "About Us";
                         "Commitment to a Greener Tomorrow"
                     </p>
                     <p class="mb-0">
-                        At ACCULEDGER KPO , our sustainability practices embody our dedication to environmental
+                        At ACCULEDGER KPO, our sustainability practices embody our dedication to environmental
                         responsibility. We strive to implement eco-friendly operations that reduce our carbon footprint
                         and promote a healthier planet for future generations.
                     </p>

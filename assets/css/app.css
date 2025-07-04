@@ -572,9 +572,6 @@ a {
 
 .blog-card-content {
   padding: 25px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 .blog-card-date {
@@ -665,7 +662,6 @@ a {
     padding: 0 20px;
   }
 }
-
 
 .left-section {
   background-color: #f8f9fa;
@@ -1405,8 +1401,6 @@ a {
 }
 
 .card-content {
-  font-size: 1.05rem;
-  line-height: 1.8;
   color: var(--text-dark);
   text-align: justify;
 }
@@ -1559,20 +1553,14 @@ a {
 }
 
 .acculedger-faq-hero {
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--secondary-color) 100%
-  );
   padding: 80px 0;
-  color: white;
   text-align: center;
 }
 
 .acculedger-faq-hero-title {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0px;
 }
 
 .acculedger-faq-hero-subtitle {
@@ -1997,4 +1985,209 @@ a {
   .section-title {
     font-size: 2rem;
   }
+}
+
+.contact-us-header {
+  background: url("../images/contact-us-header.png") no-repeat center center;
+  background-size: cover;
+}
+.bookkeeping-header {
+  background: url("../images/bookkeeping.png") no-repeat center center;
+  background-size: cover;
+}
+.us-taxation-header {
+  background: url("../images/us-taxation-header.png") no-repeat center center;
+  background-size: cover;
+}
+.payroll-header {
+  background: url("../images/payroll-header.png") no-repeat center center;
+  background-size: cover;
+}
+.sale-tax-header {
+  background: url("../images/sale-tax-header.png") no-repeat center center;
+  background-size: cover;
+}
+.bank-account-header {
+  background: url("../images/bank-account-header.png") no-repeat center center;
+  background-size: cover;
+}
+.ar-ap-header {
+  background: url("../images/ar-ap-header.png") no-repeat center center;
+  background-size: cover;
+}
+.year-end-header {
+  background: url("../images/year-end-header.png") no-repeat center center;
+  background-size: cover;
+}
+.audit-assurance-header {
+  background: url("../images/audit-assurance-header.png") no-repeat center
+    center;
+  background-size: cover;
+}
+.xero-header {
+  background: url("../images/xero-header.png") no-repeat center center;
+  background-size: cover;
+}
+
+.faq-header {
+  background: url("../images/faq.png") no-repeat center center;
+  background-size: cover;
+}
+
+.blog-header {
+  background: url("../images/blog.png") no-repeat center center;
+  background-size: cover;
+}
+
+.cfo-header {
+  background: url("../images/cfo.png") no-repeat center center;
+  background-size: cover;
+}
+
+.managment-header {
+  background: url("../images/managment.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* Custom Checkbox Styles for .service-options */
+.service-options .form-check-input {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 2px solid var(--primary-color);
+  background-color: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-right: 12px;
+  box-shadow: 0 2px 6px rgba(23, 154, 215, 0.08);
+  cursor: pointer;
+  position: relative;
+}
+
+.service-options .form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(23, 154, 215, 0.15);
+}
+
+.service-options .form-check-input:checked::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.service-options .form-check-label {
+  font-size: 1.08rem;
+  color: var(--secondary-color);
+  font-weight: 500;
+  cursor: pointer;
+  padding-left: 6px;
+  transition: color 0.2s;
+}
+
+.service-options .form-check-input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 3px rgba(26, 59, 116, 0.15);
+}
+
+.service-options .form-check {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .service-options .form-check-label {
+    font-size: 1rem;
+  }
+
+  .service-options .form-check-input {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.digital-clock {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 8px;
+  padding: 8px 0;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  margin: 0 auto;
+}
+
+/* Dropdown menu active background on click */
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+}
+
+.dropdown-menu .dropdown-item.active i,
+.dropdown-menu .dropdown-item:active i {
+  color: #fff !important;
+}
+
+.calendly-btn {
+  background: linear-gradient(135deg, var(--accent-color) 0%, #f97316 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.calendly-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(245, 158, 11, 0.4);
+  color: white;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 80px 0;
+  margin-top: 80px;
+}
+
+.cta-card {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cta-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cta-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  color: white;
+  font-size: 2rem;
 }

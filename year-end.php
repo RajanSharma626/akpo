@@ -12,14 +12,16 @@ $title = "Year End | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Year End Service</h1>
-                    <p class="text-light service-description"> Kick off the new year with confidence by letting Stanfox manage your
+    <section class="acculedger-faq-hero year-end-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Year End</h1>
+                    <p class="text-start text-white">Kick off the new year with confidence by letting Stanfox manage your
                         year-end accounting.
                         Simplify your financial closing process and seamlessly transition into the new fiscal year.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>

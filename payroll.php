@@ -13,13 +13,14 @@ $title = "Payroll | Acculedger KPO";
     ?>
 
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Payroll Sertvice</h1>
-                    <p class="text-light service-description">At Acculedger, we offer seamless payroll outsourcing services tailored to your business. Our expert team ensures accurate, timely payroll processing while maintaining full compliance. Free up your time and reduce errors by letting us handle the complexities so you can focus on running and growing your business with confidence.</p>
-                    <a href="contact-us.html" class="btn bg-light rounded-pill px-4 py-2">Get Started</a>
+    <section class="acculedger-faq-hero payroll-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Payroll</h1>
+                    <p class="text-start text-white">At Acculedger, we offer seamless payroll outsourcing services tailored to your business. Our expert team ensures accurate, timely payroll processing while maintaining full compliance. </p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -189,25 +190,46 @@ $title = "Payroll | Acculedger KPO";
                                 <div class="status-indicator"></div>
                             </div>
                             <div class="tracker-time text-center">
-                                <span class="time-display fs-2">08:45:32</span><br>
+                                <span class="time-display fs-2" id="countdown-timer">08:45:32</span><br>
                                 <span class="time-label">Hours Today</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
 
 
-        <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';
     @include 'includes/footer.php';
     ?>
+    <script>
+        // Set the countdown time (HH:MM:SS)
+        let timeString = "08:45:32";
+        let parts = timeString.split(':');
+        let totalSeconds = (+parts[0]) * 3600 + (+parts[1]) * 60 + (+parts[2]);
 
+        function updateCountdown() {
+            let hours = Math.floor(totalSeconds / 3600);
+            let minutes = Math.floor((totalSeconds % 3600) / 60);
+            let seconds = totalSeconds % 60;
+
+            document.getElementById('countdown-timer').textContent =
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            if (totalSeconds > 0) {
+                totalSeconds--;
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
 </body>
 
 </html>

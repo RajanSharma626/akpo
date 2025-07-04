@@ -13,13 +13,14 @@ $title = "Sale Tax | Acculedger KPO";
     ?>
 
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Sale Tax Service</h1>
-                    <p class="text-light service-description">- Acculedger provides expert sales tax services across the USA, ensuring accurate calculation, timely filing, and full compliance with state and local regulations. We handle registrations, returns, and nexus management, helping your business avoid penalties and stay audit-ready. Trust us to simplify your sales tax obligations with confidence and ease.</p>
-                    <a href="contact-us.html" class="btn bg-light rounded-pill px-4 py-2">Get Started</a>
+    <section class="acculedger-faq-hero sale-tax-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Sale Tax </h1>
+                    <p class="text-start text-white">Acculedger provides expert sales tax services across the USA, ensuring accurate calculation, timely filing, and full compliance with state and local regulations.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -148,7 +149,7 @@ $title = "Sale Tax | Acculedger KPO";
     </section>
 
 
-        <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';

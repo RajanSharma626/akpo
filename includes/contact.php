@@ -14,7 +14,7 @@
                      </h3>
 
                      <p class="section-description text-start">
-                         Experience the difference our outsourced accounting and tax solutions can make —
+                         Experience the difference our outsourced accounting and tax solutions can make
                          streamlining your operations, boosting efficiency, and enhancing client satisfaction every
                          step of the way. Let’s grow together.
                      </p>
@@ -29,11 +29,11 @@
                      </h2>
 
                      <p class="right-description text-black">
-                         At <b>Acculedger KPO </b>, we’re committed to helping your firm succeed through seamless
+                         At <b>Acculedger KPO</b>, we’re committed to helping your firm succeed through seamless
                          outsourcing support.
                      </p>
                      <p class="text-black">
-                         Whether you have questions, need a customized solution, or are ready to get started —
+                         Whether you have questions, need a customized solution, or are ready to get started
                          <b>our team is here to guide you every step of the way</b>.
                      </p>
 

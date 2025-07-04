@@ -13,13 +13,13 @@ $title = "Blogs | Acculedger KPO";
     ?>
 
 
-    <!-- Hero Section -->
-    <section class="acculedger-faq-hero">
+    <section class="acculedger-faq-hero blog-header">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <h1 class="text-start">Our Blog & News</h1>
-                    <p class="text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores veritatis eligendi qui! Aut alias dignissimos nulla nesciunt doloribus. Sed, hic aperiam nesciunt pariatur eligendi suscipit distinctio voluptatem veniam! Rerum, corrupti.</p>
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">ACCULEDGER KPO Blog & News</h1>
+                    <p class="text-start text-white">Expert articles, industry news, and compliance updates to keep your firm informed and ahead.</p>
                 </div>
             </div>
         </div>

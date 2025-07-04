@@ -14,18 +14,15 @@ $title = "Contact Us | Acculedger KPO";
 
 
     <!-- Hero Section -->
-    <section class="acculedger-faq-hero">
+    <section class="acculedger-faq-hero contact-us-header">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <p class="section-subtitle mb-0 secondary-color text-start">Get in Touch</p>
-                    <h1 class="acculedger-faq-hero-title text-start">Frequently Asked Questions</h1>
-                    <p class="text-start">Find answers to common questions about our accounting,
-                        taxation, and
-                        financial outsourcing services. Can't find what you're looking for? Contact our expert team.</p>
+                    <p class="section-subtitle mb-0 primary-color text-start">Get in Touch with Acculedger KPO</p>
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Reliable Support. Real-Time Answers</h1>
+                    <p class="text-start text-white"> Have a question or need expert KPO support? </p>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -47,14 +44,6 @@ $title = "Contact Us | Acculedger KPO";
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="section-subtitle mb-0 primary-color text-start">Get in Touch with Acculedger KPO
-                    </p>
-                    <h2 class="section-title text-start text-black mb-1">Reliable Support. Real-Time Answers.s</h2>
-                    <p>
-                        Have a question or need expert KPO support? We’re here to help. At Acculedger, we value every
-                        inquiry and are committed to providing prompt, personalized assistance for your accounting and
-                        back-office needs.
-                    </p>
 
                     <h5 class="fw-bold mt-5 mb-3">
                         Let’s start the conversation today!
@@ -89,62 +78,68 @@ $title = "Contact Us | Acculedger KPO";
 
                         <div class="row service-options">
                             <div class="col-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Bookkeeping & Accounting"
-                                        id="taxPrep">
-                                    <label class="form-check-label" for="taxPrep">
-                                        Bookkeeping & Accounting
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Bookkeeping and Accounting" id="service-bookkeeping">
+                                    <label class="form-check-label" for="service-bookkeeping">
+                                        Bookkeeping and Accounting
                                     </label>
                                 </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Tax Preparation & Filing"
-                                        id="filing1099">
-                                    <label class="form-check-label" for="filing1099">
-                                        Tax Preparation & Filing
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="US Taxation" id="service-ustax">
+                                    <label class="form-check-label" for="service-ustax">
+                                        US Taxation
                                     </label>
                                 </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Audit Support" id="salesTax">
-                                    <label class="form-check-label" for="salesTax">
-                                        Audit Support
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Payroll" id="service-payroll">
+                                    <label class="form-check-label" for="service-payroll">
+                                        Payroll
                                     </label>
                                 </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="1099 Filing & Compliance"
-                                        id="accounting">
-                                    <label class="form-check-label" for="accounting">
-                                        1099 Filing & Compliance
-                                    </label>
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Payroll Management"
-                                        id="management">
-                                    <label class="form-check-label" for="management">
-                                        Payroll Management
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Sale Tax" id="service-saletax">
+                                    <label class="form-check-label" for="service-saletax">
+                                        Sale Tax
                                     </label>
                                 </div>
                             </div>
-
                             <div class="col-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Sales Tax Reporting"
-                                        id="audit">
-                                    <label class="form-check-label" for="audit">
-                                        Sales Tax Reporting
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Bank Account Reconciliation" id="service-bankrec">
+                                    <label class="form-check-label" for="service-bankrec">
+                                        Bank Account Reconciliation
                                     </label>
                                 </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox"
-                                        value="Business Advisory & Consulting" id="payroll">
-                                    <label class="form-check-label" for="payroll">
-                                        Business Advisory & Consulting
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="AR & AP Management" id="service-arap">
+                                    <label class="form-check-label" for="service-arap">
+                                        AR & AP Management
+                                    </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Year End Services" id="service-yearend">
+                                    <label class="form-check-label" for="service-yearend">
+                                        Year End Services
+                                    </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Audit and Assurance" id="service-audit">
+                                    <label class="form-check-label" for="service-audit">
+                                        Audit and Assurance
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Virtual CFO" id="service-vcfo">
+                                    <label class="form-check-label" for="service-vcfo">
+                                        Virtual CFO
+                                    </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="Management Consultation" id="service-mgmt">
+                                    <label class="form-check-label" for="service-mgmt">
+                                        Management Consultation
                                     </label>
                                 </div>
                             </div>
@@ -175,7 +170,33 @@ $title = "Contact Us | Acculedger KPO";
         </div>
     </section>
 
+    <!-- CTA Section for 30-Minute Meeting -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div class="cta-card">
+                        <div class="cta-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h2 class="section-title secondary-color">Schedule a 30-Minute Meeting</h2>
+                        <p class="text-muted fw-semibold">
+                            Ready to discuss your project in detail? Book a free 30-minute consultation call with our team.
+                            We'll dive deep into your requirements and provide personalized recommendations.
+                        </p>
 
+                        <a href="https://calendly.com/acculedgerkpo/30min" target="_blank" class="btn secondary-bg btn-lg px-5 py-3">
+                            <i class="fas fa-calendar-check me-2"></i>Book Your 30-Minute Meeting
+                        </a>
+
+                        <p class="text-muted mt-3 mb-0">
+                            <i class="fas fa-shield-alt me-2"></i>Your time is valuable - we'll make every minute count
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <?php
     @include 'includes/footer.php';
     ?>

@@ -13,13 +13,14 @@ $title = "US Taxation | Acculedger KPO";
     ?>
 
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">US Taxation Service</h1>
-                    <p class="text-light service-description">Navigate tax season effortlessly with our expert outsourcing services. Ensure compliance, maximize savings, and focus on growth with accurate, timely tax preparation tailored to your business needs.</p>
-                    <a href="contact-us.html" class="btn bg-light rounded-pill px-4 py-2">Get Started</a>
+    <section class="acculedger-faq-hero us-taxation-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">US Taxation</h1>
+                    <p class="text-start text-white">Navigate tax season effortlessly with our expert outsourcing services. Ensure compliance, maximize savings, and focus on growth with accurate, timely tax preparation tailored to your business needs.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -268,7 +269,7 @@ $title = "US Taxation | Acculedger KPO";
         </div>
     </section>
 
-       <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';

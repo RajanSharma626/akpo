@@ -12,18 +12,15 @@ $title = "FAQ | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-
-    <!-- Hero Section -->
-    <section class="acculedger-faq-hero">
+    <section class="acculedger-faq-hero faq-header">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <h1 class="text-start">Frequently Asked Questions</h1>
-                    <p class="text-start">Find answers to common questions about our accounting, taxation, and
-                        financial outsourcing services. Can't find what you're looking for? Contact our expert team.</p>
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Frequently Asked Questions</h1>
+                    <p class="text-start text-white">Explore common queries about our services, process, and how we help your business grow.</p>
                 </div>
             </div>
-
         </div>
     </section>
 

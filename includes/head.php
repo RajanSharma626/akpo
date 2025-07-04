@@ -28,10 +28,6 @@
             opacity: 1;
         }
 
-        .slick-next {
-            right: -30px !important;
-        }
-
         .slick-prev {
             left: -35px !important;
         }

@@ -28,8 +28,7 @@ include('includes/head.php');
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="logo">
                             <a href="./" class="text-decoration-none p-2 ">
-                                <img src="assets/images/logo/logo.png" alt="Logo" class="img-fluid " width="80"
-                                    height="80">
+                                <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="100" height="100">
                             </a>
                         </div>
                         <nav class="navbar navbar-expand-lg">
@@ -53,15 +52,16 @@ include('includes/head.php');
                                             Services
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                            <li><a class="dropdown-item" href="bookkeeping-outsourcing">Bookkeeping</a></li>
-                                            <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                                            <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                                            <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                                            <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                                            <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                                            <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                                            <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                                            <li><a class="dropdown-item" href="xero-and-quickBooks-accounting">Xero and QuickBooks Accounting</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
+                                            <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
                                         </ul>
 
                                     </li>
@@ -78,8 +78,7 @@ include('includes/head.php');
                                     </li>
                                     <li class="nav-item">
                                         <a class="text-white px-3 btn primary-btn rounded-pill"
-                                            href="contact-us.html">Contact
-                                            Us</a>
+                                            href="contact-us"> Let's Connect</a>
                                     </li>
                                 </ul>
                             </div>
@@ -99,7 +98,7 @@ include('includes/head.php');
                     <div class="service-slick">
                         <div class="p-2 h-100">
                             <div class="card p-3 shadow service-card h-100">
-                                <div class="card-title text-start fs-4 animate-text-color">Bookkeeping Services</div>
+                                <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">Bookkeeping and Accounting</div>
                                 <p class="card-text">Complete support for your business's bookkeeping needs.</p>
                                 <a href="bookkeeping-outsourcing" class="service-link fw-bold">
                                     Services Details
@@ -182,8 +181,18 @@ include('includes/head.php');
                         <div class="p-2 h-100">
                             <div class="card p-3 shadow service-card h-100">
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
-                                    Xero and QuickBooks Accounting</div>
-                                <p class="card-text">We specialize in Xero and QuickBooks – the most trusted cloud-based accounting</p>
+                                    Virtual CFO</div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, magnam.</p>
+                                <a href="xero-and-quickBooks-accounting" class="service-link fw-bold">
+                                    Services Details
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-2 h-100">
+                            <div class="card p-3 shadow service-card h-100">
+                                <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
+                                    Management Consultation</div>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, atque.</p>
                                 <a href="xero-and-quickBooks-accounting" class="service-link fw-bold">
                                     Services Details
                                 </a>
@@ -207,18 +216,12 @@ include('includes/head.php');
                     Powering U.S. Accounting Firms with Expert Offshore Solutions
                 </h3>
                 <p>
-                    For nearly two decades, <span class="primary-color">ACCULEDGER KPO </span> has been a trusted
-                    ally to U.S.-based CPAs, EAs, and
-                    accounting firms seeking efficient, compliant, and scalable outsourcing solutions. Our purpose is
-                    clear: to empower your firm to focus on deepening client relationships and driving strategic growth,
-                    while we seamlessly handle your accounting and tax back-office operations.
+
+                    For nearly two decades, <span class="primary-color">ACCULEDGER KPO </span> has been the trusted partner of U.S. based CPAs, EAs, and accounting firms, delivering efficient, compliant, and scalable outsourcing solutions for all businesses. Our mission is to empower your firm to focus on building client relationships and driving growth while we expertly manage your accounting and tax back-office functions.
 
                 </p>
                 <p>
-                    We combine skilled professionals, streamlined processes, and secure platforms to build a
-                    high-performing offshore accounting team that operates as a true extension of your firm. With deep
-                    expertise in U.S. GAAP, IRS, AICPA, and state-specific compliance, we ensure your firm is always
-                    audit-ready and operationally sound.
+                    Our high-performing offshore teams operate as a seamless extension of your firm, combining skilled talent, optimized workflows, and secure technology. With deep expertise in U.S. GAAP, IRS regulations, and compliance standards for businesses of all sizes and structures, we ensure your firm and your clients stay audit-ready, compliant, and poised for long-term success.
                 </p>
 
                 <a href="about-us" class="btn primary-bg rounded-pill px-4 py-2">
@@ -228,51 +231,9 @@ include('includes/head.php');
         </div>
     </section>
 
-    <section class="stats-section">
-        <div class="container">
-            <div class="stats-content">
-                <h2 class="section-title mb-0 animate-text-color">By the Numbers</h2>
-                <p class=" text-white section-description">Your Proof of Partnership</p>
-
-                <div class="row g-4">
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="350">0</div>
-                            <div class="stat-label">Clients<br>Globally</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="19">0</div>
-                            <div class="stat-label">Years of<br>experience</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="500">0</div>
-                            <div class="stat-label">Talented<br>Professional</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="65">0</div>
-                            <div class="stat-label">Referral<br>Business</div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 col-sm-6">
-                        <div class="stat-item">
-                            <div class="stat-number counter" data-target="100">0</div>
-                            <div class="stat-label">Paperless<br>Commitment</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+    @include('includes/stats.php');
+    ?>
 
     <section class="work-with-us-section py-5">
         <div class="container content-wrapper">
@@ -280,14 +241,10 @@ include('includes/head.php');
                 <div class="col-md-6 col-12" data-aos="fade-right" data-aos-duration="1000">
                     <p class="primary-color mb-0">Work with us</p>
                     <h3 class="fw-bold mb-4">
-                        The Joy of Working with Us Never Fades — Because We Truly Care
+                        The Joy of Working with Us Never Fades Because We Truly Care
                     </h3>
                     <p>
-                        At <span class="primary-color">ACCULEDGER KPO</span> , we go beyond outsourcing we become an integral part of your firm’s
-                        journey. Backed by years of experience serving U.S. based CPAs, EAs, and CMAs, we empower your
-                        practice to scale efficiently, cut operational costs, and maintain full compliance in an
-                        ever-changing financial environment. With us, you gain more than a service provider you gain a
-                        partner invested in your success.
+                        At <span class="primary-color">ACCULEDGER KPO</span>, we go beyond traditional outsourcing we become an integral part of your business journey. Backed by years of experience serving U.S. based CPAs, EAs, CMAs, and businesses of all sizes and industries, we empower your operations to scale efficiently, reduce costs, and maintain full compliance in an ever evolving financial landscape. With ACCULEDGER, you gain more than a service provider you gain a strategic partner invested in your long-term success.
                     </p>
                 </div>
                 <div class="col-md-6 col-12" data-aos="fade-left" data-aos-duration="1000">
@@ -354,7 +311,7 @@ include('includes/head.php');
                             <div class="service-icon">
                                 <i class="fas fa-file-invoice"></i>
                             </div>
-                            <h3 class="service-title">Bookkeeping Services </h3>
+                            <h3 class="service-title">Bookkeeping and Accounting </h3>
                         </div>
                     </div>
 
@@ -414,7 +371,7 @@ include('includes/head.php');
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <div class="service-card-2">
                             <div class="service-icon">
-                                <i class="fas fa-file-alt"></i>
+                                <i class="fas fa-search"></i>
                             </div>
                             <h3 class="service-title">Audit and Assuranc</h3>
                         </div>
@@ -422,9 +379,17 @@ include('includes/head.php');
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <div class="service-card-2">
                             <div class="service-icon">
-                                <i class="fas fa-file-alt"></i>
+                                <i class="fas fa-user-tie"></i>
                             </div>
-                            <h3 class="service-title"> Xero and QuickBooks Accounting</h3>
+                            <h3 class="service-title"> Virtual CFO</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="service-card-2">
+                            <div class="service-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h3 class="service-title"> Management Consultation</h3>
                         </div>
                     </div>
 
@@ -437,7 +402,7 @@ include('includes/head.php');
         </div>
     </section>
 
-    
+
 
     <?php
     @include 'includes/software.php';

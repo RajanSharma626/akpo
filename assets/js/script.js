@@ -5,10 +5,8 @@ $(document).ready(function () {
     infinite: true,
     dots: true,
     arrows: true,
-    nextArrow:
-      '<button type="button" class="slick-next custom-swiper-btn"><span aria-hidden="true">&rarr;</span></button>',
-    prevArrow:
-      '<button type="button" class="slick-prev custom-swiper-btn"><span aria-hidden="true">&larr;</span></button>',
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 992,
@@ -42,7 +40,7 @@ function animateCounters() {
 
         // Add + or % suffix based on the target value
         let displayValue = Math.floor(current);
-        if (target === 65 || target === 100) {
+        if (target === 70 || target === 100 || target === 80) {
           counter.textContent = displayValue + "%";
         } else {
           counter.textContent = displayValue + "+";
@@ -283,3 +281,43 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+function updateClocks() {
+  // USA - New York (Eastern Time)
+  document.getElementById("clock-usa").textContent =
+    new Date().toLocaleTimeString("en-US", {
+      timeZone: "America/New_York",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+
+  // UK - London
+  document.getElementById("clock-uk").textContent =
+    new Date().toLocaleTimeString("en-GB", {
+      timeZone: "Europe/London",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+
+  // Canada - Toronto (Eastern Time)
+  document.getElementById("clock-canada").textContent =
+    new Date().toLocaleTimeString("en-CA", {
+      timeZone: "America/Toronto",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+
+  // Australia - Sydney
+  document.getElementById("clock-australia").textContent =
+    new Date().toLocaleTimeString("en-AU", {
+      timeZone: "Australia/Sydney",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+}
+setInterval(updateClocks, 1000);
+updateClocks();

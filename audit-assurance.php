@@ -13,14 +13,16 @@ $title = "Audit and Assurance | Acculedger KPO";
     ?>
 
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Audit and Assurance</h1>
-                    <p class="text-light service-description">As a trusted outsourcing partner, we offer reliable audit and assurance
+    <section class="acculedger-faq-hero audit-assurance-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Audit and Assurance</h1>
+                    <p class="text-start text-white">As a trusted outsourcing partner, we offer reliable audit and assurance
                         services that enhance financial credibility and ensure compliance. Our expert team supports
                         businesses with independent insights and risk-focused reviews.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -114,7 +116,7 @@ $title = "Audit and Assurance | Acculedger KPO";
     </section>
 
 
-        <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';

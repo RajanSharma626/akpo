@@ -12,17 +12,15 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Bank Account Reconciliation</h1>
-                    <p class="text-light service-description">Ensure accuracy and transparency in your financial records with our bank
-                        account reconciliation services. We match your internal records with bank statements to identify
-                        discrepancies, prevent fraud, and maintain up-to-date financials—giving you peace of mind and
-                        reliable reporting.</p>
-                    <a href="contact-us" class="btn bg-light rounded-pill px-4 py-2">Start Reconciliation</a>
+    <section class="acculedger-faq-hero bank-account-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Bank Account Reconciliation</h1>
+                    <p class="text-start text-white">nsure accuracy and transparency in your financial records with our bank
+                        account reconciliation services.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -53,7 +51,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                                 <span class="service-tag badge rounded-pill secondary-bg">Precision Recording</span>
                             </div>
                         </div>
-                        <p class="service-description">
+                        <p class="service-description  fw-semibold">
                             Recording all transactions with precision for bank and credit card accounts.
                         </p>
                         <div class="account-types row">

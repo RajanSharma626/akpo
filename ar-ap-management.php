@@ -13,16 +13,16 @@ $title = "AR & AP Management | Acculedger KPO";
     ?>
 
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">AR & AP Management</h1>
-                    <p class="text-light service-description">Streamline your cash flow with our AR & AP management services. We ensure
-                        timely invoicing, accurate payment processing, and efficient follow-ups—helping you maintain
-                        strong vendor relationships and improve collections while reducing errors and administrative
-                        burden.</p>
-                    <a href="contact-us" class="btn bg-light rounded-pill px-4 py-2">Get Started</a>
+
+
+    <section class="acculedger-faq-hero ar-ap-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">AR & AP Management </h1>
+                    <p class="text-start text-white">Streamline your cash flow with our AR & AP management services. </p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>

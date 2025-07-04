@@ -17,10 +17,11 @@ $title = "How We Work | Acculedger KPO";
     <section class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 px-5">
                     <div class="hero-content">
-                        <h1 class="secondary-color">How We Work - Our Comprehensive Outsourcing Process</h1>
-                        <p>As a leader in outsourced finance, taxation, and accounting services, <span
+                        <p class="primary-color mb-0">How We Work</p>
+                        <h1 class="text-black">Our Comprehensive Outsourcing Process</h1>
+                        <p class="section-description text-start">As a leader in outsourced finance, taxation, and accounting services, <span
                                 class="primary-color">ACCULEDGER KPO</span> is
                             dedicated to making your work easier while delivering exceptional results. Our expert team
                             takes the time to thoroughly understand your core business, considering the size and

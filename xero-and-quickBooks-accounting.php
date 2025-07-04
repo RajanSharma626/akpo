@@ -12,13 +12,15 @@ $title = "Xero and QuickBooks Accounting | Acculedger KPO";
     @include 'includes/navbar.php';
     ?>
 
-    <section class="service-hero-section d-flex align-items-center" style="min-height: 400px;">
-        <div class="container py-5">
-            <div class="row align-items-center" style="min-height: 300px;">
-                <div class="col-md-6 col-12">
-                    <h1 class="text-white fw-bold">Xero and QuickBooks Accounting Services</h1>
-                    <p class="text-light service-description">We specialize in Xero and QuickBooks – the most trusted cloud-based
+    <section class="acculedger-faq-hero xero-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
+                    <h1 class="acculedger-faq-hero-title text-white text-start">Xero and QuickBooks Accounting</h1>
+                    <p class="text-start text-white">We specialize in Xero and QuickBooks – the most trusted cloud-based
                         accounting platforms – for accurate, real-time financial management.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
                 </div>
             </div>
         </div>
@@ -195,7 +197,7 @@ $title = "Xero and QuickBooks Accounting | Acculedger KPO";
                     <div class="row justify-content-center align-items-center">
                         <div class="col-md-4 mb-3">
                             <div class="p-4 border rounded">
-                                <i class="fab fa-quickbooks fa-4x secondary-color"></i>
+                                <i class="fa-solid fa-book fa-4x secondary-color"></i>
                                 <h5 class="mt-3 secondary-color">QuickBooks</h5>
                             </div>
                         </div>
@@ -212,7 +214,7 @@ $title = "Xero and QuickBooks Accounting | Acculedger KPO";
     </section>
 
 
-       <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';
