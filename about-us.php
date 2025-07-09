@@ -341,7 +341,7 @@ $title = "About Us";
                         <div class="content-below">
                             <div class="step-title">04 | Review</div>
                             <div class="step-description">A thorough review is conducted by our in-house team of
-                                proficient Chartered Accountants to ensure the highest standards of quality and
+                                certified Public Accountant and Chartered Accountant ensure the highest standards of quality and
                                 compliance.</div>
                         </div>
                     </div>
