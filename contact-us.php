@@ -17,7 +17,7 @@ $title = "Contact Us | Acculedger KPO";
     <section class="acculedger-faq-hero contact-us-header">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 col-12">
                     <p class="section-subtitle mb-0 primary-color text-start">Get in Touch with Acculedger KPO</p>
                     <h1 class="acculedger-faq-hero-title text-white text-start">Reliable Support. Real-Time Answers</h1>
                     <p class="text-start text-white"> Have a question or need expert KPO support? </p>
@@ -29,11 +29,11 @@ $title = "Contact Us | Acculedger KPO";
     <section class="contact-section-header py-3">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <div class="fs-5">
+                <div class="fs-md-5">
                     <i class="bi bi-telephone-fill"></i> +91 9310598455
                 </div>
                 <div class="mx-5" style="border-left:2px solid #ccc; height:40px;"></div>
-                <div class="fs-5">
+                <div class="fs-md-5">
                     <i class="bi bi-envelope-open-fill"></i> example@gamil.com
                 </div>
             </div>

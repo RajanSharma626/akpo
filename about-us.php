@@ -10,7 +10,7 @@ $title = "About Us";
 
     <header class="about-header">
         <div class="container py-4">
-            <nav>
+            <nav class="d-none d-md-block">
                 <div class="d-flex justify-content-end align-content-center">
                     <a href="tel:+91 9310598455"
                         class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
@@ -19,10 +19,10 @@ $title = "About Us";
                         class="rounded-pill primary-badge text-decoration-none fs-14 px-3">example@gmail.com</a>
                 </div>
             </nav>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-none d-lg-flex justify-content-between align-items-center">
                 <div class="logo">
                     <a href="./" class="text-decoration-none p-2 ">
-                        <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="100" height="100">
+                        <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="150" height="150">
                     </a>
                 </div>
                 <nav class="navbar navbar-expand-lg">
@@ -76,13 +76,77 @@ $title = "About Us";
                     </div>
                 </nav>
             </div>
+
+            <!-- Mobile Navbar (Offcanvas) -->
+            <nav class="d-lg-none">
+                <div class="d-flex justify-content-between align-items-center py-2">
+                    <div class="logo">
+                        <a href="./" class="text-decoration-none p-2">
+                            <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid" width="130" height="130">
+                        </a>
+                    </div>
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                        <i class="bi bi-list text-white" id="mobile-burger"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
+                                <li><a class="dropdown-item" href="bookkeeping-and-accounting">Bookkeeping and Accounting</a></li>
+                                <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
+                                <li><a class="dropdown-item" href="payroll">Payroll</a></li>
+                                <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
+                                <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
+                                <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
+                                <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
+                                <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
+                                <li><a class="dropdown-item" href="virtual-cfo">Virtual CFO</a></li>
+                                <li><a class="dropdown-item" href="management-consultation">Management Consultation</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="mobileResourcesDropdown">
+                                <li><a class="dropdown-item" href="blogs">Blog</a></li>
+                                <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn primary-btn rounded-pill w-100 my-2" href="contact-us">Let's Connect</a>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a href="tel:+91 9586745373" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 95867 45373</a>
+                            <a href="mailto:boghanimeet123@gmail.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">boghanimeet123@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
     <section class="heading-section border-bottom">
         <div class="container py-4 text-center d-flex justify-content-center">
             <h2 class="fs-1 fw-semibold text-black">
-                Living with<span id="animatedPart" class="d-inline-block ms-2"></span>
+                Living with<span id="animatedPart" class="d-inline-block ms-2 primary-color"></span>
             </h2>
         </div>
     </section>
@@ -119,7 +183,7 @@ $title = "About Us";
     <section class="team-excursion-section py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 d-none d-md-block">
                     <img src="assets/images/our-team-journey.png"
                         class="img-fluid" alt="">
                 </div>
@@ -147,6 +211,11 @@ $title = "About Us";
                         We empower you to concentrate on growth and client success while we expertly handle the
                         complexities of accounting and tax preparation.
                     </p>
+                </div>
+
+                <div class="col-md-6 col-12 d-md-none">
+                    <img src="assets/images/our-team-journey.png"
+                        class="img-fluid" alt="">
                 </div>
 
 
@@ -420,14 +489,13 @@ $title = "About Us";
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
     <section class="our-location-section py-5">
         <div class="container py-3">
             <div class="row align-items-center">
-                <div class="col-md-6 col-2">
+                <div class="col-md-6 col-12">
                     <h2 class="primary-color mb-0">Our Location</h2>
                     <h5 class="fs-4 mb-4 text-white">
                         Global Presence, Regional Expertise
@@ -487,7 +555,7 @@ $title = "About Us";
     <section class="sustainability-section py-5 bg-light">
         <div class="container py-5 content-wrapper">
             <div class="row justify-content-center">
-                <div class="col-8 text-center text-light">
+                <div class="col-md-8 col-12 text-center text-light">
                     <h3 class="mb-0 fw-bold">Sustainability</h3>
                     <p class="fs-4 fw-bold mb-4">
                         "Commitment to a Greener Tomorrow"
@@ -546,6 +614,8 @@ $title = "About Us";
                 slidesToScroll: 1,
                 arrows: true,
                 dots: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
                 responsive: [{
                         breakpoint: 992,
                         settings: {
@@ -555,7 +625,9 @@ $title = "About Us";
                     {
                         breakpoint: 576,
                         settings: {
-                            slidesToShow: 1
+                            slidesToShow: 1,
+                            arrows: false,
+                            dots: true,
                         }
                     }
                 ]

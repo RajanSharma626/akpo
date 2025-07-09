@@ -15,7 +15,7 @@ $title = "Management Consultation | Acculedger KPO";
     <section class="acculedger-faq-hero managment-header">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-start">
+                <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Management Consultation</h1>
                     <p class="text-start text-white">At Acculedger KPO, we provide results-driven management consultation services to help CPAs, accounting firms, and business owners make smarter, more informed financial decisions.</p>
@@ -25,7 +25,7 @@ $title = "Management Consultation | Acculedger KPO";
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5 bg-light">
         <div class="container">
             <!-- Section Header -->
             <div class="text-center mb-5">

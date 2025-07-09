@@ -16,19 +16,19 @@ include('includes/head.php');
             <div class="container vh-100 position-relative">
 
                 <div class="container py-4">
-                    <nav>
+                    <nav class="d-none d-lg-block">
                         <div class="d-flex justify-content-end align-content-center">
                             <a href="tel:+91 9586745373"
                                 class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
-                                9586745373</a>
+                                95867 45373</a>
                             <a href="mailto:boghanimeet123@gmail.com"
                                 class="rounded-pill primary-badge text-decoration-none fs-14 px-3">boghanimeet123@gmail.com</a>
                         </div>
                     </nav>
-                    <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-lg-flex justify-content-between align-items-center d-none">
                         <div class="logo">
                             <a href="./" class="text-decoration-none p-2 ">
-                                <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="100" height="100">
+                                <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid " width="150" height="150">
                             </a>
                         </div>
                         <nav class="navbar navbar-expand-lg">
@@ -83,6 +83,70 @@ include('includes/head.php');
                                 </ul>
                             </div>
                         </nav>
+                    </div>
+
+                    <!-- Mobile Navbar (Offcanvas) -->
+                    <nav class="d-lg-none">
+                        <div class="d-flex justify-content-between align-items-center py-2">
+                            <div class="logo">
+                                <a href="./" class="text-decoration-none p-2">
+                                    <img src="assets/images/logo/logo-2.png" alt="Logo" class="img-fluid" width="130" height="130">
+                                </a>
+                            </div>
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                                <i class="bi bi-list text-white" id="mobile-burger"></i>
+                            </button>
+                        </div>
+                    </nav>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us">About Us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
+                                        <li><a class="dropdown-item" href="bookkeeping-and-accounting">Bookkeeping and Accounting</a></li>
+                                        <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
+                                        <li><a class="dropdown-item" href="payroll">Payroll</a></li>
+                                        <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
+                                        <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
+                                        <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
+                                        <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
+                                        <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
+                                        <li><a class="dropdown-item" href="virtual-cfo">Virtual CFO</a></li>
+                                        <li><a class="dropdown-item" href="management-consultation">Management Consultation</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Resources
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="mobileResourcesDropdown">
+                                        <li><a class="dropdown-item" href="blogs">Blog</a></li>
+                                        <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn primary-btn rounded-pill w-100 my-2" href="contact-us">Let's Connect</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a href="tel:+91 9586745373" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 95867 45373</a>
+                                    <a href="mailto:boghanimeet123@gmail.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">boghanimeet123@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="header-content position-absolute ">
 
@@ -210,7 +274,7 @@ include('includes/head.php');
                 data-aos-duration="1000">
                 <video src="assets/video/about.mp4" autoplay muted loop class="w-100"></video>
             </div>
-            <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-md-6 mt-5 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
                 <p class="primary-color mb-0">ACCULEDGER KPO</p>
                 <h3 class="fw-bold mb-4">
                     Powering U.S. Accounting Firms with Expert Offshore Solutions

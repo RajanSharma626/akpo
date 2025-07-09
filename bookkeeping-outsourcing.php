@@ -15,7 +15,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
     <section class="acculedger-faq-hero bookkeeping-header">
         <div class="container">
             <div class="row">
-                <div class="col-6 text-start">
+                <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Bookkeeping Outsourcing</h1>
                     <p class="text-start text-white">solutions ensuring financial clarity & efficiency for CPAs, EAs, and accounting firms.</p>
@@ -38,7 +38,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                         and accounting firms in the United States.</p>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img src="assets/images/bookkeeping.png"
+                    <img src="assets/images/bookkeeping-2.png"
                         class="img-fluid" alt="">
                 </div>
             </div>

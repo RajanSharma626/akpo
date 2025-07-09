@@ -15,7 +15,7 @@
 
             </div>
             <div class="col-md-6 col-12">
-                <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                <div class="d-flex justify-content-center w-100" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/images/iso logo/1.png" class="img-fluid rounded-circle me-2" alt="">
                     <img src="assets/images/iso logo/2.png" class="img-fluid rounded-circle" alt="">
                 </div>
@@ -27,7 +27,7 @@
 <section class="Software-section py-5 bg-light">
     <div class="container content-wrapper py-5">
         <div class="row align-items-center">
-            <div class="col-6 px-5" data-aos="fade-zoom-in" data-aos-duration="1000">
+            <div class="col-md-6 col-12 px-5" data-aos="fade-zoom-in" data-aos-duration="1000">
                 <p class="primary-color mb-0">Software’s</p>
                 <h3 class="fw-bold mb-4">
                     Latest and Next-Gen Solutions Tailored to Your Needs

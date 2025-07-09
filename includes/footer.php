@@ -84,16 +84,6 @@
                      <a class="text-white" href="management-consultation">Management Consultation</a>
                  </p>
              </div>
-
-
-             <!-- Grid column -->
-             <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                 <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i> New York, NY 10012, US</p>
-                 <p class="mb-2"><i class="bi bi-envelope me-3"></i> boghanimeet123@gmail.com</p>
-                 <p class="mb-2"><i class="bi bi-telephone me-3"></i> +91 9586745373</p>
-                 <p class="mb-2"><i class="bi bi-whatsapp me-3"></i> +91 9586745373</p>
-             </div> -->
          </div>
          <div class="row">
 
@@ -110,33 +100,33 @@
                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                  <p class="mb-2"><i class="bi bi-geo-alt me-3"></i> New York, NY 10012, US</p>
                  <p class="mb-2"><i class="bi bi-envelope me-3"></i> boghanimeet123@gmail.com</p>
-                 <p class="mb-2"><i class="bi bi-telephone me-3"></i> +91 9586745373</p>
-                 <p class="mb-2"><i class="bi bi-whatsapp me-3"></i> +91 9586745373</p>
+                 <p class="mb-2"> <a class="nav-link" target="_blank" href="tel:+91 95867 45373"><i class="bi bi-telephone me-3"></i> +91 95867 45373</a></p>
+                 <p class="mb-2"><a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=919586745373&text=Hello"><i class="bi bi-whatsapp me-3"></i> +91 95867 45373</a></p>
              </div>
 
 
              <!-- Grid column -->
              <div class="col-md-6 col-lg-6  mx-auto mt-3">
                  <div class="row">
-                     <div class="col-3 text-center">
+                     <div class="col-md-3 col-6 mt-3 mt-md-0 text-center">
                          <div>
                              <h6 class="text-white">USA</h6>
                              <div id="clock-usa" class="digital-clock bg-light text-dark fw-bold fs-5"></div>
                          </div>
                      </div>
-                     <div class="col-3 text-center">
+                     <div class="col-md-3 col-6 mt-3 mt-md-0 text-center">
                          <div>
                              <h6 class="text-white">UK</h6>
                              <div id="clock-uk" class="digital-clock bg-light text-dark fw-bold fs-5"></div>
                          </div>
                      </div>
-                     <div class="col-3 text-center">
+                     <div class="col-md-3 col-6 mt-3 mt-md-0 text-center">
                          <div>
                              <h6 class="text-white">Canada</h6>
                              <div id="clock-canada" class="digital-clock bg-light text-dark fw-bold fs-5"></div>
                          </div>
                      </div>
-                     <div class="col-3 text-center">
+                     <div class="col-md-3 col-6 mt-3 mt-md-0 text-center">
                          <div>
                              <h6 class="text-white">Australia</h6>
                              <div id="clock-australia" class="digital-clock bg-light text-dark fw-bold fs-5"></div>
