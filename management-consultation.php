@@ -41,7 +41,7 @@ $title = "Management Consultation | Acculedger KPO";
                             <div class="text-center mb-3">
                                 <i class="bi bi-graph-up-arrow fs-1 text-primary"></i>
                             </div>
-                            <h4 class="card-title text-center mb-4 fs-4 fw-bold"> Management Reporting & Advisory</h4>
+                            <h4 class="card-title text-center mb-4 fs-4 fw-bold secondary-color"> Management Reporting & Advisory</h4>
 
                             <div class="mb-3">
                                 <h6 class="fw-semibold">Weekly, Monthly & Annual Reports</h6>
@@ -68,7 +68,7 @@ $title = "Management Consultation | Acculedger KPO";
                             <div class="text-center mb-3">
                                 <i class="bi bi-cash-stack fs-1 text-success"></i>
                             </div>
-                            <h4 class="card-title text-center mb-4 fs-4 fw-bold"> Cash Flow & Financial Planning</h4>
+                            <h4 class="card-title text-center mb-4 fs-4 fw-bold secondary-color"> Cash Flow & Financial Planning</h4>
 
                             <div class="mb-3">
                                 <h6 class="fw-semibold">Cash Flow Monitoring</h6>
@@ -95,7 +95,7 @@ $title = "Management Consultation | Acculedger KPO";
                             <div class="text-center mb-3">
                                 <i class="bi bi-arrow-repeat fs-1 text-info"></i>
                             </div>
-                            <h4 class="card-title text-center mb-4 fs-4 fw-bold"> Reconciliation & Financial Accuracy</h4>
+                            <h4 class="card-title text-center mb-4 fs-4 fw-bold secondary-color"> Reconciliation & Financial Accuracy</h4>
 
                             <div class="mb-3">
                                 <h6 class="fw-semibold">Bank & Credit Card Reconciliation</h6>
@@ -122,7 +122,7 @@ $title = "Management Consultation | Acculedger KPO";
                             <div class="text-center mb-3">
                                 <i class="bi bi-receipt fs-1 text-warning"></i>
                             </div>
-                            <h4 class="card-title text-center mb-4 fs-4 fw-bold"> Cost Optimization & Revenue Insights</h4>
+                            <h4 class="card-title text-center mb-4 fs-4 fw-bold secondary-color"> Cost Optimization & Revenue Insights</h4>
 
                             <div class="mb-3">
                                 <h6 class="fw-semibold">Cost & Expense Analysis</h6>
@@ -144,7 +144,7 @@ $title = "Management Consultation | Acculedger KPO";
                             <div class="text-center mb-3">
                                 <i class="bi bi-calculator fs-1 text-danger"></i>
                             </div>
-                            <h4 class="card-title text-center mb-4 fs-4 fw-bold"> Tax Planning & Compliance Consulting</h4>
+                            <h4 class="card-title text-center mb-4 fs-4 fw-bold secondary-color"> Tax Planning & Compliance Consulting</h4>
 
                             <div class="row">
                                 <div class="col-md-6">

@@ -6,8 +6,8 @@
                     <a href="tel:+91 9586745373"
                         class="rounded-pill text-light text-decoration-none me-2 fs-14 fw-bold px-3">+91
                         95867 45373</a>
-                    <a href="mailto:example@gmail.com"
-                        class="rounded-pill text-light text-decoration-none fs-14 fw-bold px-3">example@gmail.com</a>
+                    <a href="mailto:info@acculedgerkpo.com"
+                        class="rounded-pill text-light text-decoration-none fs-14 fw-bold px-3">info@acculedgerkpo.com</a>
                 </div>
             </div>
         </nav>

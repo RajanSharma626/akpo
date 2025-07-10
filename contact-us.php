@@ -30,11 +30,11 @@ $title = "Contact Us | Acculedger KPO";
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="fs-md-5">
-                    <i class="bi bi-telephone-fill"></i> +91 9310598455
+                    <i class="bi bi-telephone-fill"></i> +91 95867 45373
                 </div>
                 <div class="mx-5" style="border-left:2px solid #ccc; height:40px;"></div>
                 <div class="fs-md-5">
-                    <i class="bi bi-envelope-open-fill"></i> example@gamil.com
+                    <i class="bi bi-envelope-open-fill"></i> info@acculedgerkpo.com
                 </div>
             </div>
         </div>

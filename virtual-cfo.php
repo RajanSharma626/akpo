@@ -42,7 +42,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-graph-up-arrow text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">Financial Planning & Budgeting</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">Financial Planning & Budgeting</h5>
                             <p class="card-text text-muted">Strategic financial planning and comprehensive budgeting solutions to help your business grow and thrive.</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-cash-stack text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">Cash Flow & Working Capital Management</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">Cash Flow & Working Capital Management</h5>
                             <p class="card-text text-muted">Optimize your cash flow and manage working capital effectively to maintain healthy business operations.</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-bar-chart-line text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">Financial Reporting & Forecasting</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">Financial Reporting & Forecasting</h5>
                             <p class="card-text text-muted">Detailed financial reports and accurate forecasting to make informed business decisions.</p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-speedometer2 text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">Business Performance Analysis</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">Business Performance Analysis</h5>
                             <p class="card-text text-muted">In-depth analysis of your business performance with actionable insights and recommendations.</p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-shield-check text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">Tax and Compliance Advisory</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">Tax and Compliance Advisory</h5>
                             <p class="card-text text-muted">Expert tax planning and compliance advisory services to ensure your business meets all regulatory requirements.</p>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ $title = "Virtual CFO | Acculedger KPO";
                             <div class="service-icon mx-auto">
                                 <i class="bi bi-headset text-white fs-3"></i>
                             </div>
-                            <h5 class="card-title fs-5 fw-semibold mb-3">24/7 Expert Support</h5>
+                            <h5 class="card-title fs-5 fw-semibold mb-3 secondary-color">24/7 Expert Support</h5>
                             <p class="card-text text-muted">Round-the-clock support from our team of financial experts to address your questions and concerns.</p>
                         </div>
                     </div>

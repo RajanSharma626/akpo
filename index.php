@@ -21,8 +21,8 @@ include('includes/head.php');
                             <a href="tel:+91 9586745373"
                                 class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
                                 95867 45373</a>
-                            <a href="mailto:boghanimeet123@gmail.com"
-                                class="rounded-pill primary-badge text-decoration-none fs-14 px-3">boghanimeet123@gmail.com</a>
+                            <a href="mailto:info@acculedgerkpo.com"
+                                class="rounded-pill primary-badge text-decoration-none fs-14 px-3">info@acculedgerkpo.com</a>
                         </div>
                     </nav>
                     <div class="d-lg-flex justify-content-between align-items-center d-none">
@@ -536,7 +536,7 @@ include('includes/head.php');
 
 
     <?php
-    @include 'includes/blog.php';
+    @include 'includes/blogs.php';
     @include 'includes/contact.php';
     @include 'includes/footer.php';
     ?>

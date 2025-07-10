@@ -15,8 +15,8 @@ $title = "About Us";
                     <a href="tel:+91 9310598455"
                         class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
                         9310598455</a>
-                    <a href="mailto:example@gmail.com"
-                        class="rounded-pill primary-badge text-decoration-none fs-14 px-3">example@gmail.com</a>
+                    <a href="mailto:info@acculedgerkpo.com"
+                        class="rounded-pill primary-badge text-decoration-none fs-14 px-3">info@acculedgerkpo.com</a>
                 </div>
             </nav>
             <div class="d-none d-lg-flex justify-content-between align-items-center">

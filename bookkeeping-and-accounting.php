@@ -38,7 +38,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                         and accounting firms in the United States.</p>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img src="assets/images/bookkeeping.png"
+                    <img src="assets/images/bookkeeping-2.png"
                         class="img-fluid" alt="">
                 </div>
             </div>

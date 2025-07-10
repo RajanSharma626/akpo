@@ -131,19 +131,19 @@ $title = "US Taxation | Acculedger KPO";
                         <div class="service-features">
                             <div class="feature-grid row">
                                 <div class="col-md-6 p-2">
-                                    <i class="fas fa-check-circle permary-color"></i>
+                                    <i class="fas fa-check-circle primary-color"></i>
                                     <span>Form 1065 Filing</span>
                                 </div>
                                 <div class="col-md-6 p-2">
-                                    <i class="fas fa-check-circle permary-color"></i>
+                                    <i class="fas fa-check-circle primary-color"></i>
                                     <span>K-1 Preparation</span>
                                 </div>
                                 <div class="col-md-6 p-2">
-                                    <i class="fas fa-check-circle permary-color"></i>
+                                    <i class="fas fa-check-circle primary-color"></i>
                                     <span>LLC Tax Elections</span>
                                 </div>
                                 <div class="col-md-6 p-2">
-                                    <i class="fas fa-check-circle permary-color"></i>
+                                    <i class="fas fa-check-circle primary-color"></i>
                                     <span>Partner Allocations</span>
                                 </div>
                             </div>

@@ -54,15 +54,15 @@ $title = "Payroll | Acculedger KPO";
                                     <h5 class="feature-section-title secondary-color">Core Processing</h5>
                                     <div class="feature-list row">
                                         <div class="col-12 p-2">
-                                            <i class="fas fa-check-circle  secondary-color"></i>
+                                            <i class="fas fa-check-circle  primary-color"></i>
                                             <span>Timely & error-free payment processing</span>
                                         </div>
                                         <div class="col-12 p-2">
-                                            <i class="fas fa-check-circle  secondary-color"></i>
+                                            <i class="fas fa-check-circle  primary-color"></i>
                                             <span>Accurate record-keeping & reporting</span>
                                         </div>
                                         <div class="col-12 p-2">
-                                            <i class="fas fa-check-circle  secondary-color"></i>
+                                            <i class="fas fa-check-circle  primary-color"></i>
                                             <span>Secure automated salary distribution</span>
                                         </div>
                                     </div>
@@ -73,19 +73,19 @@ $title = "Payroll | Acculedger KPO";
                                     <h5 class="feature-section-title secondary-color">Flexible Options</h5>
                                     <div class="payroll-cycles row">
                                         <div class="cycle-option col-6 p-3">
-                                            <i class="fas fa-calendar-week secondary-color"></i>
+                                            <i class="fas fa-calendar-week primary-color"></i>
                                             <span>Weekly</span>
                                         </div>
                                         <div class="cycle-option col-6 p-3">
-                                            <i class="fas fa-calendar-alt secondary-color"></i>
+                                            <i class="fas fa-calendar-alt primary-color"></i>
                                             <span>Bi-weekly</span>
                                         </div>
                                         <div class="cycle-option col-6 p-3">
-                                            <i class="fas fa-calendar secondary-color"></i>
+                                            <i class="fas fa-calendar primary-color"></i>
                                             <span>Semi-monthly</span>
                                         </div>
                                         <div class="cycle-option col-6 p-3">
-                                            <i class="fas fa-calendar-day secondary-color"></i>
+                                            <i class="fas fa-calendar-day primary-color"></i>
                                             <span>Monthly</span>
                                         </div>
                                     </div>
