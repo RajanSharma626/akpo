@@ -1,11 +1,14 @@
 <header class="privacy-header border-bottom">
     <div class="container-fluid px-0">
-        <nav class="secondary-bg py-2">
+        <nav class="secondary-bg py-2 d-none d-md-block">
             <div class="container">
                 <div class="d-flex justify-content-end align-content-center">
                     <a href="tel:+91 9586745373"
                         class="rounded-pill text-light text-decoration-none me-2 fs-14 fw-bold px-3">+91
                         95867 45373</a>
+                    <a href="tel:+91 7201800394"
+                        class="rounded-pill text-light text-decoration-none me-2 fs-14 fw-bold px-3">+91
+                        72018 00394</a>
                     <a href="mailto:info@acculedgerkpo.com"
                         class="rounded-pill text-light text-decoration-none fs-14 fw-bold px-3">info@acculedgerkpo.com</a>
                 </div>
@@ -43,26 +46,59 @@
                         <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
-                            <li><a class="dropdown-item" href="bookkeeping-and-accounting">Bookkeeping and Accounting</a></li>
-                            <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                            <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                            <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                            <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                            <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                            <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                            <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                            <li><a class="dropdown-item" href="virtual-cfo">Virtual CFO</a></li>
-                            <li><a class="dropdown-item" href="management-consultation">Management Consultation</a></li>
+                        <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                    <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                    <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                    <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="sale-tax">
+                                    <i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation">
+                                    <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management">
+                                    <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="year-end">
+                                    <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="audit-assurance">
+                                    <i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo">
+                                    <i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a>
+                            </li>
+                            <li class="mb-2 p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="management-consultation">
+                                    <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Resources
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="mobileResourcesDropdown">
-                            <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                            <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                        <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                            <li class=" p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                    <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                </a>
+                            </li>
+                            <li class=" p-1">
+                                <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                    <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                </a>
+                            </li>
+
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -70,7 +106,8 @@
                     </li>
                     <li class="nav-item mt-3">
                         <a href="tel:+91 9586745373" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 95867 45373</a>
-                        <a href="mailto:example@gmail.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">example@gmail.com</a>
+                        <a href="tel:+91 7201800394" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 72018 00394</a>
+                        <a href="mailto:info@acculedgerkpo.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">info@acculedgerkpo.com</a>
                     </li>
                 </ul>
             </div>
@@ -104,17 +141,20 @@
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
+                                <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                            <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                            <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                            <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a></li>
+                                    <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -122,9 +162,18 @@
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Resources
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                                    <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                                <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                            <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                        </a>
+                                    </li>
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                            <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </li>
                             <li class="nav-item">

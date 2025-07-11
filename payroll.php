@@ -72,19 +72,19 @@ $title = "Payroll | Acculedger KPO";
                                 <div class="feature-section">
                                     <h5 class="feature-section-title secondary-color">Flexible Options</h5>
                                     <div class="payroll-cycles row">
-                                        <div class="cycle-option col-6 p-3">
+                                        <div class="cycle-option col-md-6 p-3">
                                             <i class="fas fa-calendar-week primary-color"></i>
                                             <span>Weekly</span>
                                         </div>
-                                        <div class="cycle-option col-6 p-3">
+                                        <div class="cycle-option col-md-6 p-3">
                                             <i class="fas fa-calendar-alt primary-color"></i>
                                             <span>Bi-weekly</span>
                                         </div>
-                                        <div class="cycle-option col-6 p-3">
+                                        <div class="cycle-option col-md-6 p-3">
                                             <i class="fas fa-calendar primary-color"></i>
                                             <span>Semi-monthly</span>
                                         </div>
-                                        <div class="cycle-option col-6 p-3">
+                                        <div class="cycle-option col-md-6 p-3">
                                             <i class="fas fa-calendar-day primary-color"></i>
                                             <span>Monthly</span>
                                         </div>
@@ -164,21 +164,21 @@ $title = "Payroll | Acculedger KPO";
                         </p>
                         <div class="integration-benefits">
                             <div class="benefit-row row">
-                                <div class="benefit-item col-6 align-items-center p-2">
+                                <div class="benefit-item col-md-6 align-items-center p-2">
                                     <i class="fas fa-sync-alt"></i>
                                     <span>Real-time Sync</span>
                                 </div>
-                                <div class="benefit-item col-6 align-items-center p-2">
+                                <div class="benefit-item col-md-6 align-items-center p-2">
                                     <i class="fas fa-chart-line"></i>
                                     <span>Overtime Tracking</span>
                                 </div>
                             </div>
                             <div class="benefit-row row">
-                                <div class="benefit-item col-6 align-items-center p-2">
+                                <div class="benefit-item col-md-6 align-items-center p-2">
                                     <i class="fas fa-calendar-check"></i>
                                     <span>Leave Management</span>
                                 </div>
-                                <div class="benefit-item col-6 align-items-center p-2">
+                                <div class="benefit-item col-md-6 align-items-center p-2">
                                     <i class="fas fa-chart-line"></i>
                                     <span>Real-time Insights</span>
                                 </div>

@@ -1,4 +1,4 @@
- <footer class="secondary-bg pt-5">
+ <footer class="secondary-bg pt-md-5">
      <!-- Grid container -->
      <div class="container p-4 pb-0">
 
@@ -9,7 +9,7 @@
                  <h6 class="text-uppercase mb-4 font-weight-bold text-center text-md-start">
                      <img src="assets/images/logo/footer-logo.png" class="img-fluid" alt="" width="200">
                  </h6>
-            
+
              </div>
              <!-- Grid column -->
 
@@ -45,27 +45,26 @@
                      Services
                  </h6>
                  <p class="mb-2">
-                     <a href="bookkeeping-and-accounting" class="text-white">Bookkeeping and Accounting</a>
+                     <a href="bookkeeping-and-accounting" class="text-white">Bookkeeping and Accounting Services</a>
                  </p>
                  <p class="mb-2">
-                     <a href="us-taxation" class="text-white">US Taxation</a>
+                     <a href="us-taxation" class="text-white">US Taxation Services</a>
                  </p>
                  <p class="mb-2">
-                     <a href="payroll" class="text-white">Payroll</a>
+                     <a href="payroll" class="text-white">Payroll Services</a>
                  </p>
                  <p class="mb-2">
-                     <a href="sale-tax" class="text-white">Sale Tax</a>
+                     <a href="sale-tax" class="text-white">Sale Tax Services</a>
                  </p>
                  <p class="mb-2">
-                     <a href="bank-account-reconcillation" class="text-white">Bank Account
-                         Reconciliation</a>
+                     <a href="bank-account-reconcillation" class="text-white"> Reconciliation Services</a>
                  </p>
 
                  <p class="mb-2 d-md-none">
                      <a href="ar-ap-management" class="text-white">AR & AP Management</a>
                  </p>
                  <p class="mb-2 d-md-none">
-                     <a class="text-white" href="year-end">Year End </a>
+                     <a class="text-white" href="year-end">Year End Services</a>
                  </p>
                  <p class="mb-2 d-md-none">
                      <a class="text-white" href="audit-assurance">Audit and Assurance</a>
@@ -87,7 +86,7 @@
                      <a href="ar-ap-management" class="text-white">AR & AP Management</a>
                  </p>
                  <p class="mb-2">
-                     <a class="text-white" href="year-end">Year End </a>
+                     <a class="text-white" href="year-end">Year End Services</a>
                  </p>
                  <p class="mb-2">
                      <a class="text-white" href="audit-assurance">Audit and Assurance</a>
@@ -104,18 +103,25 @@
 
 
              <!-- Grid column -->
-             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i> New York, NY 10012, US</p>
+                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i>Office 1 : 514 AR Mall, Opp Panavel Point, Mota varachha, Surat, Gujrat - 394101</p>
+                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i>Office 2 : 805 Millennium Business Hub, Opp Sarthana Nature Park, Sarthana Jakatnaka, Surat-395006</p>
+             </div>
+             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                 <h6 class="text-uppercase mb-4 font-weight-bold d-none d-md-block">&nbsp;</h6>
+                 <p class="mb-2"> <a class="nav-link" target="_blank" href="tel:+91 9586745373"><i class="bi bi-telephone me-3"></i> +91 95867 45373</a></p>
+                 <p class="mb-2"> <a class="nav-link" target="_blank" href="tel:+91 7201800394"><i class="bi bi-telephone me-3"></i> +91 72018 00394</a></p>
                  <p class="mb-2"><i class="bi bi-envelope me-3"></i> info@acculedgerkpo.com</p>
-                 <p class="mb-2"> <a class="nav-link" target="_blank" href="tel:+91 95867 45373"><i class="bi bi-telephone me-3"></i> +91 95867 45373</a></p>
-                 <p class="mb-2"><a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=919586745373&text=Hello"><i class="bi bi-whatsapp me-3"></i> +91 95867 45373</a></p>
              </div>
 
 
              <!-- Grid column -->
              <div class="col-md-6 col-lg-6  mx-auto mt-3">
                  <div class="row">
+                     <div class="col-12">
+                         <h5 class="text-uppercase mb-4 fw-bold text-center">Timezone</h5>
+                     </div>
                      <div class="col-md-3 col-6 mt-3 mt-md-0 text-center">
                          <div>
                              <h6 class="text-white">USA</h6>

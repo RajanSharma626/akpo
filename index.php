@@ -13,14 +13,17 @@ include('includes/head.php');
                 <source src="assets/video/home.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <div class="container vh-100 position-relative">
+            <div class="container vh-100 position-relative px-0">
 
-                <div class="container py-4">
+                <div class="container py-4 px-0">
                     <nav class="d-none d-lg-block">
                         <div class="d-flex justify-content-end align-content-center">
                             <a href="tel:+91 9586745373"
                                 class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
                                 95867 45373</a>
+                            <a href="tel:+91 7201800394"
+                                class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
+                                72018 00394</a>
                             <a href="mailto:info@acculedgerkpo.com"
                                 class="rounded-pill primary-badge text-decoration-none fs-14 px-3">info@acculedgerkpo.com</a>
                         </div>
@@ -51,17 +54,41 @@ include('includes/head.php');
                                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Services
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                            <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
-                                            <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
+                                        <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                                    <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                                    <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                                            <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                                    <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="sale-tax">
+                                                    <i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation">
+                                                    <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management">
+                                                    <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="year-end">
+                                                    <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="audit-assurance">
+                                                    <i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo">
+                                                    <i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a>
+                                            </li>
+                                            <li class="mb-2 p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="management-consultation">
+                                                    <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a>
+                                            </li>
                                         </ul>
 
                                     </li>
@@ -71,9 +98,18 @@ include('includes/head.php');
                                             aria-expanded="false">
                                             Resources
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                            <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                                            <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                                        <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                            <li class=" p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                                    <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                                </a>
+                                            </li>
+                                            <li class=" p-1">
+                                                <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                                    <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                                </a>
+                                            </li>
+
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -116,26 +152,59 @@ include('includes/head.php');
                                     <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Services
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
-                                        <li><a class="dropdown-item" href="bookkeeping-and-accounting">Bookkeeping and Accounting</a></li>
-                                        <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                                        <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                                        <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                                        <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                                        <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                                        <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                                        <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                                        <li><a class="dropdown-item" href="virtual-cfo">Virtual CFO</a></li>
-                                        <li><a class="dropdown-item" href="management-consultation">Management Consultation</a></li>
+                                    <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                        <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                                <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                                        <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                                <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                                        <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                                <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="sale-tax">
+                                                <i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation">
+                                                <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management">
+                                                <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="year-end">
+                                                <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="audit-assurance">
+                                                <i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo">
+                                                <i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a>
+                                        </li>
+                                        <li class="mb-2 p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="management-consultation">
+                                                <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Resources
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="mobileResourcesDropdown">
-                                        <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                                        <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                                    <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                        <li class=" p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                                <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                            </a>
+                                        </li>
+                                        <li class=" p-1">
+                                            <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                                <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -143,7 +212,8 @@ include('includes/head.php');
                                 </li>
                                 <li class="nav-item mt-3">
                                     <a href="tel:+91 9586745373" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 95867 45373</a>
-                                    <a href="mailto:boghanimeet123@gmail.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">boghanimeet123@gmail.com</a>
+                                    <a href="tel:+91 7201800394" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 72018 00394</a>
+                                    <a href="mailto:info@acculedgerkpo.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">info@acculedgerkpo.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -375,7 +445,7 @@ include('includes/head.php');
                             <div class="service-icon">
                                 <i class="fas fa-file-invoice"></i>
                             </div>
-                            <h3 class="service-title">Bookkeeping and Accounting </h3>
+                            <h3 class="service-title">Bookkeeping and Accounting Services</h3>
                         </div>
                     </div>
 
@@ -411,7 +481,7 @@ include('includes/head.php');
                             <div class="service-icon">
                                 <i class="fas fa-clipboard-check"></i>
                             </div>
-                            <h3 class="service-title">Bank Account Reconciliation</h3>
+                            <h3 class="service-title">Reconciliation Services</h3>
                         </div>
                     </div>
 
@@ -437,7 +507,7 @@ include('includes/head.php');
                             <div class="service-icon">
                                 <i class="fas fa-search"></i>
                             </div>
-                            <h3 class="service-title">Audit and Assuranc</h3>
+                            <h3 class="service-title">Audit and Assurance</h3>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
@@ -482,51 +552,108 @@ include('includes/head.php');
             <div class="testimonials-slider">
                 <!-- Testimonial 1 -->
                 <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Frank Stitely</h3>
-                    <p class="client-company">SK CPAs and Business Advisors PLLC</p>
+                    <h3 class="client-name mb-0">John Peterson</h3>
+                    <p class="client-company">CFO, TechGrid Solutions, California, USA</p>
                     <p class="testimonial-text">
-                        We have been working with Unison Globus for 5 years. We are impressed with the
-                        diligence and knowledge of our Unison Staff. They are an essential part of our
-                        operations. We rely on them for both tax return preparation and in support of our
-                        client accounting services. They are such a part of us that we couldn't operate without
-                        them. Beyond the value of their professional contributions, we value their friendship.
+                        Acculedger KPO has transformed how we manage our books.
+                        Their team delivers accurate, timely reports with zero hassle. As a startup, their virtual bookkeeping service helped us focus on growth instead of paperwork.
+                        Highly recommended for anyone looking for expert bookkeeping services in the USA.
                     </p>
                 </div>
 
                 <!-- Testimonial 2 -->
                 <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Joe Hopkins</h3>
-                    <p class="client-company">Hopkins CPA Firm P.C</p>
+                    <h3 class="client-name mb-0">Emily Carter</h3>
+                    <p class="client-company">Small Business Owner, Austin, Texas, USA</p>
                     <p class="testimonial-text">
-                        Excellent Excellent Excellent. The tax return preparation & bookkeeping services
-                        provided by Unison Globus are far superior to any other competitor services. Their
-                        team provides detailed excel spreadsheet reconciliation to support the timely tax
-                        return processing. Being in the tax resolution business myself as a CPA I trust
-                        the Unison team to produce sometimes as many as 10 tax returns for a single client.
-                        Unison is a proven service with vetted employees and a top-notch security policy.
-                        DO NOT GO ANYWHERE ELSE. Trust me
+                        We’ve tried multiple accounting services, but Acculedger KPO stands out.
+                        Their attention to detail, responsiveness, and understanding of U.S. tax systems is exceptional.
+                        Our monthly closing process is now fast, clean, and consistent.
+                        They’re the best partner for reliable bookkeeping in the USA.
                     </p>
                 </div>
 
                 <!-- Testimonial 3 -->
                 <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Snehal Patel, Accountant</h3>
-                    <p class="client-company">Tax & Business Solutions, CPA & Co., LLC</p>
+                    <h3 class="client-name mb-0">Michael Green</h3>
+                    <p class="client-company">Operations Manager, Denver, Colorado, USA</p>
                     <p class="testimonial-text">
-                        Working with Unison Globus has been the most rewarding experience I've
-                        encountered with an international team. The remote accountant I collaborated with
-                        blends effortlessly into our firm, truly becoming part of the team.
+                        Acculedger KPO brought structure and visibility to our finances.
+                        Their team is knowledgeable, responsive, and always on top of our books.
+                        Thanks to their monthly reports and reconciliations, we now have accurate data to make smart business decisions.
+                        Excellent bookkeeping services for U.S.-based companies.
                     </p>
                 </div>
 
                 <!-- Testimonial 4 -->
                 <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Snehal Patel, Accountant</h3>
-                    <p class="client-company">Tax & Business Solutions, CPA & Co., LLC</p>
+                    <h3 class="client-name mb-0">Rachel Smith</h3>
+                    <p class="client-company">Co-Founder, Leaf & Co., Miami, Florida, USA</p>
                     <p class="testimonial-text">
-                        Working with Unison Globus has been the most rewarding experience I've
-                        encountered with an international team. The remote accountant I collaborated with
-                        blends effortlessly into our firm, truly becoming part of the team.
+                        I was skeptical about outsourcing bookkeeping, but Acculedger KPO changed that.
+                        They’re efficient, trustworthy, and deliver reports that are easy to understand.
+                        As a service-based business in the USA, we’ve seen huge improvements in financial clarity and time savings.
+                        They’re now a key part of our workflow.
+                    </p>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="card p-5 m-2 border-0 bg-light">
+                    <h3 class="client-name mb-0">Thomas Wright</h3>
+                    <p class="client-company">Startup Advisor, Seattle, Washington, USA</p>
+                    <p class="testimonial-text">
+                        Acculedger KPO has helped us stay tax-ready all year round.
+                        Their team knows U.S. bookkeeping standards inside out and works proactively.
+                        We’ve cut down on year-end accounting stress thanks to their accurate monthly reports and timely entries.
+                        Top-tier virtual bookkeeping service in the USA.
+                    </p>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="card p-5 m-2 border-0 bg-light">
+                    <h3 class="client-name mb-0">Sarah Lopez</h3>
+                    <p class="client-company">eCommerce Owner, New York City, USA</p>
+                    <p class="testimonial-text">
+                        If you want professional bookkeeping without hiring in-house, go with Acculedger KPO.
+                        They handle everything categorization, bank reconciliation, payroll records with perfection.
+                        Their communication is always clear and professional.
+                        A smart choice for U.S. businesses seeking virtual accounting help.
+                    </p>
+                </div>
+
+                <!-- Testimonial 7 -->
+                <div class="card p-5 m-2 border-0 bg-light">
+                    <h3 class="client-name mb-0">David Johnson</h3>
+                    <p class="client-company">Consultant, Chicago, Illinois, USA</p>
+                    <p class="testimonial-text">
+                        Acculedger KPO delivers big results with zero friction.
+                        From onboarding to monthly reporting, their process is seamless and stress-free.
+                        They helped us transition from spreadsheets to proper accounting tools without a hitch.
+                        Exceptional bookkeeping support for small businesses in the USA.
+                    </p>
+                </div>
+
+                <!-- Testimonial 8 -->
+                <div class="card p-5 m-2 border-0 bg-light">
+                    <h3 class="client-name mb-0">Olivia Martin</h3>
+                    <p class="client-company">Freelancer, Los Angeles, California, USA</p>
+                    <p class="testimonial-text">
+                        The team at Acculedger KPO is organized, punctual, and always responsive.
+                        Our books were a mess before now everything is clean, categorized, and audit-ready.
+                        We’ve saved time and gained confidence in our numbers.
+                        They’re our go-to bookkeeping experts in the U.S.
+                    </p>
+                </div>
+
+                <!-- Testimonial 9 -->
+                <div class="card p-5 m-2 border-0 bg-light">
+                    <h3 class="client-name mb-0">Jessica Hill</h3>
+                    <p class="client-company">Owner, Hill Marketing Group, Phoenix, Arizona, USA</p>
+                    <p class="testimonial-text">
+                        Acculedger KPO took over our bookkeeping with professionalism and precision.
+                        They delivered every report on time, flagged issues proactively, and made our finances more predictable.
+                        Their U.S. compliant accounting support is worth every dollar.
+                        Great value for service-based businesses needing dependable bookkeeping.
                     </p>
                 </div>
             </div>

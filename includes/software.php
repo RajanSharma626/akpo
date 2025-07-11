@@ -16,8 +16,12 @@
             </div>
             <div class="col-md-6 col-12">
                 <div class="d-flex justify-content-center w-100" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="assets/images/iso logo/1.png" class="img-fluid rounded-circle me-2" alt="">
-                    <img src="assets/images/iso logo/2.png" class="img-fluid rounded-circle" alt="">
+                    <div>
+                        <img src="assets/images/iso logo/1.png" class="img-fluid rounded-circle me-2" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/images/iso logo/2.png" class="img-fluid rounded-circle" alt="">
+                    </div>
                 </div>
             </div>
         </div>

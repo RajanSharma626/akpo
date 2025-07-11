@@ -14,7 +14,10 @@ $title = "About Us";
                 <div class="d-flex justify-content-end align-content-center">
                     <a href="tel:+91 9310598455"
                         class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
-                        9310598455</a>
+                        93105 98455</a>
+                    <a href="tel:+91 7201800394"
+                        class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3">+91
+                        72018 00394</a>
                     <a href="mailto:info@acculedgerkpo.com"
                         class="rounded-pill primary-badge text-decoration-none fs-14 px-3">info@acculedgerkpo.com</a>
                 </div>
@@ -45,17 +48,20 @@ $title = "About Us";
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li class="mb-2"><a class="dropdown-item" href="bookkeeping-and-accounting"><i class="fas fa-file-invoice primary-color fs-4"></i> Bookkeeping and Accounting</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="us-taxation"><i class="fas fa-users-cog primary-color fs-4"></i> US Taxation</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="payroll"> <i class="fas fa-chart-line primary-color fs-4"></i> Payroll</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i> Sale Tax</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i> Bank Account Reconciliation</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i> AR & AP Management</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i> Year End Services</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i> Audit and Assurance</a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i> Virtual CFO </a></li>
-                                    <li class="mb-2"><a class="dropdown-item" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i> Management Consultation</a></li>
+                                <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                            <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                            <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                            <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="sale-tax"><i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation"> <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management"> <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="year-end"> <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="audit-assurance"><i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo"><i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a></li>
+                                    <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="management-consultation"><i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -64,9 +70,18 @@ $title = "About Us";
                                     aria-expanded="false">
                                     Resources
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
-                                    <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                                    <li><a class="dropdown-item" href="faq">FAQ</a></li>
+                               <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                            <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                        </a>
+                                    </li>
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                            <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -108,34 +123,68 @@ $title = "About Us";
                             <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="mobileServicesDropdown">
-                                <li><a class="dropdown-item" href="bookkeeping-and-accounting">Bookkeeping and Accounting</a></li>
-                                <li><a class="dropdown-item" href="us-taxation">US Taxation</a></li>
-                                <li><a class="dropdown-item" href="payroll">Payroll</a></li>
-                                <li><a class="dropdown-item" href="sale-tax">Sale Tax</a></li>
-                                <li><a class="dropdown-item" href="bank-account-reconcillation">Bank Account Reconciliation</a></li>
-                                <li><a class="dropdown-item" href="ar-ap-management">AR & AP Management</a></li>
-                                <li><a class="dropdown-item" href="year-end">Year End Services</a></li>
-                                <li><a class="dropdown-item" href="audit-assurance">Audit and Assurance</a></li>
-                                <li><a class="dropdown-item" href="virtual-cfo">Virtual CFO</a></li>
-                                <li><a class="dropdown-item" href="management-consultation">Management Consultation</a></li>
+                            <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
+                                        <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
+                                <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                        <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services</a></li>
+                                <li class=" p-1"><a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                        <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services</a></li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="sale-tax">
+                                        <i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services</a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation">
+                                        <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services</a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management">
+                                        <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management</a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="year-end">
+                                        <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services</a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="audit-assurance">
+                                        <i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance</a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo">
+                                        <i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO </a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="management-consultation">
+                                        <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="mobileResourcesDropdown">
-                                <li><a class="dropdown-item" href="blogs">Blog</a></li>
-                                <li><a class="dropdown-item" href="faq">FAQ</a></li>
-                            </ul>
+                           <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                            <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                        </a>
+                                    </li>
+                                    <li class=" p-1">
+                                        <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                            <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                        </a>
+                                    </li>
+
+                                </ul>
                         </li>
                         <li class="nav-item">
                             <a class="btn primary-btn rounded-pill w-100 my-2" href="contact-us">Let's Connect</a>
                         </li>
                         <li class="nav-item mt-3">
                             <a href="tel:+91 9586745373" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 95867 45373</a>
-                            <a href="mailto:boghanimeet123@gmail.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">boghanimeet123@gmail.com</a>
+                            <a href="tel:+91 7201800394" class="rounded-pill primary-badge text-decoration-none me-2 fs-14 px-3 d-block mb-2">+91 72018 00394</a>
+                            <a href="mailto:info@acculedgerkpo.com" class="rounded-pill primary-badge text-decoration-none fs-14 px-3 d-block">info@acculedgerkpo.com</a>
                         </li>
                     </ul>
                 </div>
@@ -520,33 +569,27 @@ $title = "About Us";
             <div class="team-slider">
                 <div class="team-card text-center p-3 d-flex flex-column align-items-center">
                     <img src="https://img.freepik.com/premium-photo/professional-male-entrepreneur-hd-8k-wallpaper-stock-photographic-image_1033957-28697.jpg"
-                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="John Doe">
-                    <h5 class="fw-bold mb-1">John Doe</h5>
-                    <p class="text-muted mb-0">Managing Partner</p>
+                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="CA Meet Boghan">
+                    <h5 class="fw-bold mb-1">Meet Boghani, CPA, CA</h5>
+                    <p class="text-muted mb-0">Founder</p>
                 </div>
                 <div class="team-card text-center p-3 d-flex flex-column align-items-center">
                     <img src="https://img.freepik.com/premium-photo/lifes-going-my-way-man-conptemorary-suit-smiling-camera-with-his-arms-folded_590464-19745.jpg?w=900"
-                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="Jane Smith">
-                    <h5 class="fw-bold mb-1">Jane Smith</h5>
-                    <p class="text-muted mb-0">Senior Accountant</p>
+                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="CA Naimish Sarkheliya">
+                    <h5 class="fw-bold mb-1">Naimish Sarkheliya, CA</h5>
+                    <p class="text-muted mb-0">Co founder</p>
                 </div>
                 <div class="team-card text-center p-3 d-flex flex-column align-items-center">
                     <img src="https://img.freepik.com/free-photo/portrait-elegant-professional-businessman_23-2150917272.jpg?t=st=1749715590~exp=1749719190~hmac=27d0007b010feaa81f3c6b9a9b0da10ca284682c2d8656251c10e1b38c889e16&w=900"
-                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="Michael Lee">
-                    <h5 class="fw-bold mb-1">Michael Lee</h5>
-                    <p class="text-muted mb-0">Tax Specialist</p>
+                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="CA Pratik visaveliya">
+                    <h5 class="fw-bold mb-1">Pratik Visaveliya, CA</h5>
+                    <p class="text-muted mb-0">Co founder</p>
                 </div>
                 <div class="team-card text-center p-3 d-flex flex-column align-items-center">
                     <img src="https://img.freepik.com/free-photo/close-up-young-businessman-holding-disposable-coffee-cup-hand-looking-camera_23-2148176166.jpg"
-                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="Priya Patel">
-                    <h5 class="fw-bold mb-1">Priya Patel</h5>
-                    <p class="text-muted mb-0">Client Relations</p>
-                </div>
-                <div class="team-card text-center p-3 d-flex flex-column align-items-center">
-                    <img src="https://img.freepik.com/premium-photo/man-with-watch-his-left-arm-is-posing-photo_977306-212.jpg?w=900"
-                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="Priya Patel">
-                    <h5 class="fw-bold mb-1">Priya Patel</h5>
-                    <p class="text-muted mb-0">Client Relations</p>
+                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="CA Jay Pansuriya">
+                    <h5 class="fw-bold mb-1">Jay Pansuriya, CA</h5>
+                    <p class="text-muted mb-0"> Co founder</p>
                 </div>
             </div>
         </div>

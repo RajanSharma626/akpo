@@ -52,19 +52,19 @@ $title = "US Taxation | Acculedger KPO";
                         </p>
                         <div class="service-features">
                             <div class="feature-grid row">
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Form 1040 Preparation</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Deduction Optimization</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>E-filing Services</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Compliance Assurance</span>
                                 </div>
@@ -91,19 +91,19 @@ $title = "US Taxation | Acculedger KPO";
                         </p>
                         <div class="service-features">
                             <div class="feature-grid row">
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>C Corporation (1120)</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>S Corporation (1120S)</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Multi-State Filings</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Tax Strategy Planning</span>
                                 </div>
@@ -169,19 +169,19 @@ $title = "US Taxation | Acculedger KPO";
                         </p>
                         <div class="service-features">
                             <div class="feature-grid row">
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>1099 Calculation & Review</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>E-filing Services</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Penalty Avoidance</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Compliance Management</span>
                                 </div>
@@ -207,19 +207,19 @@ $title = "US Taxation | Acculedger KPO";
                         </p>
                         <div class="service-features">
                             <div class="feature-grid row">
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Tax Liability Minimization</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Cash Flow Enhancement</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Financial Projections</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Regulatory Compliance</span>
                                 </div>
@@ -245,19 +245,19 @@ $title = "US Taxation | Acculedger KPO";
                         </p>
                         <div class="service-features">
                             <div class="feature-grid row">
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>SALT Compliance</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Tax Planning</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Audit Support</span>
                                 </div>
-                                <div class="col-6 p-2">
+                                <div class="col-md-6 p-2">
                                     <i class="fas fa-check-circle primary-color"></i>
                                     <span>Multi-State Filings</span>
                                 </div>

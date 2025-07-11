@@ -55,11 +55,11 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                             Recording all transactions with precision for bank and credit card accounts.
                         </p>
                         <div class="account-types row">
-                            <div class="account-type col-6 fw-bold text-muted">
+                            <div class="account-type col-md-6 fw-bold text-muted">
                                 <i class="fas fa-university primary-color"></i>
                                 <span>Bank Accounts</span>
                             </div>
-                            <div class="account-type col-6 fw-bold text-muted">
+                            <div class="account-type col-md-6 fw-bold text-muted">
                                 <i class="fas fa-credit-card primary-color"></i>
                                 <span>Credit Card Accounts</span>
                             </div>

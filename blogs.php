@@ -31,70 +31,17 @@ $title = "Blogs | Acculedger KPO";
             <div class="row">
                 <div class="col-md-4 p-2">
                     <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                        <img src="assets/images/blog-cover.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-2">
-                    <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-2">
-                    <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-2">
-                    <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-2">
-                    <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-2">
-                    <div class="card">
-                        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-start">Blog title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                            <a href="#" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
+                            <h6 class="card-title text-start fs-5 fw-semibold">Client Accounting Services (CAS): The Future of Scalable Growth for CPA Firms</h6>
+                            <p class="card-text">Starting a business is thrilling. You have bold ideas, big dreams, and clear strategies.</p>
+                            <a href="client-acounting-service" class="btn secondary-btn-outline rounded-pill px-4 btn-sm">Read more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
 
     <?php
     @include 'includes/contact.php';

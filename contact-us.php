@@ -29,11 +29,11 @@ $title = "Contact Us | Acculedger KPO";
     <section class="contact-section-header py-3">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
-                <div class="fs-md-5">
+                <div class="fs-sm-12 fs-md-5 ">
                     <i class="bi bi-telephone-fill"></i> +91 95867 45373
                 </div>
                 <div class="mx-5" style="border-left:2px solid #ccc; height:40px;"></div>
-                <div class="fs-md-5">
+                <div class="fs-md-5 fs-sm-12">
                     <i class="bi bi-envelope-open-fill"></i> info@acculedgerkpo.com
                 </div>
             </div>
