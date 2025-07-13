@@ -115,7 +115,6 @@
                  <p class="mb-2"><i class="bi bi-envelope me-3"></i> info@acculedgerkpo.com</p>
              </div>
 
-
              <!-- Grid column -->
              <div class="col-md-6 col-lg-6  mx-auto mt-3">
                  <div class="row">
