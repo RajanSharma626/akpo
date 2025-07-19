@@ -9,17 +9,24 @@
             <div class="col-12">
                 <div class="blog-slider-container">
                     <div class="blog-slider">
-                        <div class="blog-card">
-                            <img src="assets/images/blog-cover.png"
-                                alt="IRS Tax Forms" class="blog-card-image img-fluid">
-                            <div class="blog-card-content">
-                                <div class="blog-card-date">July 11, 2025</div>
-                                <h4 class="blog-card-title">Client Accounting Services (CAS): The Future of Scalable Growth for CPA Firms
-                                </h4>
-                                <p class="blog-card-excerpt">Starting a business is thrilling. You have bold ideas, big dreams, and clear strategies.</p>
-                                <a href="client-acounting-service" class="blog-card-link">Read More</a>
+                        <?php
+                        // Fetch member
+                        $sql2 = "SELECT * FROM blogs";
+                        $result2 = mysqli_query($conn, $sql2);
+                        while ($blog = mysqli_fetch_assoc($result2)):
+                        ?>
+                            <div class="blog-card">
+                                <img src="admin/<?php echo $blog['cover_img'] ?>"
+                                    alt="IRS Tax Forms" class="blog-card-image img-fluid">
+                                <div class="blog-card-content">
+                                    <div class="blog-card-date"><?php echo $blog['timestamp'] ?></div>
+                                    <h4 class="blog-card-title"><?php echo $blog['title'] ?>
+                                    </h4>
+                                    <p class="blog-card-excerpt"><?php echo $blog['short_desc'] ?></p>
+                                    <a href="blog/<?php echo $blog['slug'] ?>" class="blog-card-link">Read More</a>
+                                </div>
                             </div>
-                        </div>
+                        <?php endwhile ?>
                     </div>
                 </div>
             </div>

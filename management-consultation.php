@@ -15,7 +15,7 @@ $title = "Management Consultation | Acculedger KPO";
     <section class="acculedger-faq-hero managment-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 text-start">
+                <div class="col-md-6 col-12 text-start" data-aos="fade-in" data-aos-duration="1000">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Management Consultation</h1>
                     <p class="text-start text-white">At Acculedger KPO, we provide results-driven management consultation services to help CPAs, accounting firms, and business owners make smarter, more informed financial decisions.</p>
@@ -28,14 +28,14 @@ $title = "Management Consultation | Acculedger KPO";
     <section class="py-5 bg-light">
         <div class="container">
             <!-- Section Header -->
-            <div class="text-center mb-5">
+            <div class="text-center mb-5" data-aos="fade-in" data-aos-duration="1000">
                 <h2 class="fw-bold text-dark">Our Core Management Consultation Services</h2>
             </div>
 
             <!-- Services Grid -->
             <div class="row g-4">
                 <!-- Management Reporting & Advisory -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body p-4">
                             <div class="text-center mb-3">
@@ -62,7 +62,7 @@ $title = "Management Consultation | Acculedger KPO";
                 </div>
 
                 <!-- Cash Flow & Financial Planning -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body p-4">
                             <div class="text-center mb-3">
@@ -89,7 +89,7 @@ $title = "Management Consultation | Acculedger KPO";
                 </div>
 
                 <!-- Reconciliation & Financial Accuracy -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body p-4">
                             <div class="text-center mb-3">
@@ -116,7 +116,7 @@ $title = "Management Consultation | Acculedger KPO";
                 </div>
 
                 <!-- Cost Optimization & Revenue Insights -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body p-4">
                             <div class="text-center mb-3">
@@ -138,7 +138,7 @@ $title = "Management Consultation | Acculedger KPO";
                 </div>
 
                 <!-- Tax Planning & Compliance Consulting -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card shadow-sm">
                         <div class="card-body p-4">
                             <div class="text-center mb-3">
@@ -166,7 +166,7 @@ $title = "Management Consultation | Acculedger KPO";
             </div>
 
             <!-- Who Benefits Section -->
-            <div class="mt-5">
+            <div class="mt-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="card secondary-bg text-white p-5">
                     <div class="card-body p-4">
                         <h3 class="text-center mb-4"> Who Benefits from Our Services?</h3>

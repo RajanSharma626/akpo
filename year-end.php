@@ -15,7 +15,7 @@ $title = "Year End | Acculedger KPO";
     <section class="acculedger-faq-hero year-end-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 text-start">
+                <div class="col-md-6 col-12 text-start" data-aos="fade-in" data-aos-duration="1000">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Year End</h1>
                     <p class="text-start text-white">Kick off the new year with confidence by letting Stanfox manage your
@@ -30,10 +30,10 @@ $title = "Year End | Acculedger KPO";
     <!-- Services Section -->
     <section class="services-section-2 py-5 bg-light">
         <div class="container">
-            <h2 class="section-title">Our Year-End Services</h2>
+            <h2 class="section-title text-black" data-aos="fade-in" data-aos-duration="1000">Our Year-End Services</h2>
 
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-broom"></i>
@@ -46,7 +46,7 @@ $title = "Year End | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-university"></i>
@@ -58,7 +58,7 @@ $title = "Year End | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-chart-line"></i>
@@ -71,7 +71,7 @@ $title = "Year End | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-book"></i>
@@ -83,7 +83,7 @@ $title = "Year End | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 data-aos="fade-up" data-aos-duration="1000"">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-balance-scale"></i>
@@ -95,7 +95,7 @@ $title = "Year End | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 data-aos="fade-up" data-aos-duration="1000"">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-calculator"></i>

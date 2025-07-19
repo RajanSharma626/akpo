@@ -7,15 +7,17 @@
                     Unwavering Focus on Data Security & Confidentiality
                 </h3>
                 <p>
-                    At <span class="primary-color">ACCULEDGER KPO</span>, data protection isn’t just a priority it’s a promise. Our ISO/IEC
+                    <!-- At <span class="primary-color">ACCULEDGER KPO</span>, data protection isn’t just a priority it’s a promise. Our ISO/IEC
                     27001:2022 certification reflects our rigorous approach to safeguarding sensitive client
                     information across all digital and physical touchpoints. You can trust that your data is managed
-                    with integrity, discretion, and the highest industry standards every step of the way.
+                    with integrity, discretion, and the highest industry standards every step of the way. -->
+
+                    At <span class="primary-color">ACCULEDGER KPO</span>, protecting your data isn’t just a responsibility. it’s a promise we uphold with every interaction. We implement strict protocols and maintain the highest level of confidentiality to ensure your sensitive information remains safe and secure at all times with a culture built on trust, transparency, and accountability, you can rest assured that your data is handled with integrity every step of the way.
                 </p>
 
             </div>
             <div class="col-md-6 col-12">
-                <div class="d-flex justify-content-center w-100" data-aos="fade-up" data-aos-duration="1000">
+                <div class="d-flex justify-content-center align-items-center w-100" data-aos="fade-up" data-aos-duration="1000">
                     <div>
                         <img src="assets/images/iso logo/1.png" class="img-fluid rounded-circle me-2" alt="">
                     </div>

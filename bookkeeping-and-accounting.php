@@ -17,9 +17,9 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
             <div class="row">
                 <div class="col-6 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
-                    <h1 class="acculedger-faq-hero-title text-white text-start">Bookkeeping Outsourcing</h1>
-                    <p class="text-start text-white">solutions ensuring financial clarity & efficiency for CPAs, EAs, and accounting firms.</p>
-                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
+                    <h1 class="acculedger-faq-hero-title text-white text-start" data-aos="fade-in" data-aos-duration="1000">Bookkeeping and Accounting</h1>
+                    <p class="text-start text-white" data-aos="fade-in" data-aos-duration="1000">solutions ensuring financial clarity & efficiency for CPAs, EAs, and accounting firms.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2" data-aos="fade-in" data-aos-duration="1000">Get Started</a>
                 </div>
             </div>
         </div>
@@ -28,8 +28,8 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
     <section class="service-details-section py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12 mb-4">
-                    <h2 class="fw-bold">Why Choose Our Bookkeeping Outsourcing Services?</h2>
+                <div class="col-md-6 col-12 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="fw-bold">Why Choose Our Bookkeeping and Accounting Services?</h2>
                     <p class="service-description">At Acculedger, we offer complete support for your business's bookkeeping needs, providing
                         customized solutions to ensure financial clarity & efficiency. We understand the critical role
                         accounting and bookkeeping play in ensuring the financial health of your clients and your firm.
@@ -37,7 +37,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                         offering accurate, reliable, and cost-effective solutions tailored specifically for CPAs, EAs,
                         and accounting firms in the United States.</p>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-left" data-aos-duration="1000">
                     <img src="assets/images/bookkeeping-2.png"
                         class="img-fluid" alt="">
                 </div>
@@ -54,7 +54,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
 
             <div class="row g-4">
                 <!-- Service 1 -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="featured-service h-100">
                         <div class="service-icon">
                             <i class="fas fa-book"></i>
@@ -75,7 +75,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                 </div>
 
                 <!-- Service 2 -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="featured-service h-100">
                         <div class="service-icon">
                             <i class="fas fa-exchange-alt"></i>
@@ -109,7 +109,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                 </div>
 
                 <!-- Service 3 -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="featured-service h-100">
                         <div class="service-icon">
                             <i class="fas fa-chart-bar"></i>
@@ -143,7 +143,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                 </div>
 
                 <!-- Service 4 -->
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="featured-service h-100">
                         <div class="service-icon">
                             <i class="fas fa-cogs"></i>
@@ -165,7 +165,7 @@ $title = "Bookkeeping Outsourcing | Acculedger KPO";
                 </div>
 
                 <!-- Service 5 -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="service-card featured-service bg-white">
                         <div class="service-icon">
                             <i class="fas fa-broom"></i>

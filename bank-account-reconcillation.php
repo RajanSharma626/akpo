@@ -17,10 +17,10 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
             <div class="row">
                 <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
-                    <h1 class="acculedger-faq-hero-title text-white text-start">Bank Account Reconciliation</h1>
-                    <p class="text-start text-white">nsure accuracy and transparency in your financial records with our bank
+                    <h1 class="acculedger-faq-hero-title text-white text-start" data-aos="fade-in" data-aos-duration="1000">Bank Account Reconciliation</h1>
+                    <p class="text-start text-white" data-aos="fade-in" data-aos-duration="1000">nsure accuracy and transparency in your financial records with our bank
                         account reconciliation services.</p>
-                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2" data-aos="fade-in" data-aos-duration="1000">Get Started</a>
                 </div>
             </div>
         </div>
@@ -30,8 +30,8 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
         <div class="container">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-lg-8">
-                    <h2 class="section-title mb-0 text-black">Our Reconciliation Services</h2>
-                    <p class="service-description fw-normal">
+                    <h2 class="section-title mb-0 text-black" data-aos="fade-in" data-aos-duration="1000">Our Reconciliation Services</h2>
+                    <p class="service-description fw-normal" data-aos="fade-in" data-aos-duration="1000">
                         Comprehensive bank reconciliation services to ensure your financial records
                         are accurate, transparent, and fraud-free.
                     </p>
@@ -40,7 +40,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
 
             <div class="row g-4">
                 <!-- Transaction Logging -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -68,7 +68,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Matching Records -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -86,7 +86,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Identifying Discrepancies -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -104,7 +104,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Outstanding Items -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -122,7 +122,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Bank Charges -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -142,7 +142,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Error Detection -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -160,7 +160,7 @@ $title = "Bank Account Reconciliation | Acculedger KPO";
                 </div>
 
                 <!-- Accurate Closing Balances -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 p-5 featured-service">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">

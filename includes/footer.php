@@ -159,8 +159,8 @@
              <div class="col-md-7 col-lg-8 text-center text-md-start">
                  <!-- Copyright -->
                  <div class="p-3">
-                     © 2025 Copyright:
-                     <a class="text-white" href="https://xyz.com/">xyz.com</a>
+                     ©️ 2025. <a href="https://acculedgerkpo.com" class="primary-color">ACCULEDGER KPO</a>, All Rights Reserved
+
                  </div>
                  <!-- Copyright -->
              </div>
@@ -168,17 +168,7 @@
 
              <!-- Grid column -->
              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                 <!-- Facebook -->
-                 <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                         class="fab fa-facebook-f"></i></a>
-
-                 <!-- Google -->
-                 <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                         class="fab fa-linkedin"></i></a>
-
-                 <!-- Instagram -->
-                 <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                         class="fab fa-instagram"></i></a>
+                 Design By <a href="https://techsoulstudio.com" class="primary-color">Techsoulstudio</a>
              </div>
              <!-- Grid column -->
          </div>

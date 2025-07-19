@@ -17,7 +17,7 @@ $title = "How We Work | Acculedger KPO";
     <section class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 px-5">
+                <div class="col-lg-6 px-5" data-aos="fade-right" data-aos-duration="1000">
                     <div class="hero-content">
                         <p class="primary-color mb-0">How We Work</p>
                         <h1 class="text-black">Our Comprehensive Outsourcing Process</h1>
@@ -31,7 +31,7 @@ $title = "How We Work | Acculedger KPO";
                         <button class="btn primary-bg rounded-pill px-3">Get Started</button>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="text-center">
                         <img src="assets/images/How-we-work.png" alt="Professional accounting team" class="img-fluid"
                             style="transform: scaleX(-1);">
@@ -50,65 +50,65 @@ $title = "How We Work | Acculedger KPO";
                 firm's current client base, past experience, and unique operational needs.</p>
 
             <div class="row">
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">1</div>
                         <h4 class="stage-title">One-on-One Consultation</h4>
                         <p>Detailed discussion of our services and gathering relevant information.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">2</div>
                         <h4 class="stage-title">Agreement & Signing Process</h4>
                         <p>Follow-up to finalize and sign the service agreement.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">3</div>
                         <h4 class="stage-title">Official Authorization</h4>
                         <p>Collection of contact details and mailing address for formal authorization.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">4</div>
                         <h4 class="stage-title">Review of Previous Year's Documentation</h4>
                         <p>Examination of signed copies of prior tax returns and other critical paperwork.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">5</div>
                         <h4 class="stage-title">New Entity Setup (If Applicable)</h4>
                         <p>Managing additional documentation required for new entities.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">6</div>
                         <h4 class="stage-title">Software Selection</h4>
                         <p>Identifying the best accounting and taxation software suited to your organization.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">7</div>
                         <h4 class="stage-title">Billing Software Analysis</h4>
                         <p>Evaluating the appropriate billing software for your firm's needs.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-4">
-                    <div class="stage-card">
+                <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="stage-card h-100">
                         <div class="stage-number">8</div>
                         <h4 class="stage-title">Data Migration</h4>
                         <p>Transferring data if existing software is deemed suitable.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-4">
-                    <div class="stage-card">
-                        <div class="stage-number">9</div>
+                <div class="col-lg-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="stage-card h-100">
+                        <div class="stage-number" >9</div>
                         <h4 class="stage-title">Configuration</h4>
                         <p>Setting up a new chart of accounts and customizing other features.</p>
                     </div>
@@ -120,14 +120,14 @@ $title = "How We Work | Acculedger KPO";
     <!-- Unique Attributes Section -->
     <section class="attributes-section bg-light">
         <div class="container">
-            <h2 class="section-title mb-2 text-black">Unique Attributes of <span class="primary-color">ACCULEDGER
+            <h2 class="section-title mb-2 text-black" data-aos="fade-up" data-aos-duration="1000">Unique Attributes of <span class="primary-color">ACCULEDGER
                     KPO</span> </h2>
-            <p class="text-center mb-5 text-muted section-description">We are a premier accounting and financial
+            <p class="text-center mb-5 text-muted section-description" data-aos="fade-up" data-aos-duration="1000">We are a premier accounting and financial
                 outsourcing firm delivering
                 innovative, cost-effective solutions tailored to your needs.</p>
 
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                     <div class="attribute-item">
                         <div class="attribute-icon">
                             <i class="fas fa-users"></i>
@@ -165,7 +165,7 @@ $title = "How We Work | Acculedger KPO";
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="attribute-item">
                         <div class="attribute-icon">
                             <i class="fas fa-eye"></i>

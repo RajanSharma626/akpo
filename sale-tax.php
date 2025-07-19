@@ -18,9 +18,9 @@ $title = "Sale Tax | Acculedger KPO";
             <div class="row">
                 <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
-                    <h1 class="acculedger-faq-hero-title text-white text-start">Sale Tax </h1>
-                    <p class="text-start text-white">Acculedger provides expert sales tax services across the USA, ensuring accurate calculation, timely filing, and full compliance with state and local regulations.</p>
-                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
+                    <h1 class="acculedger-faq-hero-title text-white text-start" data-aos="fade-in" data-aos-duration="1000">Sale Tax </h1>
+                    <p class="text-start text-white" data-aos="fade-in" data-aos-duration="1000">Acculedger provides expert sales tax services across the USA, ensuring accurate calculation, timely filing, and full compliance with state and local regulations.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2" data-aos="fade-in" data-aos-duration="1000">Get Started</a>
                 </div>
             </div>
         </div>
@@ -28,14 +28,14 @@ $title = "Sale Tax | Acculedger KPO";
 
     <section class="service-features-section py-5 bg-light">
         <div class="container">
-            <h2 class="text-center fw-bold mb-1">Sale Tax Solutions</h2>
-            <p class="text-center text-muted service-description">From individual returns to complex business filings, we handle all aspects
+            <h2 class="text-center fw-bold mb-1" data-aos="fade-in" data-aos-duration="1000">Sale Tax Solutions</h2>
+            <p class="text-center text-muted service-description" data-aos="fade-in" data-aos-duration="1000">From individual returns to complex business filings, we handle all aspects
                 of US taxation with precision and expertise.</p>
 
 
             <div class="row g-4 mt-5">
                 <!-- Service 1: Sales Tax Compliance & Filing Services -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-in" data-aos-duration="1000">
                     <div class="card p-5 sales-tax-compliance">
                         <div class="service-header">
                             <div class="service-icon">
@@ -72,7 +72,7 @@ $title = "Sale Tax | Acculedger KPO";
                 </div>
 
                 <!-- Service 2: Sales & Use Tax Consulting & Support -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-in" data-aos-duration="1000">
                     <div class="card p-5 sales-use-tax-consulting">
                         <div class="service-header">
                             <div class="service-icon">
@@ -109,7 +109,7 @@ $title = "Sale Tax | Acculedger KPO";
                 </div>
 
                 <!-- Service 3: Sales Tax Registration, Reconciliation & Refund Assistance -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-in" data-aos-duration="1000">
                     <div class="card p-5 sales-tax-registration">
                         <div class="service-header">
                             <div class="service-icon">

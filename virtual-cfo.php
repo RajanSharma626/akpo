@@ -15,7 +15,7 @@ $title = "Virtual CFO | Acculedger KPO";
     <section class="acculedger-faq-hero cfo-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 text-start">
+                <div class="col-md-6 col-12 text-start" data-aos="fade-in" data-aos-duration="1000">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Virtual CFO</h1>
                     <p class="text-start text-white">At Acculedger KPO, our Virtual CFO services go beyond basic accounting. We help you manage day-to-day finances, optimize cash flow, and drive business growth with clear, data-driven insights.</p>
@@ -27,7 +27,7 @@ $title = "Virtual CFO | Acculedger KPO";
 
     <section class="py-5">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-in" data-aos-duration="1000">
                 <div class="col-12 text-center mb-5">
                     <h2 class="section-title fw-bold text-dark mb-3"> What You Get</h2>
                     <p class="text-muted">Comprehensive financial services tailored to your business needs</p>
@@ -36,7 +36,7 @@ $title = "Virtual CFO | Acculedger KPO";
 
             <div class="row g-4">
                 <!-- Financial Planning & Budgeting -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -49,7 +49,7 @@ $title = "Virtual CFO | Acculedger KPO";
                 </div>
 
                 <!-- Cash Flow & Working Capital Management -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -62,7 +62,7 @@ $title = "Virtual CFO | Acculedger KPO";
                 </div>
 
                 <!-- Financial Reporting & Forecasting -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -75,7 +75,7 @@ $title = "Virtual CFO | Acculedger KPO";
                 </div>
 
                 <!-- Business Performance Analysis -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -88,7 +88,7 @@ $title = "Virtual CFO | Acculedger KPO";
                 </div>
 
                 <!-- Tax and Compliance Advisory -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -101,7 +101,7 @@ $title = "Virtual CFO | Acculedger KPO";
                 </div>
 
                 <!-- Additional Service Placeholder -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 border-0 shadow-sm service-item">
                         <div class="card-body text-center p-4">
                             <div class="service-icon mx-auto">
@@ -121,7 +121,7 @@ $title = "Virtual CFO | Acculedger KPO";
     <section class="services-section-2 py-5 bg-light">
         <div class="container">
 
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center mb-5" data-aos="fade-in" data-aos-duration="1000">
                 <div class="col-10">
                     <h2 class="section-title mb-0 text-black">Benefits of Outsourcing Virtual CFO Services with Acculedger KPO</h2>
                     <p class="text-center text-muted">Unlock strategic financial support and streamline your CPA operations by partnering with our experienced Virtual CFOs. Here’s how Acculedger KPO LLP adds value to your accounting practice</p>
@@ -129,7 +129,7 @@ $title = "Virtual CFO | Acculedger KPO";
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-indian-rupee-sign" style="font-size: 2rem;"></i>
@@ -141,7 +141,7 @@ $title = "Virtual CFO | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-chart-line" style="font-size: 2rem;"></i>
@@ -153,7 +153,7 @@ $title = "Virtual CFO | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-hand-holding-dollar" style="font-size: 2rem;"></i>
@@ -165,7 +165,7 @@ $title = "Virtual CFO | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-gears" style="font-size: 2rem;"></i>
@@ -177,7 +177,7 @@ $title = "Virtual CFO | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-folder-open" style="font-size: 2rem;"></i>
@@ -189,7 +189,7 @@ $title = "Virtual CFO | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fa-solid fa-coins" style="font-size: 2rem;"></i>

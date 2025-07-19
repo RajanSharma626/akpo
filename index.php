@@ -441,96 +441,111 @@ include('includes/head.php');
             <div class="services-grid">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-file-invoice"></i>
+                        <a href="bookkeeping-and-accounting">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-file-invoice"></i>
+                                </div>
+                                <h3 class="service-title">Bookkeeping and Accounting Services</h3>
                             </div>
-                            <h3 class="service-title">Bookkeeping and Accounting Services</h3>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-users-cog"></i>
+                        <a href="us-taxation">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <h3 class="service-title">US Taxation Services</h3>
                             </div>
-                            <h3 class="service-title">US Taxation Services</h3>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-chart-line"></i>
+                        <a href="payroll">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3 class="service-title">Payroll Services</h3>
                             </div>
-                            <h3 class="service-title">Payroll Services</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-money-check-alt"></i>
-                            </div>
-                            <h3 class="service-title">Sale Tax Services</h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-clipboard-check"></i>
-                            </div>
-                            <h3 class="service-title">Reconciliation Services</h3>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-chart-bar"></i>
+                        <a href="sale-tax">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-money-check-alt"></i>
+                                </div>
+                                <h3 class="service-title">Sale Tax Services</h3>
                             </div>
-                            <h3 class="service-title">AR & AP Management</h3>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-file-alt"></i>
+                        <a href="bank-account-reconcillation">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-clipboard-check"></i>
+                                </div>
+                                <h3 class="service-title">Reconciliation Services</h3>
                             </div>
-                            <h3 class="service-title">Year End Services</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <h3 class="service-title">Audit and Assurance</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-user-tie"></i>
-                            </div>
-                            <h3 class="service-title"> Virtual CFO</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                        <div class="service-card-2">
-                            <div class="service-icon">
-                                <i class="fas fa-comments"></i>
-                            </div>
-                            <h3 class="service-title"> Management Consultation</h3>
-                        </div>
+                        </a>
                     </div>
 
-                    <!-- <div class="col-lg-6 col-md-6 d-flex justify-content-end align-items-end" data-aos="fade-left"
-                        data-aos-duration="1000">
-                        <a href="" class="view-all-btn w-100">View All</a>
-                    </div> -->
+                    <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                        <a href="ar-ap-management">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <h3 class="service-title">AR & AP Management</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <a href="year-end">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <h3 class="service-title">Year End Services</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                        <a href="audit-assurance">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <h3 class="service-title">Audit and Assurance</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <a href="virtual-cfo">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <h3 class="service-title"> Virtual CFO</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                        <a href="management-consultation">
+                            <div class="service-card-2">
+                                <div class="service-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3 class="service-title"> Management Consultation</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -550,112 +565,22 @@ include('includes/head.php');
             </div>
 
             <div class="testimonials-slider">
-                <!-- Testimonial 1 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">John Peterson</h3>
-                    <p class="client-company">CFO, TechGrid Solutions, California, USA</p>
-                    <p class="testimonial-text">
-                        Acculedger KPO has transformed how we manage our books.
-                        Their team delivers accurate, timely reports with zero hassle. As a startup, their virtual bookkeeping service helped us focus on growth instead of paperwork.
-                        Highly recommended for anyone looking for expert bookkeeping services in the USA.
-                    </p>
-                </div>
 
-                <!-- Testimonial 2 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Emily Carter</h3>
-                    <p class="client-company">Small Business Owner, Austin, Texas, USA</p>
-                    <p class="testimonial-text">
-                        We’ve tried multiple accounting services, but Acculedger KPO stands out.
-                        Their attention to detail, responsiveness, and understanding of U.S. tax systems is exceptional.
-                        Our monthly closing process is now fast, clean, and consistent.
-                        They’re the best partner for reliable bookkeeping in the USA.
-                    </p>
-                </div>
+                <?php
+                // Fetch member
+                $sql = "SELECT * FROM testimonial";
+                $result = mysqli_query($conn, $sql);
+                while ($comment = mysqli_fetch_assoc($result)):
+                ?>
+                    <div class="card p-5 m-2 border-0 bg-light">
+                        <h3 class="client-name mb-0"><?php echo $comment['title'] ?></h3>
+                        <p class="client-company"><?php echo $comment['subtitle'] ?></p>
+                        <p class="testimonial-text">
+                            <?php echo $comment['comment'] ?>
+                        </p>
+                    </div>
+                <?php endwhile; ?>
 
-                <!-- Testimonial 3 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Michael Green</h3>
-                    <p class="client-company">Operations Manager, Denver, Colorado, USA</p>
-                    <p class="testimonial-text">
-                        Acculedger KPO brought structure and visibility to our finances.
-                        Their team is knowledgeable, responsive, and always on top of our books.
-                        Thanks to their monthly reports and reconciliations, we now have accurate data to make smart business decisions.
-                        Excellent bookkeeping services for U.S.-based companies.
-                    </p>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Rachel Smith</h3>
-                    <p class="client-company">Co-Founder, Leaf & Co., Miami, Florida, USA</p>
-                    <p class="testimonial-text">
-                        I was skeptical about outsourcing bookkeeping, but Acculedger KPO changed that.
-                        They’re efficient, trustworthy, and deliver reports that are easy to understand.
-                        As a service-based business in the USA, we’ve seen huge improvements in financial clarity and time savings.
-                        They’re now a key part of our workflow.
-                    </p>
-                </div>
-
-                <!-- Testimonial 5 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Thomas Wright</h3>
-                    <p class="client-company">Startup Advisor, Seattle, Washington, USA</p>
-                    <p class="testimonial-text">
-                        Acculedger KPO has helped us stay tax-ready all year round.
-                        Their team knows U.S. bookkeeping standards inside out and works proactively.
-                        We’ve cut down on year-end accounting stress thanks to their accurate monthly reports and timely entries.
-                        Top-tier virtual bookkeeping service in the USA.
-                    </p>
-                </div>
-
-                <!-- Testimonial 6 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Sarah Lopez</h3>
-                    <p class="client-company">eCommerce Owner, New York City, USA</p>
-                    <p class="testimonial-text">
-                        If you want professional bookkeeping without hiring in-house, go with Acculedger KPO.
-                        They handle everything categorization, bank reconciliation, payroll records with perfection.
-                        Their communication is always clear and professional.
-                        A smart choice for U.S. businesses seeking virtual accounting help.
-                    </p>
-                </div>
-
-                <!-- Testimonial 7 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">David Johnson</h3>
-                    <p class="client-company">Consultant, Chicago, Illinois, USA</p>
-                    <p class="testimonial-text">
-                        Acculedger KPO delivers big results with zero friction.
-                        From onboarding to monthly reporting, their process is seamless and stress-free.
-                        They helped us transition from spreadsheets to proper accounting tools without a hitch.
-                        Exceptional bookkeeping support for small businesses in the USA.
-                    </p>
-                </div>
-
-                <!-- Testimonial 8 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Olivia Martin</h3>
-                    <p class="client-company">Freelancer, Los Angeles, California, USA</p>
-                    <p class="testimonial-text">
-                        The team at Acculedger KPO is organized, punctual, and always responsive.
-                        Our books were a mess before now everything is clean, categorized, and audit-ready.
-                        We’ve saved time and gained confidence in our numbers.
-                        They’re our go-to bookkeeping experts in the U.S.
-                    </p>
-                </div>
-
-                <!-- Testimonial 9 -->
-                <div class="card p-5 m-2 border-0 bg-light">
-                    <h3 class="client-name mb-0">Jessica Hill</h3>
-                    <p class="client-company">Owner, Hill Marketing Group, Phoenix, Arizona, USA</p>
-                    <p class="testimonial-text">
-                        Acculedger KPO took over our bookkeeping with professionalism and precision.
-                        They delivered every report on time, flagged issues proactively, and made our finances more predictable.
-                        Their U.S. compliant accounting support is worth every dollar.
-                        Great value for service-based businesses needing dependable bookkeeping.
-                    </p>
-                </div>
             </div>
         </div>
     </section>

@@ -13,12 +13,10 @@ $title = "AR & AP Management | Acculedger KPO";
     ?>
 
 
-
-
     <section class="acculedger-faq-hero ar-ap-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 text-start">
+                <div class="col-md-6 col-12 text-start" data-aos="fade-in" data-aos-duration="1000">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">AR & AP Management </h1>
                     <p class="text-start text-white">Streamline your cash flow with our AR & AP management services. </p>
@@ -30,7 +28,7 @@ $title = "AR & AP Management | Acculedger KPO";
 
     <section class="services-overview py-5 bg-light">
         <div class="container">
-            <div class="row justify-content-center text-center mb-5">
+            <div class="row justify-content-center text-center mb-5" data-aos="fade-in" data-aos-duration="1000">
                 <div class="col-lg-8">
                     <h2 class="section-title mb-1 text-black">Our AR & AP Management Services Include:</h2>
                     <p class="service-description">
@@ -42,7 +40,7 @@ $title = "AR & AP Management | Acculedger KPO";
 
             <div class="row g-4">
                 <!-- Service 1: Optimized Cash Flow Management -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -60,7 +58,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 2: Timely Invoicing and Payments -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -78,7 +76,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 3: Accurate Recordkeeping -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -96,7 +94,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 4: Vendor and Customer Relationship Management -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -114,7 +112,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 5: Compliance and Audit Readiness -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -132,7 +130,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 6: Custom Reporting and Insights -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -150,7 +148,7 @@ $title = "AR & AP Management | Acculedger KPO";
                 </div>
 
                 <!-- Service 7: Automate AR & AP Cycle -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card h-100 rounded-4 p-5">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -171,7 +169,7 @@ $title = "AR & AP Management | Acculedger KPO";
     </section>
 
 
-        <?php
+    <?php
     @include 'includes/software.php';
     @include 'includes/blogs.php';
     @include 'includes/contact.php';

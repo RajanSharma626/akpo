@@ -18,9 +18,9 @@ $title = "Payroll | Acculedger KPO";
             <div class="row">
                 <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
-                    <h1 class="acculedger-faq-hero-title text-white text-start">Payroll</h1>
-                    <p class="text-start text-white">At Acculedger, we offer seamless payroll outsourcing services tailored to your business. Our expert team ensures accurate, timely payroll processing while maintaining full compliance. </p>
-                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
+                    <h1 class="acculedger-faq-hero-title text-white text-start" data-aos="fade-in" data-aos-duration="1000">Payroll</h1>
+                    <p class="text-start text-white" data-aos="fade-in" data-aos-duration="1000">At Acculedger, we offer seamless payroll outsourcing services tailored to your business. Our expert team ensures accurate, timely payroll processing while maintaining full compliance. </p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2" data-aos="fade-in" data-aos-duration="1000">Get Started</a>
                 </div>
             </div>
         </div>
@@ -28,13 +28,13 @@ $title = "Payroll | Acculedger KPO";
 
     <section class="service-features-section py-5 bg-light">
         <div class="container">
-            <h2 class="text-center fw-bold mb-1">Complete Payroll Solutions</h2>
-            <p class="text-center text-muted mb-5 service-description">From processing to compliance, we handle every aspect of payroll
+            <h2 class="text-center fw-bold mb-1" data-aos="fade-in" data-aos-duration="1000">Complete Payroll Solutions</h2>
+            <p class="text-center text-muted mb-5 service-description" data-aos="fade-in" data-aos-duration="1000">From processing to compliance, we handle every aspect of payroll
                 management so you can focus on growing your business with confidence.</p>
 
             <div class="row g-4">
                 <!-- Service 1: Payroll Processing & Administration -->
-                <div class="col-lg-12">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 rounded-4">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -96,7 +96,7 @@ $title = "Payroll | Acculedger KPO";
                 </div>
 
                 <!-- Service 2: Payroll Tax Filing -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card tax-filing p-5 rounded-4 h-100">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">
@@ -147,7 +147,7 @@ $title = "Payroll | Acculedger KPO";
                 </div>
 
                 <!-- Service 3: Time & Attendance Integration -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card time-attendance p-5 rounded-4 h-100">
                         <div class="service-header d-flex">
                             <div class="service-icon rounded-4">

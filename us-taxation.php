@@ -18,9 +18,9 @@ $title = "US Taxation | Acculedger KPO";
             <div class="row">
                 <div class="col-md-6 col-12 text-start">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
-                    <h1 class="acculedger-faq-hero-title text-white text-start">US Taxation</h1>
-                    <p class="text-start text-white">Navigate tax season effortlessly with our expert outsourcing services. Ensure compliance, maximize savings, and focus on growth with accurate, timely tax preparation tailored to your business needs.</p>
-                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2">Get Started</a>
+                    <h1 class="acculedger-faq-hero-title text-white text-start" data-aos="fade-in" data-aos-duration="1000">US Taxation</h1>
+                    <p class="text-start text-white" data-aos="fade-in" data-aos-duration="1000">Navigate tax season effortlessly with our expert outsourcing services. Ensure compliance, maximize savings, and focus on growth with accurate, timely tax preparation tailored to your business needs.</p>
+                    <a href="contact-us" class="btn primary-bg rounded-pill px-4 py-2" data-aos="fade-in" data-aos-duration="1000">Get Started</a>
                 </div>
             </div>
         </div>
@@ -28,14 +28,14 @@ $title = "US Taxation | Acculedger KPO";
 
     <section class="service-features-section py-5 bg-light">
         <div class="container">
-            <h2 class="text-center fw-bold">Comprehensive Tax Solutions</h2>
-            <p class="text-center text-muted service-description">From individual returns to complex business filings, we handle all aspects
+            <h2 class="text-center fw-bold" data-aos="fade-in" data-aos-duration="1000">Comprehensive Tax Solutions</h2>
+            <p class="text-center text-muted service-description" data-aos="fade-in" data-aos-duration="1000">From individual returns to complex business filings, we handle all aspects
                 of US taxation with precision and expertise.</p>
 
 
             <div class="row g-4 mt-5">
                 <!-- Service 1: Individual Tax Preparation -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 individual-tax">
                         <div class="service-header">
                             <div class="service-icon">
@@ -74,7 +74,7 @@ $title = "US Taxation | Acculedger KPO";
                 </div>
 
                 <!-- Service 2: Business Tax Preparation -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 business-tax">
                         <div class="service-header">
                             <div class="service-icon">
@@ -113,7 +113,7 @@ $title = "US Taxation | Acculedger KPO";
                 </div>
 
                 <!-- Service 3: LLC & Partnership -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 partnership-tax">
                         <div class="service-header">
                             <div class="service-icon">
@@ -152,7 +152,7 @@ $title = "US Taxation | Acculedger KPO";
                 </div>
 
                 <!-- Service 4: Form 1099 Services -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 form-1099">
                         <div class="service-header">
                             <div class="service-icon">
@@ -191,7 +191,7 @@ $title = "US Taxation | Acculedger KPO";
                 </div>
 
                 <!-- Service 5: Tax Planning and Forecasting -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 tax-planning">
                         <div class="service-header">
                             <div class="service-icon">
@@ -229,7 +229,7 @@ $title = "US Taxation | Acculedger KPO";
                 </div>
 
                 <!-- Service 6: State and Local Taxes (SALT) -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card p-5 salt-tax">
                         <div class="service-header">
                             <div class="service-icon">

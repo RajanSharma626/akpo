@@ -16,7 +16,7 @@ $title = "Audit and Assurance | Acculedger KPO";
     <section class="acculedger-faq-hero audit-assurance-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12 text-start">
+                <div class="col-md-6 col-12 text-start" data-aos="fade-in" data-aos-duration="1000">
                     <!-- <p class="section-subtitle mb-0 primary-color text-start"></p> -->
                     <h1 class="acculedger-faq-hero-title text-white text-start">Audit and Assurance</h1>
                     <p class="text-start text-white">As a trusted outsourcing partner, we offer reliable audit and assurance
@@ -31,10 +31,10 @@ $title = "Audit and Assurance | Acculedger KPO";
     <!-- Services Section -->
     <section class="services-section-2 py-5 bg-light">
         <div class="container">
-            <h2 class="section-title text-black">Our Offerings Include</h2>
+            <h2 class="section-title text-black" data-aos="fade-in" data-aos-duration="1000">Our Offerings Include</h2>
 
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-clipboard-check"></i>
@@ -47,7 +47,7 @@ $title = "Audit and Assurance | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-file-invoice-dollar"></i>
@@ -60,7 +60,7 @@ $title = "Audit and Assurance | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-cogs"></i>
@@ -73,7 +73,7 @@ $title = "Audit and Assurance | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-shield-alt"></i>
@@ -86,7 +86,7 @@ $title = "Audit and Assurance | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-search-dollar"></i>
@@ -99,7 +99,7 @@ $title = "Audit and Assurance | Acculedger KPO";
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="year-end-service-card">
                         <div class="year-end-service-icon">
                             <i class="fas fa-tasks"></i>

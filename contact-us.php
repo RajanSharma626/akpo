@@ -4,6 +4,51 @@
 <?php
 $title = "Contact Us | Acculedger KPO";
 @include 'includes/head.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitize inputs
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $company = mysqli_real_escape_string($conn, $_POST['company']);
+    $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+    $message = mysqli_real_escape_string($conn, $_POST['message']);
+
+    // Combine services into one string separated by ;
+    $servicesArray = isset($_POST['services']) ? $_POST['services'] : [];
+    $services = implode("; ", $servicesArray);
+
+    // Insert into DB
+    $sql = "INSERT INTO contact_form (name, email, company, phone, services, message)
+            VALUES ('$name', '$email', '$company', '$phone', '$services', '$message')";
+
+    if (mysqli_query($conn, $sql)) {
+
+        // Send Email Notification
+        $to = "info@acculedgerkpo.com"; // Replace with your receiving email address
+        $subject = "New Contact Form Submission from Acculedger KPO Website";
+        $headers = "From: noreply@acculedgerkpo.com\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+        $body = "
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> $name</p>
+        <p><strong>Email:</strong> $email</p>
+        <p><strong>Company:</strong> $company</p>
+        <p><strong>Phone:</strong> $phone</p>
+        <p><strong>Services Interested In:</strong> $services</p>
+        <p><strong>Message:</strong><br>$message</p>
+        ";
+
+        mail($to, $subject, $body, $headers);
+
+        header("Location: ./contact-us?status=1");
+        exit();
+    } else {
+        header("Location: ./contact-us?status=0");
+        exit();
+    }
+}
 ?>
 
 <body>
@@ -17,7 +62,7 @@ $title = "Contact Us | Acculedger KPO";
     <section class="acculedger-faq-hero contact-us-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-in" data-aos-duration="1000">
                     <p class="section-subtitle mb-0 primary-color text-start">Get in Touch with Acculedger KPO</p>
                     <h1 class="acculedger-faq-hero-title text-white text-start">Reliable Support. Real-Time Answers</h1>
                     <p class="text-start text-white"> Have a question or need expert KPO support? </p>
@@ -26,7 +71,7 @@ $title = "Contact Us | Acculedger KPO";
         </div>
     </section>
 
-    <section class="contact-section-header py-3">
+    <section class="contact-section-header py-3 " data-aos="fade-in" data-aos-duration="1000">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="fs-sm-12 fs-md-5 ">
@@ -53,22 +98,30 @@ $title = "Contact Us | Acculedger KPO";
             </div>
 
             <div class="form-container pb-5">
-                <form>
+                <form method="post" action="">
+
+                    <?php
+                    if (isset($_GET['status']) && $_GET['status'] == 1) {
+                        echo '<div class="alert alert-success">Thank you for reaching out! We have received your message and will get back to you shortly.</div>';
+                    } elseif (isset($_GET['status']) && $_GET['status'] == 0) {
+                        echo '<div class="alert alert-danger">Oops! Something went wrong. Please try again!</div>';
+                    }
+                    ?>
                     <div class="row mb-4">
                         <div class="col-md-6 mb-3 mb-md-0">
-                            <input type="text" class="form-control py-3" placeholder="Name" required>
+                            <input type="text" class="form-control py-3" name="name" placeholder="Name" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control py-3 " placeholder="Email Id" required>
+                            <input type="email" class="form-control py-3 " name="email" placeholder="Email Id" required>
                         </div>
                     </div>
 
                     <div class="row mb-4">
                         <div class="col-md-6 mb-3 mb-md-0">
-                            <input type="text" class="form-control py-3" placeholder="Company Name:">
+                            <input type="text" class="form-control py-3" name="company" placeholder="Company Name">
                         </div>
                         <div class="col-md-6">
-                            <input type="tel" class="form-control py-3" placeholder="Phone No.">
+                            <input type="tel" class="form-control py-3" name="phone" placeholder="Phone No.">
                         </div>
                     </div>
 
@@ -79,25 +132,25 @@ $title = "Contact Us | Acculedger KPO";
                         <div class="row service-options">
                             <div class="col-md-4">
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Bookkeeping and Accounting" id="service-bookkeeping">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Bookkeeping and Accounting" id="service-bookkeeping">
                                     <label class="form-check-label" for="service-bookkeeping">
                                         Bookkeeping and Accounting
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="US Taxation" id="service-ustax">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="US Taxation" id="service-ustax">
                                     <label class="form-check-label" for="service-ustax">
                                         US Taxation
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Payroll" id="service-payroll">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Payroll" id="service-payroll">
                                     <label class="form-check-label" for="service-payroll">
                                         Payroll
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Sale Tax" id="service-saletax">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Sale Tax" id="service-saletax">
                                     <label class="form-check-label" for="service-saletax">
                                         Sale Tax
                                     </label>
@@ -105,25 +158,25 @@ $title = "Contact Us | Acculedger KPO";
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Bank Account Reconciliation" id="service-bankrec">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Bank Account Reconciliation" id="service-bankrec">
                                     <label class="form-check-label" for="service-bankrec">
                                         Bank Account Reconciliation
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="AR & AP Management" id="service-arap">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="AR & AP Management" id="service-arap">
                                     <label class="form-check-label" for="service-arap">
                                         AR & AP Management
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Year End Services" id="service-yearend">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Year End Services" id="service-yearend">
                                     <label class="form-check-label" for="service-yearend">
                                         Year End Services
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Audit and Assurance" id="service-audit">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Audit and Assurance" id="service-audit">
                                     <label class="form-check-label" for="service-audit">
                                         Audit and Assurance
                                     </label>
@@ -131,13 +184,13 @@ $title = "Contact Us | Acculedger KPO";
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Virtual CFO" id="service-vcfo">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Virtual CFO" id="service-vcfo">
                                     <label class="form-check-label" for="service-vcfo">
                                         Virtual CFO
                                     </label>
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="Management Consultation" id="service-mgmt">
+                                    <input class="form-check-input" type="checkbox" name="services[]" value="Management Consultation" id="service-mgmt">
                                     <label class="form-check-label" for="service-mgmt">
                                         Management Consultation
                                     </label>
@@ -147,7 +200,7 @@ $title = "Contact Us | Acculedger KPO";
                     </div>
 
                     <div class="mb-4">
-                        <textarea class="form-control" placeholder="Tell us briefly how we can support your business."
+                        <textarea class="form-control" name="message" placeholder="Tell us briefly how we can support your business."
                             rows="6"></textarea>
                     </div>
 
@@ -171,7 +224,7 @@ $title = "Contact Us | Acculedger KPO";
     </section>
 
     <!-- CTA Section for 30-Minute Meeting -->
-    <section class="cta-section">
+    <section class="cta-section" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto">

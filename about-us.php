@@ -70,7 +70,7 @@ $title = "About Us";
                                     aria-expanded="false">
                                     Resources
                                 </a>
-                               <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
                                     <li class=" p-1">
                                         <a class="dropdown-item bg-light p-2 rounded" href="blogs">
                                             <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
@@ -164,19 +164,19 @@ $title = "About Us";
                             <a class="nav-link dropdown-toggle" href="#" id="mobileResourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
-                           <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
-                                    <li class=" p-1">
-                                        <a class="dropdown-item bg-light p-2 rounded" href="blogs">
-                                            <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
-                                        </a>
-                                    </li>
-                                    <li class=" p-1">
-                                        <a class="dropdown-item bg-light p-2 rounded" href="faq">
-                                            <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
-                                        </a>
-                                    </li>
+                            <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="blogs">
+                                        <i class="bi bi-journal-text primary-color fs-4"></i>&nbsp; Blog
+                                    </a>
+                                </li>
+                                <li class=" p-1">
+                                    <a class="dropdown-item bg-light p-2 rounded" href="faq">
+                                        <i class="bi bi-question-circle primary-color fs-4"></i>&nbsp; FAQ
+                                    </a>
+                                </li>
 
-                                </ul>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="btn primary-btn rounded-pill w-100 my-2" href="contact-us">Let's Connect</a>
@@ -203,7 +203,7 @@ $title = "About Us";
     <section class="our-company-section py-5 bg-light">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7 col-12">
+                <div class="col-md-7 col-12" data-aos="fade-right" data-aos-duration="1000">
                     <p class="primary-color mb-0">Our Company</p>
                     <h3 class="fw-bold mb-4">
                         At ACCULEDGER KPO
@@ -222,7 +222,7 @@ $title = "About Us";
                         thrive.
                     </p>
                 </div>
-                <div class="col-md-5 col-12 p-5 text-center">
+                <div class="col-md-5 col-12 p-5 text-center" data-aos="fade-left" data-aos-duration="1000">
                     <img src="assets/images/logo/about-logo.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -232,12 +232,12 @@ $title = "About Us";
     <section class="team-excursion-section py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12 d-none d-md-block">
+                <div class="col-md-6 col-12 d-none d-md-block" data-aos="fade-right" data-aos-duration="1000">
                     <img src="assets/images/our-team-journey.png"
                         class="img-fluid" alt="">
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-left" data-aos-duration="1000">
                     <p class="primary-color mb-0">Team Excursion</p>
                     <h3 class="fw-bold mb-4">
                         Our team’s journey
@@ -262,7 +262,7 @@ $title = "About Us";
                     </p>
                 </div>
 
-                <div class="col-md-6 col-12 d-md-none">
+                <div class="col-md-6 col-12 d-md-none" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/images/our-team-journey.png"
                         class="img-fluid" alt="">
                 </div>
@@ -278,7 +278,7 @@ $title = "About Us";
             <!-- Vision and Mission Cards -->
             <div class="row g-4">
                 <!-- Vision Card -->
-                <div class="col-lg-6 fade-in">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="vision-mission-card">
                         <div class="card-icon">
                             <i class="fas fa-eye"></i>
@@ -297,7 +297,7 @@ $title = "About Us";
                 </div>
 
                 <!-- Mission Card -->
-                <div class="col-lg-6 fade-in">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                     <div class="vision-mission-card">
                         <div class="card-icon">
                             <i class="fas fa-bullseye"></i>
@@ -334,7 +334,7 @@ $title = "About Us";
             </div>
 
 
-            <div class="procedures-wrapper py-5">
+            <div class="procedures-wrapper py-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="timeline-container">
                     <!-- Main timeline line -->
                     <div class="timeline-line"></div>
@@ -492,11 +492,11 @@ $title = "About Us";
     <section class="security-controls-section py-5 bg-light">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-right" data-aos-duration="1000">
                     <img src="assets/images/security-controls.png"
                         class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-left" data-aos-duration="1000">
                     <p class="primary-color mb-0">Security Controls</p>
                     <h3 class="fw-bold mb-4">
                         At <span class="primary-color">Acculedger KPO</span>, data protection is our top priority.
@@ -544,7 +544,7 @@ $title = "About Us";
     <section class="our-location-section py-5">
         <div class="container py-3">
             <div class="row align-items-center">
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-duration="1000">
                     <h2 class="primary-color mb-0">Our Location</h2>
                     <h5 class="fs-4 mb-4 text-white">
                         Global Presence, Regional Expertise
@@ -566,31 +566,20 @@ $title = "About Us";
             <h3 class="fw-bold mb-4">
                 Guided by Visionary Leaders
             </h3>
-            <div class="team-slider">
-                <div class="team-card text-center p-3 d-flex flex-column align-items-center">
-                    <img src="https://img.freepik.com/premium-photo/professional-male-entrepreneur-hd-8k-wallpaper-stock-photographic-image_1033957-28697.jpg"
-                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="CA Meet Boghan">
-                    <h5 class="fw-bold mb-1">Meet Boghani, CPA, CA</h5>
-                    <p class="text-muted mb-0">Founder</p>
-                </div>
-                <div class="team-card text-center p-3 d-flex flex-column align-items-center">
-                    <img src="https://img.freepik.com/premium-photo/lifes-going-my-way-man-conptemorary-suit-smiling-camera-with-his-arms-folded_590464-19745.jpg?w=900"
-                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="CA Naimish Sarkheliya">
-                    <h5 class="fw-bold mb-1">Naimish Sarkheliya, CA</h5>
-                    <p class="text-muted mb-0">Co founder</p>
-                </div>
-                <div class="team-card text-center p-3 d-flex flex-column align-items-center">
-                    <img src="https://img.freepik.com/free-photo/portrait-elegant-professional-businessman_23-2150917272.jpg?t=st=1749715590~exp=1749719190~hmac=27d0007b010feaa81f3c6b9a9b0da10ca284682c2d8656251c10e1b38c889e16&w=900"
-                        class="rounded-circle mb-3 mx-auto d-block shadow img-fluid" alt="CA Pratik visaveliya">
-                    <h5 class="fw-bold mb-1">Pratik Visaveliya, CA</h5>
-                    <p class="text-muted mb-0">Co founder</p>
-                </div>
-                <div class="team-card text-center p-3 d-flex flex-column align-items-center">
-                    <img src="https://img.freepik.com/free-photo/close-up-young-businessman-holding-disposable-coffee-cup-hand-looking-camera_23-2148176166.jpg"
-                        class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="CA Jay Pansuriya">
-                    <h5 class="fw-bold mb-1">Jay Pansuriya, CA</h5>
-                    <p class="text-muted mb-0"> Co founder</p>
-                </div>
+            <div class="team-slider" data-aos="fade-up" data-aos-duration="1000">
+                <?php
+                // Fetch member
+                $sql = "SELECT * FROM team";
+                $result = mysqli_query($conn, $sql);
+                while ($member = mysqli_fetch_assoc($result)):
+                ?>
+                    <div class="team-card text-center p-3 d-flex flex-column align-items-center">
+                        <img src="admin/<?php echo $member['profile'] ?>"
+                            class="rounded-circle mb-3 mx-auto d-block img-fluid shadow" alt="CA Meet Boghan">
+                        <h5 class="fw-bold mb-1"><?php echo $member['name'] ?></h5>
+                        <p class="text-muted mb-0"><?php echo $member['designation'] ?></p>
+                    </div>
+                <?php endwhile; ?>
             </div>
         </div>
     </section>
