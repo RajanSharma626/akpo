@@ -49,12 +49,12 @@ include('includes/head.php');
                                     <li class="nav-item">
                                         <a class="nav-link text-white px-3 text-shadow " href="about-us">About Us</a>
                                     </li>
-                                    <li class="nav-item dropdown mega-dropdown">
-                                        <a class="nav-link px-3 dropdown-toggle text-white" href="#" id="servicesDropdown"
-                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <!-- Mobile Dropdown (unchanged, for mobile only) -->
+                                    <li class="nav-item dropdown d-lg-none">
+                                        <a class="nav-link dropdown-toggle" href="#" id="mobileServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Services
                                         </a>
-                                        <ul class="dropdown-menu px-3" aria-labelledby="resourcesDropdown">
+                                        <ul class="dropdown-menu px-3" aria-labelledby="mobileServicesDropdown">
                                             <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="bookkeeping-and-accounting">
                                                     <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services</a></li>
                                             <li class="mb-2 p-1"><a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
@@ -90,7 +90,74 @@ include('includes/head.php');
                                                     <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation</a>
                                             </li>
                                         </ul>
-
+                                    </li>
+                                    <!-- Desktop Services Mega Dropdown (visible only on lg and up) -->
+                                    <li class="nav-item dropdown d-none d-lg-block">
+                                        <a class="nav-link dropdown-toggle text-white px-3 text-shadow" href="#" id="desktopServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="desktopServicesDropdown" style="min-width: 600px;">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded text-truncate" href="bookkeeping-and-accounting">
+                                                                <i class="fas fa-file-invoice primary-color fs-4"></i> &nbsp; Bookkeeping and Accounting Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="us-taxation">
+                                                                <i class="fas fa-users-cog primary-color fs-4"></i>&nbsp; US Taxation Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="payroll">
+                                                                <i class="fas fa-chart-line primary-color fs-4"></i>&nbsp; Payroll Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="sale-tax">
+                                                                <i class="fas fa-money-check-alt primary-color fs-4"></i>&nbsp; Sale Tax Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="bank-account-reconcillation">
+                                                                <i class="fas fa-clipboard-check primary-color fs-4"></i>&nbsp; Reconciliation Services
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-6">
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="ar-ap-management">
+                                                                <i class="fas fa-chart-bar primary-color fs-4"></i>&nbsp; AR & AP Management
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="year-end">
+                                                                <i class="fas fa-file-alt primary-color fs-4"></i>&nbsp; Year End Services
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="audit-assurance">
+                                                                <i class="fas fa-search primary-color fs-4"></i>&nbsp; Audit and Assurance
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="virtual-cfo">
+                                                                <i class="fas fa-user-tie primary-color fs-4"></i>&nbsp; Virtual CFO
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-2 p-1">
+                                                            <a class="dropdown-item bg-light p-2 rounded" href="management-consultation">
+                                                                <i class="fas fa-comments primary-color fs-4"></i>&nbsp; Management Consultation
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle text-white px-3 text-shadow" href="#"
@@ -351,7 +418,7 @@ include('includes/head.php');
                 </h3>
                 <p>
 
-                    For nearly two decades, <span class="primary-color">ACCULEDGER KPO </span> has been the trusted partner of U.S. based CPAs, EAs, and accounting firms, delivering efficient, compliant, and scalable outsourcing solutions for all businesses. Our mission is to empower your firm to focus on building client relationships and driving growth while we expertly manage your accounting and tax back-office functions.
+                    <span class="primary-color">ACCULEDGER KPO </span> has been the trusted partner of U.S. based CPAs, EAs, and accounting firms, delivering efficient, compliant, and scalable outsourcing solutions for all businesses. Our mission is to empower your firm to focus on building client relationships and driving growth while we expertly manage your accounting and tax back-office functions.
 
                 </p>
                 <p>

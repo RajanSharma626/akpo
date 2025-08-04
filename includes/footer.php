@@ -105,7 +105,7 @@
              <!-- Grid column -->
              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i>Office 1 : 514 AR Mall, Opp Panavel Point, Mota varachha, Surat, Gujrat - 394101</p>
+                 <p class="mb-2"><i class="bi bi-geo-alt me-3"></i>Office 1 : 514 AR Mall, Opp Panavel Point, Mota varachha, Surat, Gujarat - 394101</p>
                  <p class="mb-2"><i class="bi bi-geo-alt me-3"></i>Office 2 : 805 Millennium Business Hub, Opp Sarthana Nature Park, Sarthana Jakatnaka, Surat-395006</p>
              </div>
              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">

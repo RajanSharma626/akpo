@@ -503,7 +503,7 @@ $title = "About Us";
                     </h3>
 
                     <p>
-                        As an <b>ISO 27001:2013 certified</b> organization, we implement comprehensive security
+                        We implement comprehensive security
                         protocols to
                         ensure the confidentiality, integrity, and availability of your sensitive information.
                     </p>
