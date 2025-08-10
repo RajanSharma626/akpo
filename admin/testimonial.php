@@ -78,12 +78,15 @@ if (isset($_GET['delId'])) {
                                             echo "<td>{$testimonial['title']}</td>";
                                             echo "<td>{$testimonial['subtitle']}</td>";
                                             echo "<td>{$testimonial['comment']}</td>";
-                                            echo `<td><a href='./edit-testimonial?id={$testimonial['id']}' class='btn btn-warning btn-sm'>Edit</a> 
-                                                  <a href='?delId={$testimonial['id']}' class='btn btn-danger btn-sm' onclick="return confirm('Are you sure you want to delete this Comment?');">Delete</a></td>`;
+                                            echo "<td>
+            <a href='./edit-testimonial?id={$testimonial['id']}' class='btn btn-warning btn-sm'>Edit</a> 
+            <a href='?delId={$testimonial['id']}' class='btn btn-danger btn-sm' onclick=\"return confirm('Are you sure you want to delete this Comment?');\">Delete</a>
+          </td>";
                                             echo "</tr>";
 
                                             $sno++;
                                         }
+
                                         ?>
                                     </tbody>
                                 </table>

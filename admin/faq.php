@@ -76,8 +76,10 @@ if (isset($_GET['delId'])) {
                                             echo "<td>{$sno}</td>";
                                             echo "<td>{$faq['question']}</td>";
                                             echo "<td>{$faq['answer']}</td>";
-                                            echo `<td><a href='./edit-faq?id={$faq['id']}' class='btn btn-warning btn-sm'>Edit</a> 
-                                                  <a href='?delId={$faq['id']}' class='btn btn-danger btn-sm' onclick="return confirm('Are you sure you want to delete this FAQ?');">Delete</a></td>`;
+                                                  echo "<td>
+            <a href='./edit-faq?id={$faq['id']}' class='btn btn-warning btn-sm'>Edit</a> 
+            <a href='?delId={$faq['id']}' class='btn btn-danger btn-sm' onclick=\"return confirm('Are you sure you want to delete this FAQ?');\">Delete</a>
+          </td>";
                                             echo "</tr>";
 
                                             $sno++;
