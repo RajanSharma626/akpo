@@ -383,8 +383,8 @@ include('includes/head.php');
                             <div class="card p-3 shadow service-card h-100">
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Virtual CFO</div>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, magnam.</p>
-                                <a href="xero-and-quickBooks-accounting" class="service-link fw-bold">
+                                <p class="card-text">At Acculedger KPO, our Virtual CFO services go beyond basic accounting.</p>
+                                <a href="virtual-cfo" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
@@ -393,8 +393,8 @@ include('includes/head.php');
                             <div class="card p-3 shadow service-card h-100">
                                 <div class="card-title text-start fs-4 animate-text-color text-nowrap text-truncate">
                                     Management Consultation</div>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, atque.</p>
-                                <a href="xero-and-quickBooks-accounting" class="service-link fw-bold">
+                                <p class="card-text">At Acculedger KPO, we provide results-driven management consultation services</p>
+                                <a href="management-consultation" class="service-link fw-bold">
                                     Services Details
                                 </a>
                             </div>
